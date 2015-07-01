@@ -1,8 +1,17 @@
 # FreqUsedCustomCmds
 freq used custom commands in linux/unix
 
-##lz
-- ls with only size and name, ans size is given with K/M/G/T
+##lz-custom.sh
+- import content of the file into `.bashrc` or `.bash_profile` with
+```bash
+if [-f ~/Bin/ls-custom.sh ];then
+	. ~/Bin/ls-custom.sh
+fi
+# This works with any OS with bash
+```
+- lz will get stuck in some dir, reasons may be,
+ - the dir contains too many files
+ - the dir contains huges files in size
 
 
 ## colors-8.sh
