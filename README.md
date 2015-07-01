@@ -41,10 +41,10 @@ for num in `seq 000 255`;do
 	n=$(($n + 1))
 done
 # foreground
-```
-![background_color_matrix](./sources/color-matirx-38.png)
+``` 
+![foreground_color_matrix](./sources/color-matrix-38.png)
 ```bash
 n=0; for num in `seq 000 255`;do if [ $(( $(($n + 1)) % 16 )) -eq 0 ];then echo -e "\033[48;05;${num}mTest\033[00m"; else echo -en "\033[48;05;${num}mTest\033[00m"; fi; n=$(($n + 1)); done
 #background
-```
-![foreground_color_matrix](./sources/color-matirx-48.png)
+``` 
+![background_color_matrix](./sources/color-matrix-48.png)
