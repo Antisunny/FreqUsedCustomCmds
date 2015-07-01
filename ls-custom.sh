@@ -1,6 +1,6 @@
 function lz() {
     function du_dir() {
-        echo -e "\033[01;33m$1\033[00m" # $((RANDOM%6+1))
+        echo -e "\033[01m$1\033[00m" # $((RANDOM%6+1))
         (cd $1; ls -1 2>/dev/null | sed -e 's/^/"/' -e 's/$/"/'| xargs du -h -d 0 2>/dev/null)
     }
     function du_file() {
