@@ -1,0 +1,42 @@
+# for basic commands of Unix/Linux
+alias ls='ls -G'
+alias ll='ls -alFG'
+alias la='ls -AG'
+alias l='ls'
+alias vi='vim'
+alias hist='history | grep'
+alias cls='clear'
+alias cpan='sudo perl -MCPAN -e shell'
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+# for convenience of switches and frequently accessed files
+alias goagent='python2.7 ~/Bin/goagent-3f882f7/local/proxy.py'
+alias goagent3='python ~/Bin/goagent-3.0/local/proxy.py'
+alias show='defaults write com.apple.finder AppleShowAllFiles -bool true'
+alias hide='defaults write com.apple.finder AppleShowAllFiles -bool false'
+alias srcprofile='source ~/.bash_profile'
+alias srcp='source ~/.bash_profile'
+alias viprofile='vim ~/.bash_profile'
+alias vipr='vim ~/.bash_profile'
+
+# for services
+alias apastar='sudo apachectl restart'
+
+alias binstall='sudo brew install'
+# for frequently accessed directories
+alias freq1='cd /Volumes/SEAGATE/GSE/GSE38600/NEW'
+alias freq2='cd /Volumes/SEAGATE/tgh_RNA_seq/Analysis'
+alias freq3='cd /Volumes/SEAGATE/ZZ_NEW/Analysis'
+alias dl='cd ~/Downloads'
+alias dc="cd ~/Documents"
+alias bi="cd ~/Bin"
+alias mu="cd ~/Music"
+alias pic="cd ~/pictures"
+alias app="cd /Applications"
+alias des="cd ~/Desktop"
+alias edg="cd ~/Edge"
+
+# for applications
+alias sublime='open -a sublime\ text -n'
+alias brackets='open -a brackets -n'
+alias finder='open -a finder'
+alias fastqc="~/Bin/FastQC/fastqc"

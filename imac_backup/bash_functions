@@ -1,0 +1,104 @@
+function lu() { 
+    if [ $1 ];then
+        dest=$1
+    else
+        dest='.'
+    fi
+    [ -d $dest ] && (cd $dest; ls -1| sed -e 's/^/"/' -e 's/$/"/'| xargs du -h -d 0 2>/dev/null)
+}
+
+function mod2mpg() {
+    file=$1
+    name=`echo $1 | awk '{split($0,aa,".");print aa[1]}'`
+    ffmpeg -i $file -vcodec copy -acodec mp2 -ab 192k ${name}.mpg
+}
+
+function cgrep(){
+    GREP_COLOR="1;3$((RANDOM%6+1))"
+    grep --color=always "$@"
+}
+
+function jman() {
+    what=$1
+    if [[ $what -eq "gfold" ]];then
+        man ~/Bin/gfold.V1.1.2/doc/gfold.man
+    else
+        man $what
+    fi
+
+}
+
+function sam2sortedbam() {
+	name=`basename $1`
+	samtools view -Sb $1.sam > ./$name.bam
+	samtools sort ./$name.bam ./$name.sorted
+	rm $name.bam
+}
+
+function lz() {
+    function du_dir() {
+        echo -e "\033[0$((RANDOM%6+1));3$((RANDOM%6+1))m$1\033[00m"
+        (cd $1; ls -1 2>/dev/null | sed -e 's/^/"/' -e 's/$/"/'| xargs du -h -d 0 2>/dev/null)
+    }
+    function du_file() {
+        (ls -lha $1 | awk '{print $5,$9}')
+    }
+    function getpath() { # support . and .. as the special path
+            cd $1
+            echo `pwd`
+    }
+    function usages(){
+        echo "le v0.1 by Ray Lee - March 30, 2015"
+        echo "usage: le [dir]/[file] ..."
+        echo "if no arguement is given, le will print the current working dir"
+        echo ".(current dir), ..(parent dir), *(metachar) are supported"
+        echo "\n -V for this help page"
+    }
+    default='.'
+    args=($@)
+    if [[ ${#args[@]} -gt 1 ]]; then
+        for each in ${args[@]}; do
+            [ -d $each ] && du_dir `getpath $each` || du_file `getpath $each`
+        done
+    elif [  ! -z $1 ]; then
+        if [ -d $1 ]; then # support . and .. as the special path
+            du_dir `getpath $1`
+        fi
+    elif [[ $1 == '-V' ]]; then
+        usage
+    else
+        du_dir `getpath $1`
+    fi
+} 
+
+print_dot(){
+  count=$1
+  is_oneline=$2
+  if [[ $is_oneline -ge 2 ]];then
+    echo "The 2nd argument is 0,1, indicating oneline and multiline"
+    exit
+  elif [ -z $is_oneline ];then
+    is_oneline=0
+  else
+    is_oneline=0
+  fi
+  n=$count
+  while [ $n -gt 0 ];do
+    echo -n "."
+    sleep 0.5
+    n=$(( $n - 1 ))
+    if [ $n -eq 0 ];then
+      seq_b=$( seq -s "\\b" $(( $count + 1 )) | sed -e 's/[0-9]//g' )
+      seq_s=$( seq -s " " $(( $count + 1 )) | sed -e 's/[0-9]//g' )
+      if [[ $is_oneline -eq 0 ]];then
+	echo -en "$seq_b${seq_s}$seq_b"
+      elif [[ $is_oneline -eq 1 ]];then
+	echo
+      else
+	echo -en "$seq_b${seq_s}$seq_b"
+      fi
+      n=$count
+    fi
+    sleep 0.7
+  done
+}

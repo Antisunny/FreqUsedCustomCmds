@@ -1,0 +1,58 @@
+# environmentally 
+PATH="$HOME/Bin/go/bin:$HOME/Bin/gfold.V1.1.2:/Users/admin/Bin/IGVTools-2.3.40:~/Bin/public:/Users/admin/Bin/IGV_2.3.40:/Users/admin/Bin/cufflinks-2.2.1:/Users/admin/Bin/FastQC:~/Bin/cutadapt-1.7/bin:/Users/admin/Bin/tophat-2.0.13:/Users/admin/Bin/bowtie-1.1.1:/Users/admin/Bin/butter-0.3.3:/Users/admin/Bin/bowtie2-2.2.3:/Users/admin/Bin/sratoolkit.2.4.1-mac64/bin:/Users/admin/Bin/homebrew-master/bin:$PATH"
+GOROOT="$HOME/Bin/go"
+HISTSIZE=100000
+HISTFILESIZE=200000
+HISTTIMEFORMAT="%F#%H-%M-%S"
+HISTIGNORE="freq*:ls:goagent*:viprofile:srcprofile:show:hide:sublime*:brackets*"
+HISTIGNORE="ls:cd:ls -la *:ll:la:source .bash_profile:vi .bash*:cd -:cd ~/*:cls:lu*:lus*:viprofile:srcprofile:freq*"
+PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
+CLICOLOR=1
+LSCOLORS="gxfxaxdxcxegedabagacad"
+LC_ALL='en_US.UTF-8'
+LC_NUMERIC="en_US.UTF-8"
+LC_TIME="en_US.UTF-8"
+LC_COLLATE="en_US.UTF-8"
+LC_MONETARY="en_US.UTF-8"
+LC_MESSAGES="en_US.UTF-8"
+LC_PAPER="en_US.UTF-8"
+LC_NAME="en_US.UTF-8"
+LC_ADDRESS="en_US.UTF-8"
+LC_TELEPHONE="en_US.UTF-8"
+LC_MEASUREMENT="en_US.UTF-8"
+LC_IDENTIFICATION="en_US.UTF-8"
+
+# the freq. used directories stored in Variables
+FREQ1="~/Desktop/REN/20141001-gdren-important-codes-and-pipeline/codes-and-pipeline"
+SG="/Volumes/SEAGATE/ZZ_NEW"
+
+
+# color part: list the frequently used color code as variables, so
+# it can be used later conveniently and smoothly as a global var.
+# Part One: NOT HIGHLIGHT
+RED="\033[00;31m"
+GREEN="\033[00;32m"
+YELLOW="\033[00;33m"
+BLUE="\033[00;34m"
+FUCHSIA="\033[00;35m"
+ULTRAMARINE="\033[00;36m"
+ENC="\033[0m"
+#Part Two: HighLighted
+iRED="\033[01;31m"
+iGREEN="\033[01;32m"
+iYELLOW="\033[01;33m"
+iBLUE="\033[01;34m"
+iFUCHSIA="\033[01;35m"
+iULTRAMARINE="\033[01;36m"
+#Part Three: Basic Styler
+DEFAULT="\033[00;49m"
+BOLD="\033[01m"
+UNDERLINE="\033[04m"
+NORMAL="\033[m"
+#Part Four: Reversed BG
+vRED="\033[07;31m"
+vGREEN="\033[07;32m"
+vYELLOW="\033[07;33m"
+vBLUE="\033[07;34m"
+vFUCHSIA="\033[07;35m"
+vULTRAMARINE="\033[736m"

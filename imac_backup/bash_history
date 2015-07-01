@@ -1,0 +1,3563 @@
+grep 'gene_id \"[^"]"' rice_MSU_v.7.0.gff3 | head 
+#1427362666
+grep 'gene_id "[^"]"' rice_MSU_v.7.0.gff3 | head 
+#1427362678
+grep -E 'gene_id "[^"]"' rice_MSU_v.7.0.gff3 | head 
+#1427362688
+grep -E gene_id "[^"]" rice_MSU_v.7.0.gff3 | head 
+"
+#1427362704
+grep -E gene_id "[^\"]" rice_MSU_v.7.0.gff3 | head
+#1427362717
+grep 'gene_id "[^\"]"' rice_MSU_v.7.0.gff3 | head
+#1427362739
+grep 'gene_id "[^\"]' rice_MSU_v.7.0.gff3 | head
+#1427362757
+grep 'gene_id \"[^"]' rice_MSU_v.7.0.gff3 | head
+#1427362778
+grep 'gene_id \"[^"]+' rice_MSU_v.7.0.gff3 | head
+#1427362788
+grep 'gene_id "[^"]+' rice_MSU_v.7.0.gff3 | head
+#1427362799
+grep 'gene_id "[^"]+"' rice_MSU_v.7.0.gff3 | head
+#1427362804
+grep 'gene_id "[^"]+"' rice_MSU_v.7.0.gff3
+#1427362823
+cd Developer/
+#1427362827
+head rice_MSU_v.7.0.gff3 
+#1427362851
+grep 'ID="[^"]+"' rice_MSU_v.7.0.gff3 | head
+#1427362863
+grep 'ID=[^"]+' rice_MSU_v.7.0.gff3 | head
+#1427362873
+grep 'ID=\w+' rice_MSU_v.7.0.gff3 | head
+#1427362902
+grep 'ID=[^;]+' rice_MSU_v.7.0.gff3 | head
+#1427362923
+man grep
+#1427362946
+grep -o 'ID=[^;]+' rice_MSU_v.7.0.gff3 | head
+#1427362962
+grep -o ID=([^;]+) rice_MSU_v.7.0.gff3 | head
+#1427362974
+grep -o "ID=[^;]+" rice_MSU_v.7.0.gff3 | head
+#1427362981
+egrep -o "ID=[^;]+" rice_MSU_v.7.0.gff3 | head
+#1427362997
+egrep -o "ID=[^;:]+" rice_MSU_v.7.0.gff3 | head
+#1427363013
+egrep -o "ID=[^;:]+" rice_MSU_v.7.0.gff3 | sort -nu |uniq
+#1427363023
+egrep -o "ID=[^;:]+" rice_MSU_v.7.0.gff3 | sort -n |uniq
+#1427363038
+egrep -o "ID=[^;:\.]+" rice_MSU_v.7.0.gff3 | sort -n |uniq
+#1427363047
+egrep -o "ID=[^;:\.]+" rice_MSU_v.7.0.gff3 | sort -n |uniq | wc -l
+#1427363125
+egrep -o "ID=[^;:\.]+" Osativa_204_v7.0.gene.gff3 | sort -n |uniq | wc -l
+#1427363131
+egrep -o "ID=[^;:\.]+" Osativa_204_v7.0.gene.gff3 | sort -n |uniq
+#1427363147
+egrep -o "ID=[^;:\.]+" Osativa_204_v7.0.gene.gff3 | sort -n |uniq | wc -l
+#1427363206
+mv ../Edge/REF/rice_MSU_v.7.0.gtf ./
+#1427363214
+less rice_MSU_v.7.0.gtf 
+#1427363232
+egrep -o "gene_id[^;:\.]+" Osativa_204_v7.0.gene.gff3 | sort -n |uniq | wc -l
+#1427363244
+egrep -o "gene_id \"[^;:\.]+" Osativa_204_v7.0.gene.gff3 | sort -n |uniq | wc -l
+#1427363267
+egrep -o "gene_id \"[^;:\.]+" rice_MSU_v.7.0.gtf | sort -n | uniq | wc -l
+#1427363306
+awk -F'\t' '{grep $3}' |head
+#1427363320
+awk -F'\t' '{grep $3}' rice_MSU_v.7.0.gtf | head
+#1427363332
+awk -F'\t' '{print $3}' rice_MSU_v.7.0.gtf | head
+#1427363356
+awk -F'\t' '{print $3}' rice_MSU_v.7.0.gtf | sort| uniq
+#1427363389
+awk -F'\t' '{print $3}' rice_MSU_v.7.0.gff | sort| uniq
+#1427363395
+awk -F'\t' '{print $3}' rice_MSU_v.7.0.gff3 | sort| uniq
+#1427377017
+cd ../../Developer/
+#1427377034
+grep '>' Osativa_204_v7.0.fa 
+#1427376649
+bowtie2-build Osativa_204_v7.0.fa Osativa_204_v7.0
+#1427378286
+le
+#1427378352
+gffread -f Osativa_204_v7.0.gene.38866.gff3 -o Osativa_204_v7.0.gr.38866.gtf
+#1427378382
+gff2gtf.py -f Osativa_204_v7.0.gene.38866.gff3 -o Osativa_204_v7.0.gr.38866.gtf
+#1427378386
+le
+#1427378403
+less Osativa_204_v7.0.gr.38866.gtf 
+#1427378468
+less rice_MSU_v.7.0.gtf 
+#1427378553
+gffread rice_MSU_v.7.0.55803.gff3 -o rice_MSU_v.7.0.gr.gtf
+#1427378575
+less rice_MSU_v.7.0.gr.gtf 
+#1427378715
+gffread rice_MSU_v.7.0.55803.gff3 -T -o rice_MSU_v.7.0.gr.gtf
+#1427378729
+less rice_MSU_v.7.0.gr.gtf 
+#1427378737
+le
+#1427378755
+rm rice_MSU_v.7.0.gtf
+#1427378803
+gffread Osativa_204_v7.0.gene.38866.gff3 -T -o Osativa_204_v7.0.gr.gtf
+#1427378811
+le
+#1427378829
+rm Osativa_204_v7.0.gr.38866.gtf
+#1427378831
+le
+#1427378908
+cd ../Edge/REF/
+#1427378915
+less GCF_Rice.gff 
+#1427378931
+le
+#1427378947
+less GCF_Rice.gff 
+#1427378991
+egrep '\tgene\t' GCF_Rice.gff | head
+#1427379000
+egrep '\tgene\t' GCF_Rice.gff | wc -l
+#1427379024
+tail GCF_Rice.gff 
+#1427379729
+ld
+#1427379748
+mkdir RST
+#1427379751
+cd RST/
+#1427379768
+hist tophat2
+#1427384563
+clear
+#1427384566
+top
+#1427384666
+exit
+#1427384686
+exit
+#1427379910
+tophat2 -p 16 -G ../rice_MSU_v.7.0.gr.gtf -o 3h2o-0d ../Osativa_204_v7.0 /Volumes/SEAGATE/ZZ/3h2o-0D_1.fq /Volumes/SEAGATE/ZZ/3h2o-0D_2.fq 
+#1427388706
+ls 3h2o-0d/tmp/
+#1427390002
+rm -r 3h2o-0d
+#1427390006
+cd ../
+#1427390017
+rm -r RST
+#1427390020
+le
+#1427391387
+hist cufflinks
+#1427407877
+scp -r -p Bin/gfold.V1.1.2 renlab@10.157.31.22:/home/renlab/
+#1427407969
+ssh renlab@10.157.31.22
+#1427410806
+cd Developer/
+#1427410840
+gfold count -ann rice_MSU_v.7.0.gr.gtf  -tag accepted_hits.bam -o 3h2o-0d.read_cnt
+#1427410863
+samtools view -h accepted_hits.bam 
+#1427410994
+samtools view -h accepted_hits.bam | head -n 20 | tail | awk -F'\t' {print $10,$11,$12}
+#1427411004
+samtools view -h accepted_hits.bam | head -n 20 | tail | awk -F'\t' '{print $10,$11,$12}'
+#1427411051
+head -n 20 ../Edge/bt2-fr/bs.am/3h2o-0d-bt2-fr.sam 
+#1427411100
+samtools view -h accepted_hits.bam | head -n 20 | tail | awk -F'\t' '{print $11,$12}'
+#1427411254
+head -n 20 ../Edge/bt2-fr/bs.am/3h2o-0d-bt2-fr.sam | tail | awk -F'\t' '{print $11,$12}'
+#1427411288
+gfold count -ann rice_MSU_v.7.0.gr.gtf  -tag accepted_hits.bam -o 3h2o-0d.read_cnt
+#1427411332
+samtools view -h accepted_hits.bam > 3h2o-0d.th2.sam
+#1427411398
+bg
+#1427411456
+jobs
+#1427415561
+htseq-count 
+#1427415703
+htseq-count -f bam -r pos -o accepted_hits.bam rice_MSU_v.7.0.gr.gtf 
+#1427415777
+cd Developer/
+#1427416420
+hist cuffdiff
+#1427415758
+htseq-count -f bam -r pos -o 3h2o-0d_rst.sam accepted_hits.bam rice_MSU_v.7.0.gr.gtf 
+#1427423600
+cd ../
+#1427423642
+scp -r -p HTSeq-0.6.1p1 renlab@10.157.31.22:/home/renlab/Bin/
+#1427424541
+samtools view -h
+#1427463874
+mkdir Advanced
+#1427464099
+swift
+#1427464108
+swift -v
+#1427464159
+cd Advanced/
+#1427464166
+swift File.swift 
+#1427464212
+swift File.swift 
+#1427464255
+cd Advanced/
+#1427464261
+swift File.swift 
+#1427464301
+swift File.swift 
+#1427464316
+swift File.swift 
+#1427464327
+swift File.swift 
+#1427464860
+cd ../
+#1427464862
+cd Developer/
+#1427464869
+mkdir gfold
+#1427464922
+ls..
+#1427464924
+ls ..
+#1427465496
+exit
+#1427465509
+exit
+#1427465525
+exit
+#1427465543
+exit
+#1427465558
+cd gfold/
+#1427465565
+less 3h2o-0d.reads_cnt 
+#1427465623
+man ~/Bin/gfold.V1.1.2/doc/gfold.man 
+#1427465844
+less h0.VS.p0.diff.ext 
+#1427466418
+ssh 10.160.45.50
+#1427466435
+ping  10.160.45.50
+#1427466453
+ping 10.157.56.42
+#1427466482
+ping 10.157.56.73
+#1427466520
+ping 10.153.11.15
+#1427466540
+ping 10.167.0.112
+#1427466572
+ping 10.157.32.11
+#1427466591
+ssh lilab@10.157.32.11
+#1427466607
+ssh jirui@10.157.32.11
+#1427466641
+ftp jirui@10.157.32.11
+#1427466655
+ftp jirui@10.157.31.22
+#1427466675
+ftp renlab@10.157.31.22
+#1427466748
+open -a Chrome
+#1427466757
+open -a "Google Chrome"
+#1427466783
+open -a "Google Chrome" --new-window
+#1427466793
+open -a "Google Chrome" -n
+#1427470349
+cd /Volumes/SEAGATE/MannualBackup/
+#1427470352
+ftp
+#1427470951
+ftp  life@10.107.0.106
+#1427474103
+cd ../Advanced/
+#1427474108
+swift test-enum.swift 
+#1427476490
+l
+#1427478555
+cd Developer/gfold/
+#1427478558
+perl process.pl 
+#1427478613
+perl process.pl 
+#1427478680
+perl process.pl 
+#1427478719
+perl process.pl 
+#1427478735
+perl process.pl 
+#1427478790
+perl process.pl 
+#1427478809
+perl process.pl 
+#1427478895
+perl process.pl 
+#1427478915
+perl process.pl 
+#1427478932
+perl process.pl 
+#1427479226
+perl process.pl > merged.counts
+#1427479251
+perl process.pl > merged.counts
+#1427479383
+perl process.pl
+#1427479402
+perl process.pl
+#1427479435
+perl process.pl
+#1427479532
+perl process.pl
+#1427479545
+perl process.pl
+#1427481048
+perl process.pl
+#1427481081
+perl process.pl
+#1427481100
+perl process.pl
+#1427481209
+perl process.pl
+#1427481218
+perl process.pl
+#1427481256
+perl process.pl
+#1427481314
+perl process.pl
+#1427481325
+perl process.pl
+#1427481339
+perl process.pl
+#1427481346
+perl process.pl
+#1427481368
+perl process.pl
+#1427481381
+perl process.pl
+#1427481395
+perl process.pl
+#1427481423
+perl process.pl
+#1427481453
+perl process.pl
+#1427481492
+perl process.pl
+#1427481506
+perl process.pl
+#1427481530
+perl process.pl
+#1427481541
+perl process.pl
+#1427481567
+perl process.pl
+#1427481599
+perl process.pl
+#1427481619
+perl process.pl
+#1427481626
+perl process.pl
+#1427481652
+perl process.pl
+#1427481669
+perl process.pl
+#1427481703
+perl process.pl
+#1427481713
+perl process.pl
+#1427481725
+perl process.pl
+#1427481732
+perl process.pl
+#1427481738
+perl process.pl
+#1427481752
+perl process.pl
+#1427481837
+perl process.pl
+#1427481862
+perl process.pl
+#1427481883
+perl process.pl
+#1427481895
+perl process.pl
+#1427481931
+perl process.pl
+#1427481960
+perl process.pl | wc -l
+#1427481977
+perl process.pl >merged.counts 
+#1427482442
+cd ../
+#1427482474
+ls gfold/
+#1427482490
+grep '>' all.chrs.con 
+#1427482504
+grep '>' *.fa
+#1427482518
+le *.fa
+#1427482540
+cd Developer/
+#1427482656
+mv all.chrs.con Oryza.sativa_MSU.v7.0.fa
+#1427482746
+scp Oryza.sativa_MSU.v7.0.fa renlab@10.157.44.31:/home/renlab/Advanced/REF
+#1427482782
+scp -r -p Oryza.sativa_MSU.v7.0.fa renlab@10.157.31.22:/home/renlab/Advanced/REF
+#1427482929
+scp -r -p rice_MSU_v.7.0.55803.gff3 renlab@10.157.31.22:/home/renlab/Advanced/REF
+#1427483784
+ls ..
+#1427476512
+git clone git://github.com/chriskempson/base16-textmate.git Base16
+#1427484818
+awk "\t" '{print $1}' rice_MSU_v.7.0.gr.gtf | sort -n | uniq
+#1427484827
+awk -F"\t" '{print $1}' rice_MSU_v.7.0.gr.gtf | sort -n | uniq
+#1427486072
+hist gffread
+#1427486132
+hist gffread
+#1427486194
+hist perl
+#1427486247
+hist NGS
+#1427486252
+hist *NGS
+#1427504190
+hist gfold
+#1427505206
+sublime .
+#1427505262
+perl process.pl 
+#1427505331
+perl process.pl 
+#1427505503
+perl process.pl 
+#1427505603
+perl process.pl 
+#1427505676
+perl process.pl 
+#1427505695
+perl process.pl 
+#1427505705
+perl process.pl 
+#1427505803
+perl process.pl 
+#1427505874
+perl process.pl 
+#1427505916
+perl process.pl 
+#1427505941
+perl process.pl 
+#1427505954
+perl process.pl 
+#1427506118
+perl process.pl 
+#1427506149
+perl process.pl 
+#1427506226
+perl process.pl 
+#1427506260
+perl process.pl  | wc -l
+#1427506355
+hist 'gfold diff"
+'
+#1427506366
+hist 'gfold diff'
+#1427507448
+perl process.pl > allthecountsrpkm.txt
+#1427507455
+sublime allthecountsrpkm.txt 
+#1427513496
+exit
+#1427513501
+exit
+#1427513503
+exit
+#1427513505
+exit
+#1427514634
+cd Developer/
+#1427514714
+sudo find ~ -name p010.diff
+#1427514833
+cd GFOLDN/
+#1427514843
+perl process.pl 
+#1427514861
+sublime .
+#1427514950
+perl process.pl 
+#1427514961
+perl process.pl 
+#1427515000
+perl process.pl 
+#1427515107
+perl process.pl 
+#1427515122
+perl process.pl 
+#1427515154
+perl process.pl 
+#1427515184
+perl process.pl 
+#1427515202
+perl process.pl 
+#1427515213
+perl process.pl 
+#1427515225
+perl process.pl 
+#1427515238
+perl process.pl 
+#1427515258
+perl process.pl 
+#1427515308
+perl process.pl 
+#1427515330
+perl process.pl > merged_count.txt
+#1427515362
+perl process.pl 
+#1427515374
+perl process.pl > merged_count.txt
+#1427515712
+perl process.pl
+#1427515734
+perl process.pl
+#1427515758
+perl process.pl
+#1427515769
+perl process.pl
+#1427515790
+perl process.pl
+#1427515800
+perl process.pl
+#1427515853
+perl process.pl
+#1427515867
+perl process.pl > length_exon.txt
+#1427519487
+gffread
+#1427519496
+gffread -h
+#1427519512
+gffread -h | grep bed
+#1427519638
+gff2bed.pl =h
+#1427519642
+gff2bed.pl -h
+#1427519889
+srcp
+#1427519897
+gff2bed -h
+#1427519932
+cd Developer/
+#1427519969
+gff2bed rice_MSU_v.7.0.55803.gff3 rice_MSU_v.7.0.bed
+#1427520070
+convert2bed --input=GFF --output=BED < rice_MSU_v.7.0.55803.gff3 > rice_MSU_v.7.0.bed
+#1427520086
+less rice_MSU_v.7.0.bed 
+#1427520114
+geneBody_coverage2.py -h
+#1427524369
+gff2bed.pl -h
+#1427524376
+cpan
+#1427524450
+gff2bed.pl -h
+#1427524697
+gff2bed.pl -h
+#1427525243
+whereis samtools
+#1427525249
+locate samtools
+#1427525293
+locate bam.h
+#1427525346
+locate libbam.a
+#1427525381
+geneBody_coverage2.py -h
+#1427525404
+geneBody_coverage.py -h
+#1427525817
+hist cuffdiff
+#1427525904
+cuffdiff -h
+#1427526188
+hist cufflinks
+#1427526261
+hist cuffmerge
+#1427526826
+hist cuffdiff
+#1427619347
+cuffdiff -h
+#1427619506
+cuffnorm
+#1427632937
+cd Bin/ea-utils.1.1.2-806/
+#1427632957
+BINDIR=/usr/bin/ea-utils make install
+#1427633023
+CC=g++ BINDIR=/usr/bin/ea-utils make install
+#1427524459
+cpan
+#1427633091
+CC=g++ BINDIR=/usr/bin/ea-utils gmake install
+#1427633094
+gmake
+#1427633099
+prot install gmake
+#1427633109
+ports install gmake
+#1427633113
+port install gmake
+#1427633119
+sudo port install gmake
+#1427633140
+gmake
+#1427633153
+CC=g++ BINDIR=/usr/bin/ea-utils gmake install
+#1427633177
+cd ..
+#1427633185
+cd ea-utils.1.1.2-537/
+#1427633192
+CC=g++ BINDIR=/usr/bin/ea-utils gmake install
+#1427633210
+locate tr1/memory
+#1427633237
+CC=gcc BINDIR=/usr/bin/ea-utils gmake install
+#1427633494
+ls /Developer
+#1427633863
+pip
+#1427633869
+pip -v
+#1427633879
+pip install numpy
+#1427635101
+cufflinks -h
+#1427642923
+killall Finder
+#1427649126
+htseq-qa -h
+#1427649165
+htseq-count 
+#1427656128
+killall Finder
+#1427656706
+killall Finder
+#1427657804
+hist cuffmerge
+#1427724779
+cd Advanced
+#1427724822
+cd ../Developer/
+#1427724864
+ssh renlab@10.157.31.22
+#1427724913
+exit
+#1427728919
+rayvp
+#1427728924
+viprofile 
+#1427728980
+srcp
+#1427729016
+open -a Word
+#1427729042
+ls /Applications/
+#1427729058
+open -a 'Microsoft Word'
+#1427730098
+tman put
+#1427730102
+man tput
+#1427730536
+echo $TERM
+#1427730540
+man tput
+#1427730660
+echo $LINES
+#1427730666
+echo $COLUMNS
+#1427730695
+export COLUMNS=140
+#1427730698
+echo $COLUMNS
+#1427730710
+echo $COLUMNS
+#1427730722
+echo $LINES
+#1427730733
+man tput
+#1427730754
+tput capname
+#1427730761
+tput longname
+#1427730771
+man tput
+#1427730790
+termcap
+#1427730797
+man tput
+#1427731700
+tput capname
+#1427731712
+tput capname smcup
+#1427731717
+tput smcup
+#1427731728
+tput home
+#1427731738
+tput cup 0 0
+#1427731811
+tput rmcup
+#1427736253
+ifoncifg
+#1427736256
+ifconfig
+#1427739307
+R
+#1427740055
+cd Advanced/
+#1427740376
+clear
+#1427740731
+echo $LANG
+#1427740743
+locale
+#1427740764
+cipro
+#1427740767
+viprofile 
+#1427740785
+ls .bash*
+#1427740822
+sublime
+#1427740844
+sublime ~
+#1427741101
+srcp
+#1427741113
+le
+#1427741150
+srcp
+#1427741152
+le
+#1427741185
+le
+#1427741353
+srcp
+#1427741364
+srcp
+#1427741366
+le
+#1427741395
+srcp
+#1427741396
+le
+#1427741409
+srcp
+#1427741411
+le
+#1427741439
+srcp
+#1427741440
+le
+#1427741455
+srcp
+#1427741456
+le
+#1427741464
+srcp
+#1427741465
+le
+#1427741489
+srcp
+#1427741491
+lz
+#1427741731
+srcp
+#1427741733
+lz
+#1427741738
+lll
+#1427741821
+srcp
+#1427741825
+lz
+#1427741850
+srcp
+#1427741851
+lz
+#1427741862
+cd Advanced/
+#1427741864
+lz
+#1427742014
+locale
+#1427742124
+srcp
+#1427740110
+mkdir HTseq && scp renlab@10.157.31.22:/home/renlab/Advanced/HTseq/*.sam ./HTseq/
+#1427748681
+cd HTseq/
+#1427748704
+exit
+#1427740405
+ssh renlab@10.157.31.22
+#1427748711
+exit
+#1427741904
+ssh renlab@10.157.31.22
+#1427748715
+exit
+#1427753346
+open -a R
+#1427755509
+ifconfig
+#1427755631
+ifconfig -a
+#1427755660
+ifconfig -a | grep HWaddr
+#1427755676
+ip link show
+#1427755964
+ifconfig -a | grep HWaddr
+#1427755968
+ifconfig -a
+#1427756414
+ifconfig -a
+#1427756441
+ifconfig
+#1427762495
+exit
+#1427765117
+sudo find /Volumes/SEAGATE/ -name R*.dmg 
+#1427765152
+sudo find /Volumes/SEAGATE/ -name R*.pkg 
+#1427765674
+cd /Volumes/SEAGATE/MannualBackup/Mac
+#1427765681
+cd R-3.1.2
+#1427765688
+./configure 
+#1427765903
+make
+#1427766306
+make install
+#1427766318
+sudo make install
+#1427766350
+make clean
+#1427766358
+make clean
+#1427766371
+less INSTALL 
+#1427766403
+./configure 
+#1427766630
+sudo make
+#1427767005
+sudo make install
+#1427767022
+sudo gmake install
+#1427767057
+sudo gmake install-info
+#1427767063
+sudo gmake install-doc
+#1427767087
+sudo gmake install-dpdf
+#1427767090
+sudo gmake install-pdf
+#1427767160
+sudo make install-pdf
+#1427767171
+sudo gmake install
+#1427767179
+gmake install
+#1427767197
+gmake install check
+#1427767587
+cd ..
+#1427767596
+rm -r R-3.1.2
+#1427768145
+gfold count 
+#1427768164
+man ~/Bin/gfold.V1.1.2/doc/gfold.man
+#1427777425
+cd Advanced/HTseq/
+#1427777439
+less 3h2o-0d-htseq.sam 
+#1427777448
+less -S 3h2o-0d-htseq.sam 
+#1427777527
+less -S 3h2o-10d-htseq.sam 
+#1427777542
+less 3h2o-0d-htseq.sam 
+#1427777689
+mv 3h2o-0d-htseq.sam 3h2o-0d.htseq_cnts
+#1427777697
+mv 3h2o-10d-htseq.sam 3h2o-10d.htseq_cnts
+#1427777708
+mv 3pBZ-10d-htseq.sam 3pBZ-10d.htseq_cnts
+#1427777716
+mv 3pBZ-0d-htseq.sam 3pBZ-0d.htseq_cnts
+#1427777730
+ll -h
+#1427777807
+head -n 1 | wc -w
+#1427777814
+head -n 1 | wc
+#1427777830
+head -n 1 3h2o-0d.htseq_cnts | wc
+#1427777845
+man wc 
+#1427777958
+head -n 1 3h2o-0d.htseq_cnts | awk -F'\t' '{print $1\n$2\n$3\n$4\n$5\n$6\n$7\n$8\n$9\n$10\n$11\n$12\n$13\n$14}'
+#1427777969
+head -n 1 3h2o-0d.htseq_cnts | awk -F'\t' '{print "$1\n$2\n$3\n$4\n$5\n$6\n$7\n$8\n$9\n$10\n$11\n$12\n$13\n$14"}'
+#1427777986
+head -n 1 3h2o-0d.htseq_cnts | awk -F'\t' '{print "$1\\n$2\\n$3\\n$4\n$5\n$6\n$7\n$8\n$9\n$10\n$11\n$12\n$13\n$14"}'
+#1427778014
+head -n 1 3h2o-0d.htseq_cnts | awk -F'\t' '{print("$1\n$2\n$3\n$4\n$5\n$6\n$7\n$8\n$9\n$10\n$11\n$12\n$13\n$14");}'
+#1427778026
+head -n 1 3h2o-0d.htseq_cnts
+#1427778038
+head -n 1 3h2o-0d.htseq_cnts | awk -F'\t' '{print("$1\n$2\n$3\n$4\n$5\n$6\n$7\n$8\n$9\n$10\n$11\n$12\n");}'
+#1427778043
+head -n 1 3h2o-0d.htseq_cnts | awk -F'\t' '{print("$1\n$2\n$3\n$4\n$5\n$6\n$7\n$8\n$9\n$10\n$11\n$12");}'
+#1427778115
+head -n 1 3h2o-0d.htseq_cnts | awk -F'\t' '{print("$1>>>$2$3>>>$4>>>$5>>>$6>>>$7>>>$8>>>$9>>>$10>>>$11>>>$12");}'
+#1427778125
+head -n 1 3h2o-0d.htseq_cnts | awk -F'\t' '{print("$1>>>$2$3>>>$4>>>$5>>>$6>>>$7");}'
+#1427778144
+head -n 1 3h2o-0d.htseq_cnts | awk -F'\t' '{print("$1>>>$2>>>$3>>>$4>>>$5>>>$6>>>$7");}'
+#1427784740
+head -n 1 3h2o-0d.htseq_cnts > headone.txt
+#1427786228
+sudo find ~ -name DESeq2
+#1427786241
+sudo find ~ -name DESeq2*
+#1427786287
+cd /Users/admin/Library/R/3.1/
+#1427786291
+ls library/
+#1427788056
+sublime ~/Developer/GFOLDN/
+#1427790140
+sudo chmod a+w h010.samw.txt
+#1427791700
+cd ..
+#1427791704
+sublime .
+#1427792437
+cd GFOLDN/
+#1427792452
+chmod a+x h010.samw.txt
+#1427793004
+R
+le
+ls
+R
+R --version
+exit
+#1427799109
+cd Developer/GFOLDN/
+#1427799139
+Rscript cd ../
+#1427799143
+cd ..
+#1427799150
+Rscript DEGseq.history 
+#1427799160
+ls GFOLDN/
+#1427799256
+R
+#1427939652
+cd HTseq
+#1427939666
+cd ../Advanced/
+#1427939669
+cd HTseq/
+#1427939675
+less 3h2o-0d.htseq_cnts 
+#1427950778
+sublime keygen 
+#1427950786
+/Volumes/MacX.cn/PhpStorm\ 7\ Terminal\ Keygen/keygen ; exit;
+#1427950820
+/Volumes/MacX.cn/PhpStorm\ 7\ Terminal\ Keygen/keygen ; exit;
+#1427950838
+./keygen 
+#1427951083
+exit
+#1427951191
+/Volumes/MacX.cn/SN ; exit;
+#1427951191
+/Volumes/MacX.cn/SN ; exit;
+#1427951208
+tail -n20 ../h010.deseq2.o1101819
+#1427951248
+exit
+#1427952346
+cd Developer/GFOLDN/
+#1427952355
+sublime .
+#1427952468
+awk -F' ' '{print $2}' > h010.log2fc
+#1427952484
+awk -F' ' '{print $2}' h010.edger.txt > h010.log2fc
+#1427952688
+awk -F' ' '{print $4}' h010.edger.txt > h010.pvalues
+#1427953566
+awk -F'\t' '{print $3}' h010.diff > h010.gfold
+#1427954154
+awk -F'\t' '{print $3}' h010.diff > h010.p-value
+#1427957564
+awk -F'\t' '{print $3}' hp0.diff > hp0.p-value
+#1427957578
+awk -F'\t' '{print $3}' hp0.diff > hp0.gfold
+#1427957676
+awk -F' ' '{print $4}' hp0.edger.txt > hp0.pvalues
+#1427957691
+awk -F' ' '{print $2}' hp0.edger.txt > hp0.log2fc
+#1427958815
+awk -F' ' '{print $2}' p010.edger.txt > p010.log2fc
+#1427958835
+awk -F' ' '{print $4}' p010.edger.txt > p010.pvalues
+#1427958871
+awk -F'\t' '{print $3}' p010.diff > p010.gfold
+#1427959536
+awk -F' ' '{print $2}' hp10.edger.txt > hp10.log2fc
+#1427959552
+awk -F' ' '{print $4}' hp10.edger.txt > hp10.pvalues
+#1427959567
+awk -F'\t' '{print $3}' hp10.diff > hp10.gfold
+#1427962019
+sublime .
+#1427962726
+cd ../cufflinks/3h2o-0d/
+#1427962732
+less -S transcripts.gtf 
+#1427974956
+cd Developer/GFOLDN/
+#1427974960
+sublime .
+#1427979754
+ls *-DEGseq
+#1427979761
+cd Developer/GFOLDN/
+#1427979763
+ls *-DEGseq
+#1427979777
+ls -1 *-DEGseq
+#1427979784
+ls -d *-DEGseq
+#1427980867
+perl get-log2fc-qValue.pl 
+#1427980888
+perl get-log2fc-qValue.pl 
+#1427980906
+perl get-log2fc-qValue.pl 
+#1427980946
+perl get-log2fc-qValue.pl 
+#1427980968
+ls -d *-DEGseq
+#1427980991
+perl get-log2fc-qValue.pl 
+#1427981020
+perl -V
+#1427981035
+perl get-log2fc-qValue.pl 
+#1427981078
+perl get-log2fc-qValue.pl 
+#1427981123
+perl get-log2fc-qValue.pl 
+#1427981150
+perl get-log2fc-qValue.pl 
+#1427981163
+ls -d *-DEGseq
+#1427981190
+ls -d *-DEGseq | xargs 
+#1427981203
+perl get-log2fc-qValue.pl 
+#1427981226
+perl get-log2fc-qValue.pl 
+#1427981281
+perl get-log2fc-qValue.pl 
+#1427981307
+perl get-log2fc-qValue.pl 
+#1427981354
+perl get-log2fc-qValue.pl 
+#1427981361
+perl get-log2fc-qValue.pl 
+#1427981390
+perl get-log2fc-qValue.pl 
+#1427981410
+perl get-log2fc-qValue.pl 
+#1427981429
+perl get-log2fc-qValue.pl 
+#1427981503
+perl get-log2fc-qValue.pl 
+#1427981559
+perl get-log2fc-qValue.pl 
+#1427981569
+perl get-log2fc-qValue.pl 
+#1427981580
+perl get-log2fc-qValue.pl 
+#1427981711
+perl get-log2fc-qValue.pl 
+#1427981763
+perl get-log2fc-qValue.pl 
+#1427981805
+perl get-log2fc-qValue.pl 
+#1427981869
+perl get-log2fc-qValue.pl 
+#1427981892
+perl get-log2fc-qValue.pl 
+#1427981983
+perl get-log2fc-qValue.pl 
+#1427982052
+perl get-log2fc-qValue.pl 
+#1427982103
+perl get-log2fc-qValue.pl 
+#1427982150
+perl get-log2fc-qValue.pl 
+#1427982212
+perl get-log2fc-qValue.pl 
+#1427982290
+perl get-log2fc-qValue.pl 
+#1427982332
+perl get-log2fc-qValue.pl 
+#1427982413
+perl get-log2fc-qValue.pl 
+#1427982508
+perl get-log2fc-qValue.pl 
+#1427997936
+cd /Volumes/SEAGATE/GSE/
+#1427997954
+cd GSE14695/
+#1427997973
+gunzip SRR01967*
+#1427998616
+cd ../
+#1427998626
+cd GSE14696/
+#1427998639
+gunzip SRR01967*
+#1428001290
+py3 -V
+#1428001425
+cd Developer/
+#1428001694
+py3 get_interation.py 
+#1428001824
+py3 get_interation.py 
+#1428002054
+cd ../..
+#1428002068
+sudo find . -name *python*
+#1428002109
+sudo find . -name *python* -kind pdf
+#1428002301
+py3 get_interation.py 
+#1428002404
+py3 get_interation.py 
+#1428002463
+py3 get_interation.py 
+#1428002560
+exit
+#1428004394
+sudo find ~ -name Osa_MSU_v7*
+#1428005875
+cd Developer/
+#1428005882
+perl ls
+#1428005926
+perl filter-mapman.py 
+#1428005941
+perl filter-mapman.py 
+#1428005951
+perl filter-mapman.py 
+#1428006024
+man grep 
+#1428006099
+egrep -o "loc_\w+\.\d" Osa_MSU_v7.txt | sort
+#1428006105
+egrep -o "loc_\w+\.\d" Osa_MSU_v7.txt | sort | wc -l
+#1428006115
+egrep -o "loc_\w+\.\d" Osa_MSU_v7.txt | sort | uniq | wc -l
+#1428006315
+egrep -o "loc_\w+\.\d" Osa_MSU_v7.txt | sort | uniq | wc -l
+#1428006319
+perl filter-mapman.py 
+#1428006363
+perl filter-mapman.py 
+#1428006378
+perl filter-mapman.py 
+#1428006393
+perl filter-mapman.py 
+#1428006404
+perl filter-mapman.py 
+#1428006780
+perl filter-mapman.py 
+#1428006837
+perl filter-mapman.py 
+#1428007150
+perl filter-mapman.py 
+#1428007159
+perl filter-mapman.py 
+#1428007204
+perl filter-mapman.py 
+#1428007377
+awk -F'\t' '{print $2}'
+#1428007389
+awk -F'\t' '{print $2}' p010_mapman_gotten.txt 
+#1428007448
+awk -F'\t' '{print $2}' p010_mapman_gotten.txt | awk -F'\.' '{print $1}' | sort | uniq
+#1428007793
+man perl
+#1428007830
+perl -n
+#1428007836
+perlrun
+#1428007840
+man perlrun
+#1428008108
+perl -e ($a,$b,$c,$d,$e) = split /\t/,$_;if($b =~/^1\.*/){print $_}' p010_mapman_gotten.txt
+#1428010322
+ cd /Volumes/SEAGATE/ZZ
+#1428010387
+wc -l 3h2o-0D_1.fq
+#1428010440
+bc
+#1428010476
+wc -l 3h2o-10D_1.fq
+#1428011295
+hist tophat2
+#1428012438
+hist gfold diff
+#1428012448
+hist gfold
+#1428012465
+hist "" | wc -l
+#1428012575
+gfold
+#1428014971
+exit
+#1428023344
+cd /Volumes/SEAGATE/GSE/
+#1428023357
+gunzip GSE29802/*.gz
+#1428023554
+bg
+#1428023557
+jobs
+#1428023566
+touch README
+#1428023592
+touch GSE29802/README
+#1428024175
+touch GSE14696/README
+#1428024182
+touch GSE14695/README
+#1428025153
+ls GSE29802/
+#1428025249
+cd ..
+#1428025251
+cd ZZ
+#1428025268
+wc -l 3pBZ-0D_1.fq
+#1428025297
+bc
+#1428025346
+wc -l 3pBZ-10D_1.fq
+#1428025387
+bc
+#1428026463
+cd ../GSE/
+#1428026571
+sublime .
+#1428026968
+cpan
+#1428047737
+cd GSE38600/
+#1428049877
+cd Advance/
+#1428049889
+cp ../NEW/step1-extract-with-quality-and-length-distribution.pl ./
+#1428049982
+./step1-extract-with-quality-and-length-distribution.pl ../SRR505135
+#1428049996
+./step1-extract-with-quality-and-length-distribution.pl ../SRR505135
+#1428050007
+./step1-extract-with-quality-and-length-distribution.pl ../SRR505135
+#1428050091
+./step1-extract-with-quality-and-length-distribution.pl ../SRR505135
+#1428050100
+./step1-extract-with-quality-and-length-distribution.pl ../SRR505135
+#1428050167
+./step1-extract-with-quality-and-length-distribution.pl ../SRR505135
+#1428050189
+sublime .
+#1428050205
+./step1-extract-with-quality-and-length-distribution.pl ../SRR505135
+#1428050243
+mkdir step1
+#1428050248
+./step1-extract-with-quality-and-length-distribution.pl ../SRR505135
+#1428052284
+cd ../../../
+#1428052289
+cd misc/books/
+#1428052308
+mv *.pdf /Volumes/MacOSej/BookShelves/
+#1428052457
+mv /Volumes/MacOSej/BookShelves /Volumes/SEAGATE/
+#1428052470
+sudo mv /Volumes/MacOSej/BookShelves /Volumes/SEAGATE/
+#1428053154
+killall Preview
+#1428059404
+R -q
+#1428070327
+man defaults
+#1428070411
+defaults com.apple.finder read
+#1428070427
+defaults read
+#1428070540
+defaults read | grep finder
+#1428070581
+defaults com.apple.finder read > finder_defaults.txt
+#1428070586
+less finder_defaults.txt 
+#1428070604
+defaults read > defaults.txt
+#1428070610
+less defaults.txt 
+#1428072341
+killall Finder
+#1428072539
+defaults read com.apple.screencapture
+#1428072567
+defaults read com.apple.screencapture location
+#1428072608
+cd /Users/admin/Library/Preferences/
+#1428072620
+cat com.apple.screencapture.plist 
+#1428072632
+open .
+#1428072482
+man defaults
+#1428074033
+defaults read -app Finder
+#1428074054
+defaults read com.apple.finder
+#1428074342
+man screencapture
+#1428074943
+cd /Volumes/SEAGATE/GSE/
+#1428074978
+cd /Volumes/SEAGATE/GSE/GSE38600/
+#1428074983
+ls Advance/
+#1428074990
+ls Advance/step1
+#1428075005
+less Advance/step1/SRR505135_distribution.txt 
+#1428075017
+cat Advance/step1/SRR505135_distribution.txt 
+#1428075041
+cat NEW/pre-process/SRR505135_distribution.txt 
+#1428075103
+cd Advance/
+#1428075126
+./step1-extract-with-quality-and-length-distribution.pl ../SRR505136
+#1428075252
+./step1-extract-with-quality-and-length-distribution.pl ../SRR505137
+#1428075319
+./step1-extract-with-quality-and-length-distribution.pl ../SRR505138
+#1428144768
+go
+#1428144780
+sudo ports install go
+#1428145555
+cd Downloads/go
+#1428144793
+sudo port install go
+#1428145625
+cd .
+#1428145635
+cd ..
+#1428145643
+mv go ../Bin/
+#1428145646
+cd Bin
+#1428145649
+cd ../Bin
+#1428145657
+viprofile 
+#1428145676
+vi ~/.bash_variables 
+#1428145800
+srcp
+#1428145802
+go -V
+#1428145811
+go --version
+#1428145829
+exit
+#1428145838
+exit
+#1428151967
+py3
+#1428157137
+cd Developer/
+#1428233574
+iconfig -a
+#1428233578
+ifconfig
+#1428236503
+sftp
+#1428238289
+sudo restart
+#1428238297
+sudo reboot
+#1428238620
+ll /Volumes/
+#1428238646
+sudo chmod a+w /Volumes/MacOSej
+#1428238650
+ll /Volumes/
+#1428238673
+cd /Volumes/MacOSej/
+#1428238690
+mkdir SharingHub
+#1428238697
+open .
+#1428240453
+useradd
+#1428240456
+adduser
+#1428240459
+addusr
+#1428240463
+useradd
+#1428242261
+cd ../
+#1428242266
+cd Shared/
+#1428242273
+cd ..
+#1428242278
+cd ftp/
+#1428242367
+sudo -s launchctl load -w /System/Library/LaunchDaemons/ftp.plist
+#1428242418
+ftp localhost
+#1428242461
+sftp localhost
+#1428242833
+cat INSTALL 
+#1428242869
+./configure 
+#1428242897
+make
+#1428242905
+make install
+#1428242913
+sudo make install
+#1428242969
+pure-pw
+#1428243417
+mkdir /Users/SharingHub
+#1428243420
+sudo mkdir /Users/SharingHub
+#1428243756
+cd ..
+#1428243769
+sudo chmod a+x SharingHub
+#1428244939
+tophat2 
+#1428244948
+tophat2 
+#1428244960
+bowtie2
+#1428246105
+iconfig
+#1428246114
+ifconfig
+#1428246837
+date
+#1428274137
+sudo -s launchctl load -w /System/Library/LaunchDaemons/ftp.plist 
+#1428284057
+exit
+#1428285754
+cd Edge/
+#1428285758
+head merged_count.txt 
+#1428309231
+curl -k -L http://git.io/I9B7RQ|sh
+#1428309244
+curl -k -L http://git.io/I9B7RQ | bash
+#1428309397
+curl -k -L http://git.io/I9B7RQ | bash
+#1428309445
+wget https://raw.githubusercontent.com/gist/3816088/gevent_inst.sh
+#1428309518
+pip install cython git+git://github.com/surfly/gevent.git#egg=gevent
+#1428309217
+goagent
+#1428309543
+pip install cython git+git://github.com/surfly/gevent.git#egg=gevent --upgrade
+#1428310318
+pip install cython git+git://github.com/surfly/gevent.git#egg=gevent --upgrade
+#1428310305
+goagent
+#1428407461
+exit
+#1428475994
+cd Developer/
+#1428476003
+cd ../Advanced/
+#1428476008
+cd ..
+#1428476016
+ll Developer/
+#1428476043
+awk -F'\t' '{print $1;}' all-DE-genes.txt
+#1428476050
+awk -F'\t' '{print $1}' all-DE-genes.txt
+#1428476057
+awk -F'\t' '{print $1}' Developer/all-DE-genes.txt
+#1428483719
+cd Developer/GFOLDN/
+#1428483739
+awk -F'\t' '{print $2, $3}'
+#1428483750
+awk -F'\t' '{print $2, $3}' h010.diff.ext 
+#1428483837
+awk -F'\t' '{print $2, $3}' h010.diff.ext  > h010_normd_counts
+#1428483868
+sublime *ext
+#1428483974
+awk -F'\t' '{print $2, $3}' p010.diff.ext  > p010_normd_counts
+#1428483992
+awk -F'\t' '{print $2, $3}' hp10.diff.ext  > hp0_normd_counts
+#1428484006
+awk -F'\t' '{print $2, $3}' hp10.diff.ext  > hp10_normd_counts
+#1428484012
+awk -F'\t' '{print $2, $3}' hp0.diff.ext  > hp0_normd_counts
+#1428484062
+man col
+#1428484074
+man merge
+#1428484085
+man split
+#1428484106
+man columns
+#1428484107
+man column
+#1428484196
+column -s ' \n' -t *normd_counts
+#1428489792
+hist bowtie2
+#1428489804
+ll ~
+#1428489849
+rm .RData
+#1428489853
+rm .Rapp*
+#1428489856
+rm .Rhistory 
+#1428489860
+ll ~
+#1428489891
+rm .Rapp.history
+#1428489898
+rm ~/.Rapp.history
+#1428489905
+rm ~/.Rhistory 
+#1428489908
+rm ~/.RData 
+#1428489911
+ll ~
+#1428490416
+show
+#1428490435
+ll ~
+#1428490479
+grep bowtie2 /Volumes/MacOSej/Backups.backupdb/iMac/2015-03-28-001655/iMac/Users/admin/.bash_history
+#1428491018
+hide
+#1428496813
+service ftp
+#1428496818
+ftpd
+#1428496838
+sftp 
+#1428498214
+cd /Volumes/SEAGATE/TAIR/
+#1428498239
+perl gff2gtf-lr.pl < a.TAIR10_GFF3_genes.gff |less
+#1428498308
+perl gff2gtf-lr.pl < a.TAIR10_GFF3_genes.gff
+#1428498325
+perl gff2gtf-lr.pl < a.TAIR10_GFF3_genes.gff | less
+#1428498332
+perl gff2gtf-lr.pl < a.TAIR10_GFF3_genes.gff
+#1428498358
+perl gff2gtf-lr.pl < a.TAIR10_GFF3_genes.gff
+#1428498394
+perl gff2gtf-lr.pl < a.TAIR10_GFF3_genes.gff
+#1428498461
+perl gff2gtf-lr.pl a.TAIR10_GFF3_genes.gff
+#1428498468
+perl gff2gtf-lr.pl a.TAIR10_GFF3_genes.gff
+#1428498501
+perl gff2gtf-lr.pl a.TAIR10_GFF3_genes.gff
+#1428498569
+perl gff2gtf-lr.pl a.TAIR10_GFF3_genes.gff
+#1428498611
+perl gff2gtf-lr.pl a.TAIR10_GFF3_genes.gff
+#1428498673
+perl gff2gtf-lr.pl a.TAIR10_GFF3_genes.gff
+#1428498707
+perl gff2gtf-lr.pl a.TAIR10_GFF3_genes.gff
+#1428498765
+perl gff2gtf-lr.pl a.TAIR10_GFF3_genes.gff
+#1428498849
+perl gff2gtf-lr.pl a.TAIR10_GFF3_genes.gff
+#1428498865
+perl gff2gtf-lr.pl a.TAIR10_GFF3_genes.gff
+#1428498916
+perl gff2gtf-lr.pl a.TAIR10_GFF3_genes.gff
+#1428498934
+perl gff2gtf-lr.pl a.TAIR10_GFF3_genes.gff
+#1428498944
+perl gff2gtf-lr.pl a.TAIR10_GFF3_genes.gff
+#1428499189
+perl gff2gtf-lr.pl a.TAIR10_GFF3_genes.gff
+#1428499219
+perl gff2gtf-lr.pl a.TAIR10_GFF3_genes.gff
+#1428499333
+perl gff2gtf-lr.pl a.TAIR10_GFF3_genes.gff
+#1428499465
+perl gff2gtf-lr.pl a.TAIR10_GFF3_genes.gff
+#1428499889
+perl gff2gtf-lr.pl a.TAIR10_GFF3_genes.gff > a.TAIR10_GFF3_genes.gtt
+#1428499896
+ll -h
+#1428499915
+less a.TAIR10_GFF3_genes.gtf 
+#1428573249
+ld
+#1428573268
+cd h010-dge/
+#1428573275
+head output
+#1428573280
+head output_score.txt 
+#1428573330
+awk -F'\t' '{print $8}' output_score.txt > q-values-B.txt
+#1428573335
+less q-values-B.txt 
+#1428573359
+awk -F'\t' '{print $1,$8}' output_score.txt > q-values-B.txt
+#1428573363
+less q-values-B.txt 
+#1428573369
+sublime q-values-B.txt 
+#1428657025
+perl
+#1428657055
+perl
+#1428669096
+qstat
+#1428669099
+qstat
+#1428669139
+ping 10.157.31.22
+#1428669151
+ping localhost
+#1428669164
+ping 10.157.32.11
+#1428669189
+ssh lilib@10.157.32.11
+#1428669201
+ssh lilab@10.157.32.11
+#1428669222
+ftp lilab@10.157.44.31
+#1428669265
+ftp 10.157.32.11
+#1428669276
+ping 10.157.32.11
+#1428669282
+ping 10.157.32.12
+#1428669297
+ssh lilab@10.157.32.12
+#1428746925
+cd /Volumes/SEAGATE/
+#1428746947
+cd tgh_RNA_seq/
+#1428746951
+ls Analysis/
+#1428746980
+ll Analysis/
+#1428747003
+cat Analysis/bowtie2_all_tgh 
+#1428747019
+cat Analysis/lists 
+#1428747080
+ll -h Analysis/
+#1428747122
+sublime Analysis/
+#1428747682
+ls Sample_Tgh_1_leaf_1_rRNA_removal_20140624/
+#1428760993
+cd /Volumes/SEAGATE/
+#1428761001
+cd tgh_RNA_seq/
+#1428761102
+ls Sample_Tgh_1_leaf_1_rRNA_removal_20140624/
+#1428761123
+cd Analysis/
+#1428761149
+ls unmapped-0B/
+#1428761156
+ll -h unmapped-0B/
+#1428761161
+rm -r unmapped-0B
+#1428761186
+cat bowtie2_all_tgh 
+#1428761225
+cd ..
+#1428761232
+ls ../TAIR/
+#1428761366
+ls Analysis/
+#1428761434
+ls Analysis/
+#1428761442
+ll -h Analysis/
+#1428761875
+sudo ports install vsftpd
+#1428761886
+sudo port install vsftpd
+#1428762000
+cd B
+#1428762002
+cd Bin/
+#1428762005
+cd logs/
+#1428762019
+vi vsftpd.log
+#1428762093
+locate vsftpd
+#1428762110
+locate vsftpd.conf
+#1428762188
+ls /etc/vsftpd/
+#1428762191
+ls /etc/vsftpd
+#1428762222
+sudo / -name "*vsftpd"
+#1428762286
+ls /etc/vs*
+#1428762291
+ls /etc/ftp*
+#1428762300
+vi /etc/ftpd.conf
+#1428762320
+vi /etc/ftpd.conf.default 
+#1428762330
+ftpd
+#1428762363
+ls /var/log/ftp.log 
+#1428762367
+less /var/log/ftp.log 
+#1428762406
+vi /etc/ftpusers 
+#1428762460
+/opt/local/sbin/vsftpd
+#1428762470
+cat /opt/local/sbin/vsftpd
+#1428762249
+sudo find / -name "*vsftpd"
+#1428762546
+vi /etc/ftpd.conf
+#1428762837
+ls /etc/ftp*
+#1428762571
+sudo vi /etc/ftpd.conf
+#1428762510
+sudo find / -name "*vsftpd*"
+#1428761428
+bowtie2 -p 16 -x ../../TAIR/TAIR10_all  -1 ../Sample_Tgh_flower_1_rRNA_removal_20140613/Tgh_flower_1_rRNA_removal_20140613_ATCACG_L004_R1_001.fastq.gz -2 ../Sample_Tgh_flower_1_rRNA_removal_20140613/Tgh_flower_1_rRNA_removal_20140613_ATCACG_L004_R2_001.fastq.gz -S tgh_flower_1.sam
+#1428763361
+sudo vi /opt/local/etc/vsftpd.conf
+#1428763465
+sudo vi /opt/local/etc/vsftpd.conf.sample 
+#1428763566
+vsftpd
+#1428763570
+vsftpd start
+#1428763578
+vsftpd /opt/local/etc/vsftpd.conf.sample 
+#1428763600
+ftp localhost
+#1428763650
+ls /etc/pure-ftpd/
+#1428763747
+man ftpd
+#1428764087
+exit
+#1428764090
+exit
+#1428764092
+exit
+#1428764095
+exit
+#1428764104
+ll -h
+#1428764141
+mv Tgh_flower_2_rRNA_removal_20140613_TTAGGC_L004_sorted.bam tgh_flower_2.bam
+#1428837527
+cat /System/Library/LaunchDaemons/ftp.plist 
+#1428837914
+cd Downloads/
+#1428837924
+cd pure-ftpd-1.0.37
+#1428837929
+./configur
+#1428837933
+./configure 
+#1428837986
+make
+#1428838024
+sudo amek install
+#1428838032
+sudo make install
+#1428838055
+sudo make
+#1428838061
+sudo gmake
+#1428838072
+make clean
+#1428838086
+./configure 
+#1428838402
+sudo port remove vsftpd
+#1428838413
+port
+#1428838430
+sudo port selfupdate
+#1428840047
+ifconfig
+#1428840096
+ifconfig
+#1428840144
+ifconfig
+#1428840690
+ifconfig
+#1428840776
+ifconfig
+#1428841221
+ifconfig
+#1428841413
+ifconfig
+#1428841923
+cd /Volumes/MacOSej/
+#1428841937
+sudo chown admin:admin renlab-account/
+#1428841947
+sudo chown admin:admin renlab-account/*
+#1428841985
+sudo chown admin:admin renlab-account/Documents/*
+#1428842633
+ifconfig
+#1428842711
+ifconfig
+#1428842778
+ifconfig
+#1428844289
+ls 
+#1428844304
+ls ../ftp/VirtualHosts/
+#1428844311
+ls ../ftp/VirtualUsers/renlab
+#1428844324
+ls ../ftp/VirtualUsers/renlab & cd ../ftp/VirtualUsers/renlab
+#1428844928
+cd /Volumes/SEAGATE/tgh_RNA_seq/
+#1428844931
+cd Analysis/
+#1428844960
+head tgh_flower_1.sam 
+#1428844965
+head tgh_flower_2.bam 
+#1428844974
+ll -h
+#1428845013
+mv Tgh_leaf_1_rRNA_removal_20140624_ATTCCT_L008_sorted.bam tgh_leaf_1.bam'
+'
+#1428845019
+ll -h
+#1428845046
+mv 'tgh_leaf_1.bam
+' tgh_leaf_1.bam
+#1428845048
+ll -h
+#1428845066
+mv Tgh_leaf_2_rRNA_removal_20140613_GAGTGG_L004_sorted.bam tgh_leaf_2.bam
+#1428845086
+mv col_flower_1_rRNA_removal_20140613_ACTGAT_L004_sorted.bam col_flower_1.bam
+#1428845103
+mv col_flower_2_rRNA_removal_20140624_ATTCCT_L007_sorted.bam col_flower_2.bam
+#1428845105
+ll -h
+#1428845110
+le
+#1428845129
+mv col_leaf_1_rRNA_removal_20140613_GTGGCC_L004_sorted.bam col_leaf_1.bam
+#1428845141
+mv col_leaf_2_rRNA_removal_20140613_GTTTCG_L004_sorted.bam  col_leaf_2.bam
+#1428845155
+sublime .
+#1428845442
+sublime .
+#1428845482
+ls cuffrst/
+#1428845495
+hist cufflinks
+#1428845559
+grep cufflinks /Volumes/MacOSej/Backups.backupdb/iMac/2015-03-30-003028/iMac/Users/admin/.bash_history 
+#1428845639
+cufflinks -G ../../TAIR/TAIR10_all -o cuffrst/tgh_flr_1 tgh_flower_1.sam 
+#1428845671
+ll -h ../../TAIR/
+#1428845701
+cufflinks -G ../../TAIR/a.TAIR10_GFF3_genes.gtt -o cuffrst/tgh_flr_1 tgh_flower_1.sam 
+#1428845723
+cufflinks -G ../../TAIR/a.TAIR10_GFF3_genes.gtt -o cuffrst/tgh_flr_2 tgh_flower_2.sam 
+#1428845728
+cufflinks -G ../../TAIR/a.TAIR10_GFF3_genes.gtt -o cuffrst/tgh_flr_2 tgh_flower_2.bam 
+#1428847419
+cufflinks 
+#1428847458
+cufflinks2 -g ../../TAIR/a.TAIR10_GFF3_genes.gtt -o cuffrst/tgh_flr_2 tgh_flower_2.bam 
+#1428847471
+cufflinks -g ../../TAIR/a.TAIR10_GFF3_genes.gtt -o cuffrst/tgh_flr_2 tgh_flower_2.bam 
+#1428847625
+cufflinks -g /Volumes/SEAGATE/TAIR/a.TAIR10_GFF3_genes.gff -o cuffrst/tgh_flr_2 tgh_flower_2.bam 
+#1428850337
+htseq-count 
+#1428850464
+cd ../../ZZ/
+#1428850474
+cd ../ZZ_NEW/
+#1428850477
+cd Analysis/
+#1428850525
+cd gfoldrst/
+#1428850542
+less 3h2o-vs-3PBZ_0D.diff
+#1428850554
+less 3h2o-vs-3PBZ_0D.diff.ext 
+#1428850567
+cd ../
+#1428850578
+rm -r cuff*
+#1428850583
+rm -r gfold*
+#1428850591
+ls sam/
+#1428850605
+ll -h sam/
+#1428850633
+rm -r tmp
+#1428850636
+rm -r trash
+#1428850644
+rm -r rseqc
+#1428850657
+rm -r .bt2_log/
+#1428850676
+ls bam
+#1428850697
+ls bam/3PBZ-0D
+#1428850766
+less 3PBZ-0D-1-mapped.sam 
+#1428850812
+mv 3h2o-0D-0-mapped.sam h2o-0d.sam
+#1428850822
+mv 3h2o-10D-0-mapped.sam h2o-10d.sam
+#1428850842
+mv 3PBZ-0D-1-mapped.sam pBZ-0d_1.sam
+#1428850850
+mv 3PBZ-0D-2-mapped.sam pBZ-0d_2.sam
+#1428850867
+mv 3PBZ-10D-1-mapped.sam pBZ-10d_1.sam
+#1428850876
+mv 3PBZ-10D-2-mapped.sam pBZ-10d_2.sam
+#1428850883
+mv 3PBZ-10D-3-mapped.sam pBZ-10d_3.sam
+#1428850889
+mv 3PBZ-10D-4-mapped.sam pBZ-10d_4.sam
+#1428850913
+mkdir gfoldrst
+#1428850921
+gfold count
+#1428851325
+grep gene Osativa_204_v7.0.gene.gff3
+#1428851384
+egrep "Chr[1-9]+" Osativa_204_v7.0.gene.gff3 | grep gene
+#1428851406
+egrep "Chr[0-9][0-9]?" Osativa_204_v7.0.gene.gff3 | grep gene
+#1428851448
+awk '{print $1}' | sort -n | uniq 
+#1428851636
+awk '{print $1}' Osativa_204_v7.0.gene.gff3 | sort -n | uniq
+#1428851781
+tail Osativa_204_v7.0.gene.gff3
+#1428851919
+ll -h
+#1428851971
+bc
+#1428852087
+cd  ..
+#1428852096
+cd assembly/
+#1428852152
+ll -h
+#1428852201
+grep > Osativa_204_v7.0.fa
+#1428852207
+grep ">" Osativa_204_v7.0.fa
+#1428852213
+head Osativa_204_v7.0.fa
+#1428852236
+head Osativa_204_v7.0.fa
+#1428852247
+grep ">" Osativa_204_v7.0.fa
+#1428852450
+gffread
+#1428852458
+gffread -h
+#1428852523
+gffread Osativa_204_v7.0.gene.gff3 -T -o Osativa_204_v7.0.gene.gtf
+#1428853006
+ll -h
+#1428853050
+grep ">" Osativa_204_v7.0.fa 
+#1428853465
+cd ../
+#1428853475
+ls REF/
+#1428853487
+ll REF/
+#1428853517
+rm -r REF/
+#1428853544
+ls REF/
+#1428853549
+ll REF/
+#1428853573
+mv Analysis/Osativa_204_v7.0.fa REF/
+#1428853578
+cd REF/
+#1428853656
+cd ../../ZZ_NEW/
+#1428853661
+ls tophat/
+#1428853665
+ls Rice/
+#1428853676
+rm -r Rice
+#1428853682
+rmdir tophat/
+#1428853590
+bowtie2-build Osativa_204_v7.0.fa Osativa_204_v7.0
+#1428854362
+cd ../
+#1428854367
+cd Analysis/
+#1428854379
+mv Osativa_204_v7.0.gene.g* ../REF/
+#1428854388
+rm *.sam
+#1428854399
+rm -r *am
+#1428854408
+rm -r bam/
+#1428854416
+rm gfoldrst/
+#1428854421
+rm gfoldrst -r
+#1428854426
+rm -r gfoldrst
+#1428854433
+rmdir bam
+#1428854438
+rmdir -r bam
+#1428854442
+rmdir -r=f bam
+#1428854446
+rmdir -f bam
+#1428854454
+rm -rf bam
+#1428854459
+rm -r bam
+#1428854462
+ll bam
+#1428854482
+sublime .
+#1428854803
+ll ../REF/
+#1428854898
+ls ..
+#1428855173
+ll -h
+#1428855180
+ls bam
+#1428855231
+vi bowtie2-all 
+#1428855013
+./bowtie2-all 
+#1428862708
+cd ..
+#1428862719
+mv *.sam Analysis/
+#1428862725
+mv *.log Analysis/
+#1428862733
+cd Analysis/
+#1428862765
+less 3PBZ-0D-1bt2.log 
+#1428862977
+mkdir gfoldrst
+#1428862988
+gfold count
+#1428855392
+top
+#1428863055
+gfold count -ann ../REF/Osativa_204_v7.0.gene.gtf -tag 3h2o-10D.sam -o gfoldrst/h2o-10d.reads_cnt
+#1428863299
+ll *.sam
+#1428863346
+gfold count -ann ../REF/Osativa_204_v7.0.gene.gtf -tag 3PBZ-0D-1.sam -o gfoldrst/pBZ-0d-1.reads_cnt &
+#1428863408
+ gfold count -ann ../REF/Osativa_204_v7.0.gene.gtf -tag 3PBZ-0D-2.sam -o gfoldrst/pBZ-0d-2.reads_cnt 2>&1 >/dev/null &
+#1428863501
+gfold count -ann ../REF/Osativa_204_v7.0.gene.gtf -tag 3PBZ-10D-2.sam -o gfoldrst/pBZ-10d-2.reads_cnt
+#1428863481
+ gfold count -ann ../REF/Osativa_204_v7.0.gene.gtf -tag 3PBZ-10D-1.sam -o gfoldrst/pBZ-10d-1.reads_cnt 2>&1 >/dev/null
+#1428863582
+htseq-count 
+#1428863548
+gfold count -ann ../REF/Osativa_204_v7.0.gene.gtf -tag 3PBZ-10D-3.sam -o gfoldrst/pBZ-10d-3.reads_cnt
+#1428863560
+gfold count -ann ../REF/Osativa_204_v7.0.gene.gtf -tag 3PBZ-10D-4.sam -o gfoldrst/pBZ-10d-4.reads_cnt
+#1428863527
+gfold count -ann ../REF/Osativa_204_v7.0.gene.gtf -tag 3PBZ-10D-2.sam -o gfoldrst/pBZ-10d-2.reads_cnt
+#1428863724
+htseq-count 3PBZ-0D-2.sam ../REF/Osativa_204_v7.0.gene.gtf > ht_pBZ-0d-2.count
+#1428863697
+htseq-count 3PBZ-0D-1.sam ../REF/Osativa_204_v7.0.gene.gtf > ht_pBZ-0d-1.count
+#1428864330
+tail bowtie2-all 
+#1428864914
+exit
+#1428864208
+htseq-count 3PBZ-10D-4.sam ../REF/Osativa_204_v7.0.gene.gtf > ht_pBZ-10d-4.count
+#1428865217
+top
+#1428863653
+htseq-count 3h2o-10D.sam ../REF/Osativa_204_v7.0.gene.gtf > ht_h2o-10d.count
+#1428864401
+bowtie2 -p 16 -x ../REF/Osativa_204_v7.0 -1 ../3h2o-0D_1.fq -2 ../3h2o-0D_2.fq -S h2o-0d.sam
+#1428868818
+vi h2o-0d.log
+#1428868922
+htseq-count 3PBZ-10D-3.sam ../REF/Osativa_204_v7.0.gene.gtf > ht_pBZ-10d_3.count
+#1428868977
+htseq-count 3PBZ-10D-1.sam ../REF/Osativa_204_v7.0.gene.gtf > ht_pBZ-10d_1.count
+#1428869440
+sublime .
+#1428868940
+htseq-count 3PBZ-10D-2.sam ../REF/Osativa_204_v7.0.gene.gtf > ht_pBZ-10d_2.count
+#1428869542
+mkdir htseq-count
+#1428869567
+hist gfold
+#1428869746
+cd /Users/ftp/VirtualUsers/renlab/
+#1428869759
+vi README
+#1428869807
+sudo vi README
+#1428869604
+gfold count -ann ../REF/Osativa_204_v7.0.gene.gtf -tag h2o-0d.sam -o gfoldrst/h2o-0d.reads_cnt
+#1428870159
+ls gfoldrst/
+#1428870174
+gfold diff
+#1428870187
+cd gfoldrst/
+#1428870257
+gfold diff -s1 h2o-0d -s2 h2o-10d -suf .reads_cnt -o h010.diff
+#1428870288
+vi  dirmessage
+#1428870311
+LS
+#1428870404
+gfold diff -s1 h2o-0d -s2 pBZ-0d-1,pBZ-0d-2 -suf .reads_cnt -o hp0.diff
+#1428870747
+whereis htseq-count
+#1428870759
+locate htseq-count
+#1428869405
+htseq-count h2o-0d.sam ../REF/Osativa_204_v7.0.gene.gtf > h2o-0d.count
+#1428871023
+gfold diff -s1 h2o-10d -s2 pBZ-10d-1,pBZ-10d-2 -suf .reads_cnt -o hp10.diff
+#1428871212
+gfold diff -s1 pBZ-0d -s2 pBZ-10d-1,pBZ-10d-2 -suf .reads_cnt -o p010.diff
+#1428871237
+gfold diff -s1 pBZ-0d-1,pBZ-0d-2 -s2 pBZ-10d-1,pBZ-10d-2 -suf .reads_cnt -o p010.diff
+#1428871696
+less p010.diff
+#1428871728
+less h010.diff
+#1428871754
+mv *.count htseq-count/
+#1428871777
+mv 3PBZ-0D-1.sam pBZ-0d_1.sam
+#1428871783
+mv 3PBZ-0D-2.sam pBZ-0d_2.sam
+#1428871797
+mv 3PBZ-10D-1.sam pBZ-10d_1.sam
+#1428871804
+mv 3PBZ-10D-2.sam pBZ-10d_2.sam
+#1428871811
+mv 3PBZ-10D-3.sam pBZ-10d_3.sam
+#1428871818
+mv 3PBZ-10D-4.sam pBZ-10d_4.sam
+#1428871827
+cd htseq-count/
+#1428871847
+mv h2o-0d.count ht_h2o-0d.count
+#1428872520
+htseq-count
+#1428872553
+htseq-count -s no 3PBZ-10D-2.sam ../REF/Osativa_204_v7.0.gene.gtf > ht_pBZ-10d_2.count
+#1428872571
+htseq-count -s no 3PBZ-10D-2.sam ../REF/Osativa_204_v7.0.gene.gtf > pBZ-10d_2.count
+#1428872584
+htseq-count -s no 3PBZ-10D-2.sam ../REF/Osativa_204_v7.0.gene.gtf
+#1428872602
+cd ..
+#1428872605
+htseq-count -s no 3PBZ-10D-2.sam ../REF/Osativa_204_v7.0.gene.gtf > pBZ-10d_2.count
+#1428872657
+htseq-count -s no pBZ-10d_1.sam,pBZ-10d_2.sam ../REF/Osativa_204_v7.0.gene.gtf > pBZ-10d.count
+#1428872679
+htseq-count -s no pBZ-10d_2.sam ../REF/Osativa_204_v7.0.gene.gtf > pBZ-10d_2.count
+#1428935608
+exit
+#1428935624
+less ht_h2o-0d.count 
+#1428935648
+less ht_h2o-10d.count 
+#1428935672
+cd ..
+#1428935683
+mkdir ht-no
+#1428936423
+cat pBZ-0d_1.sam | grep 01010
+#1428936447
+cat pBZ-10d.count | grep 01010
+#1428936456
+cat pBZ-10d.count | grep "01010"
+#1428936467
+cat pBZ-10d_2.count | grep "01010"
+#1428936488
+cat pBZ-10d.count | grep "01010"
+#1428936521
+rm *.count
+#1428937259
+ssh 10.157.36.1
+#1428937271
+ftp 10.157.36.1:23
+#1428937299
+ftp anonymous@10.157.36.1:23
+#1428936198
+htseq-count -s no h2o-0d.sam ../REF/Osativa_204_v7.0.gene.gtf > h2o-0d.count
+#1428937803
+cat h2o-0d.count
+#1428937812
+cat ht-no/h2o-0d.count
+#1428937822
+cat ll
+#1428937899
+sublime .
+#1428937955
+grep "01010" htseq-count/ht_h2o-0d.count 
+#1428938006
+cd gfoldrst/
+#1428938031
+less h010.diff
+#1428938068
+less h2o-0d.reads_cnt 
+#1428938113
+less h2o-10d.reads_cnt 
+#1428938783
+cd ..
+#1428938843
+mv bowtie2-all ../
+#1428938846
+cd ..
+#1428939122
+ls Materials
+#1428939184
+sudo ln Materials/rlee rlee
+#1428939196
+sudo ln -s Materials/rlee rlee
+#1428939261
+sudo ln -s Materials/jlwang JLWang
+#1428939270
+mv rlee RLee
+#1428939275
+sudo mv rlee RLee
+#1428939307
+sudo ln -s Materials/xywang XYWang
+#1428939353
+sudo ln -s Materials/gdren GDRen
+#1428939404
+cd SharingHub
+#1428939423
+vi .dirmessage
+#1428939586
+sudo chmod 0600  .dirmessage 
+#1428939649
+ll ..
+#1428939864
+top
+#1428939895
+nc
+#1428939932
+nc -nvv 10.157.31.22 0-81
+#1428939948
+nc -nvv 10.157.31.22 19-81
+#1428940024
+nc -nvv 10.157.32.11 19-81
+#1428940037
+nc -nvv 10.157.32.12 19-81
+#1428940085
+nc -nvv 10.157.36.1 19-81
+#1428940261
+ssh 10.157.36.1:23
+#1428940277
+ftp 10.157.36.1:23
+#1428940470
+nc -nvv 10.157.36.11 19-81
+#1428940055
+top
+#1428940681
+man nc
+#1428940517
+for i in `seq 1 255`;do nc -nvv 10.157.36.$i 19-81;done
+#1428940738
+for i in `seq 1 255`;do nc -g 3 -nvv 10.157.36.$i 19-81;done
+#1428940748
+for i in `seq 1 255`;do nc -G3 -nvv 10.157.36.$i 19-81;done
+#1428941639
+for i in `seq 1 255`;do nc -G3 -nvv 10.157.36.$i 20-24;done
+#1428942947
+ll -h
+#1428942952
+cd ..
+#1428943032
+cd ..
+#1428943037
+cd ZZ_NEW/
+#1428938850
+./bowtie2-all 
+#1429000363
+vi bowtie2-all.log
+#1429000425
+hist gfold count
+#1429000432
+hist "gfold count"
+#1429000457
+cd NEW/
+#1428941674
+for i in `seq 1 255`;do nc -nvv 10.157.36.$i 20-24;done
+#1429000546
+man tcpdump 
+#1429000570
+telnet 10.157.36.17:23
+#1429000593
+ping 10.157.36.17:23
+#1429000597
+ping 10.157.36.17
+#1429000604
+ping 10.157.36.16
+#1429000470
+gfold count -ann ../REF/Osativa_204_v7.0.gene.gtf -tag 3h2o-10D.sam -o gfold/h2o-10d.reads_cnt
+#1429000649
+nc -nvv 10.157.36.17 20-81 
+#1429000718
+nc -nvv 10.157.36.17 23
+#1429000776
+nc -nvv 10.157.36.17 23
+#1429000867
+nc -nvv 10.157.36.17 23
+#1429001025
+gfold count -ann ../REF/Osativa_204_v7.0.gene.gtf -tag 3h2o-0D.sam -o gfold/h2o-0d.reads_cnt
+#1429001481
+ifonfig
+#1429001484
+ifconfig
+#1429001508
+curl ifconfig.me
+#1429001807
+curl ifconfig.me
+#1429011475
+gfold count -ann ../REF/Osativa_204_v7.0.gene.gtf -tag 2PBZ-0D_1.sam -o gfold/pBZ-0d_1.reads_cnt
+#1429015557
+exit
+#1429015565
+ls gfold/
+#1429015571
+ls ../
+#1429015575
+ls An
+#1429015580
+ls ../Analysis/
+#1429015551
+mkdir gfold && gfold count -ann /Volumes/SEAGATE/ZZ_NEW/REF/Osativa_204_v7.0.gene.gtf -tag 3h2o-0D.sam -o gfold/h2o-0d.reads_cnt
+#1429015921
+ls gfold/
+#1429015933
+mkdir gfold && gfold count -ann /Volumes/SEAGATE/ZZ_NEW/REF/Osativa_204_v7.0.gene.gtf -tag 3h2o-10D.sam -o gfold/h2o-10d.reads_cnt
+#1429015952
+mkdir gfold && gfold count -ann /Volumes/SEAGATE/ZZ_NEW/REF/Osativa_204_v7.0.gene.gtf -tag 3h2o-10D.sam -o ./gfold/h2o-10d.reads_cnt
+#1429015961
+cd gfold/
+#1429015967
+cd ..
+#1429015995
+less gfold/h2o-0d.reads_cnt 
+#1429016091
+gfold count -ann /Volumes/SEAGATE/ZZ_NEW/REF/Osativa_204_v7.0.gene.gtf -tag 3PBZ-0D-1.sam -o ./gfold/pBZ-0d_1.reads_cnt 2>&1 1>/dev/null
+#1429015984
+gfold count -ann /Volumes/SEAGATE/ZZ_NEW/REF/Osativa_204_v7.0.gene.gtf -tag 3h2o-10D.sam -o ./gfold/h2o-10d.reads_cnt
+#1429016414
+gfold count -ann /Volumes/SEAGATE/ZZ_NEW/REF/Osativa_204_v7.0.gene.gtf -tag 3PBZ-0D-2.sam -o ./gfold/pBZ-0d_2.reads_cnt
+#1429016443
+gfold count -ann /Volumes/SEAGATE/ZZ_NEW/REF/Osativa_204_v7.0.gene.gtf -tag 3PBZ-10D-1.sam -o ./gfold/pBZ-10d_1.reads_cnt
+#1429016486
+gfold count -ann /Volumes/SEAGATE/ZZ_NEW/REF/Osativa_204_v7.0.gene.gtf -tag 3PBZ-10D-3.sam -o ./gfold/pBZ-10d_3.reads_cnt
+#1429016469
+gfold count -ann /Volumes/SEAGATE/ZZ_NEW/REF/Osativa_204_v7.0.gene.gtf -tag 3PBZ-10D-2.sam -o ./gfold/pBZ-10d_2.reads_cnt
+#1429017454
+gfold count -ann /Volumes/SEAGATE/ZZ_NEW/REF/Osativa_204_v7.0.gene.gtf -tag 3PBZ-10D-3.sam -o ./gfold/pBZ-10d_3.reads_cnt
+#1429017468
+gfold count -ann /Volumes/SEAGATE/ZZ_NEW/REF/Osativa_204_v7.0.gene.gtf -tag 3PBZ-10D-4.sam -o ./gfold/pBZ-10d_4.reads_cnt
+#1429017909
+ls gfold/
+#1429017915
+cd gfold/
+#1429017976
+gfold diff -s1 h2o-0d -s2 h2o-10d -suf .reads_cnt -o h010.diff
+#1429018701
+gfold diff -s1 pBZ-0d_1.pBZ-0d_2 -s2 pBZ-10d_1,pBZ-10d_2,pBZ-10d_3,pBZ-10d_4 -suf .reads_cnt -o p010.diff
+#1429018867
+cd gfold/
+#1429018714
+gfold diff -s1 pBZ-0d_1,pBZ-0d_2 -s2 pBZ-10d_1,pBZ-10d_2,pBZ-10d_3,pBZ-10d_4 -suf .reads_cnt -o p010.diff
+#1429019107
+gfold diff -s1 h2o-0d -s2 pBZ-0d_1,pBZ-0d_2 -suf .reads_cnt -o hp0.diff
+#1429019478
+gfold diff -s1 h2o-10d -s2 pBZ-10d_1,pBZ-10d_2,pBZ-10d_3,pBZ-10d_4 -suf .reads_cnt -o hp10.diff
+#1429019866
+awk -F'\t' '/^#/{} {if(abs($3)>1){print $0}}' h010.diff
+#1429020408
+dl
+#1429020435
+grep 'estrogen' GCF_000001405.28_GRCh38.p2_genomic.gff 
+#1429020511
+grep 'estrogen receptor' GCF_000001405.28_GRCh38.p2_genomic.gff 
+#1429020592
+grep -o 'estrogen receptor' GCF_000001405.28_GRCh38.p2_genomic.gff 
+#1429020674
+grep 'estrogen receptor' GCF_000001405.28_GRCh38.p2_genomic.gff | egrep -o "Genbank:[a-zA-Z_\.0-9]"
+#1429020695
+grep 'estrogen receptor' GCF_000001405.28_GRCh38.p2_genomic.gff | egrep -o "Genbank:[a-zA-Z_\.0-9]+" | sort |uniq
+#1429063233
+cd NEW/
+#1429063234
+;s
+#1429063240
+cd gfold/
+#1429063857
+less h010.diff
+#1429063869
+less h010.diff.ext 
+#1429063907
+less h010.diff
+#1429077706
+py3 calculate_venn.py 
+#1429077928
+py3 calculate_venn.py 
+#1429077942
+py3 calculate_venn.py 
+#1429077948
+py3 calculate_venn.py 
+#1429078027
+py3 calculate_venn.py 
+#1429078046
+py3 calculate_venn.py 
+#1429078056
+py3 calculate_venn.py 
+#1429078075
+py3 calculate_venn.py 
+#1429078116
+py3 calculate_venn.py 
+#1429078140
+py3 calculate_venn.py 
+#1429078162
+py3 calculate_venn.py 
+#1429078186
+py3 calculate_venn.py 
+#1429078221
+py3 calculate_venn.py 
+#1429078926
+py3 calculate_venn.py 
+#1429078945
+py3 calculate_venn.py 
+#1429079027
+py3 calculate_venn.py 
+#1429079043
+py3 calculate_venn.py 
+#1429079102
+py3 calculate_venn.py 
+#1429079178
+py3 calculate_venn.py 
+#1429019712
+less h010.diff
+#1429081685
+cd ..
+#1429081690
+mkdir htseq
+#1429081693
+cd htseq
+#1429081712
+hist htseq-count
+#1429081814
+cd ../htseq/'
+'
+#1429081821
+cd ../htseq/
+#1429081846
+vf htseq/
+#1429081850
+cd htseq/
+#1429081789
+htseq-count -s no ../3h2o-0D.sam /Volumes/SEAGATE/ZZ_NEW/REF/Osativa_204_v7.0.gene.gtf > h2o-0d.count
+#1429081833
+htseq-count -s no ../3h2o-10D.sam /Volumes/SEAGATE/ZZ_NEW/REF/Osativa_204_v7.0.gene.gtf > h2o-10d.count
+#1429081930
+rm h2o-*
+#1429081904
+htseq-count ../3PBZ-0D-1.sam /Volumes/SEAGATE/ZZ_NEW/REF/Osativa_204_v7.0.gene.gtf > pBZ-0d_1.count
+#1429081950
+htseq-count ../3h2o-10D.sam /Volumes/SEAGATE/ZZ_NEW/REF/Osativa_204_v7.0.gene.gtf > h2o-10d.count
+#1429081939
+htseq-count ../3h2o-0D.sam /Volumes/SEAGATE/ZZ_NEW/REF/Osativa_204_v7.0.gene.gtf > h2o-0d.count
+#1429084475
+htseq-count ../3PBZ-0D-2.sam /Volumes/SEAGATE/ZZ_NEW/REF/Osativa_204_v7.0.gene.gtf > pBZ-0d_2.count
+#1429085285
+less h2o-0d.count 
+#1429085298
+less h2o-10d.count 
+#1429085193
+htseq-count ../3PBZ-10D-1.sam /Volumes/SEAGATE/ZZ_NEW/REF/Osativa_204_v7.0.gene.gtf > pBZ-10d_1.count
+#1429085621
+htseq-count -s no ../3h2o-0D.sam /Volumes/SEAGATE/ZZ_NEW/REF/Osativa_204_v7.0.gene.gtf > h2o-0d-no.count
+#1429089866
+sublime .
+#1429102915
+ls .Trash/
+#1429102918
+ls .Trash/bam
+#1429102921
+ls .Trash/
+#1429102952
+cd /Volumes/SEAGATE/.Trashes/
+#1429102959
+sudo ll
+#1429102967
+sudo ls
+#1429102974
+sudo ls -l
+#1429102997
+cd Trash
+#1429103016
+sudo mkdir Trash
+#1429103024
+sudo ls -l
+#1429103054
+sudo chown admin:admin 501
+#1429103059
+sudo chown admin:admin Trash
+#1429103063
+sudo ls -l
+#1429168770
+cd ../ZZ_NEW/
+#1429168867
+cd NEW/
+#1429168871
+cd gfold/
+#1429170444
+py3 calculate_venn.py 
+#1429170578
+py3 calculate_venn.py 
+#1429170692
+py3 calculate_venn.py 
+#1429170724
+py3 calculate_venn.py 
+#1429170744
+py3 calculate_venn.py 
+#1429170808
+py3 calculate_venn.py 
+#1429170835
+py3 calculate_venn.py 
+#1429171339
+py3 calculate_venn.py 
+#1429172686
+py3 calculate_venn.py 
+#1429255379
+sublime .
+#1429266158
+echo $BASH_VERSION
+#1429508770
+cd /Volumes/SEAGATE/tgh_RNA_seq/
+#1429508773
+cd Analysis/
+#1429508775
+ls ..
+#1429535882
+l
+#1429536127
+less cufflinks.pl 
+#1429536152
+hist tophat2
+#1429536165
+tophat2
+#1429536191
+mkdir tophat_rst
+#1429536193
+cd tophat_rst/
+#1429536807
+cd 
+#1429536812
+cd ..
+#1429536829
+zcat col_flower_1.bam |head
+#1429536865
+samtools view -h col_flower_1.bam 
+#1429537688
+cat bowtie2_all_tgh 
+#1429537698
+cat lists
+#1429538003
+hist tophat2
+#1429617557
+ssh renlab@10.157.31.22
+#1429709845
+ifconfig
+#1429710146
+exit
+#1429718304
+ls .bash*
+#1429718313
+cat .bash_profile
+#1429718383
+cat .bash_aliases 
+#1429718460
+cat .bash_functions 
+#1429718587
+# for basic commands of Unix/Linux
+#1429718587
+alias ls='ls -G'
+#1429718587
+alias ll='ls -alFG'
+#1429718587
+alias la='ls -AG'
+#1429718587
+alias l='ls'
+#1429718587
+alias vi='vim'
+#1429718587
+alias hist='history | grep'
+#1429718587
+alias cls='clear'
+#1429718587
+alias cpan='sudo perl -MCPAN -e shell'
+#1429719244
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+#1429719255
+lz Bin
+#1429719886
+cat .bash_aliases 
+#1429769867
+exit
+#1429778471
+curl ifconfig.me
+#1429780678
+scp Downloads/xampp-linux-x64-5.6.8-0-installer.run plant@10.157.14.13:/home/plant/Downloads
+#1429780807
+scp Downloads/srun3_linux_client_amd64.tar.gz plant@10.157.14.13:/home/plant/Downloads
+#1429807282
+/Users/admin/Downloads/srun3_linux_client_amd64/srun3_client ; exit;
+#1429807298
+dl
+#1429807304
+cd srun3_linux_client_amd64
+#1429807304
+;s
+#1429807318
+./srun3_client 
+#1429807410
+sudo chmod a+xw ./srun3_client
+#1429807424
+./srun3_client 
+#1429807444
+/Users/admin/Downloads/srun3_linux_client_amd64/srun3_client ; exit;
+#1429817086
+scp -r -p /Users/admin/Downloads/Rcount-master/other/linux_64bit plant@10.157.14.13:/software/
+#1429817099
+sudo scp -r -p /Users/admin/Downloads/Rcount-master/other/linux_64bit plant@10.157.14.13:/software/
+#1429817114
+scp -r -p /Users/admin/Downloads/Rcount-master/other/linux_64bit plant@10.157.14.13:/home/plant
+#1429820122
+exit
+#1429825400
+ftp raylee0@10.157.14.13
+#1429825481
+ftp raylee0@10.157.14.13
+#1429825592
+ftp raylee0@10.157.14.13
+#1429826061
+ftp raylee0@10.157.14.13
+#1429826115
+ftp raylee0:raylee05@10.157.14.13
+#1429826141
+ftp 10.157.14.13
+#1429826172
+ftp 10.157.14.13
+#1429826234
+ftp 10.157.14.13
+#1429826725
+ftp 10.157.14.13
+#1429826887
+ftp 10.157.14.13
+#1429826953
+ftp 10.157.14.13
+#1429826978
+ftp 10.157.14.13
+#1429827287
+ftp 10.157.14.13
+#1429827324
+ftp 10.157.14.13
+#1429827366
+ftp 10.157.14.13
+#1429827435
+ftp 10.157.14.13
+#1429827447
+ftp 10.157.14.13
+#1429827770
+ftp 10.157.14.13
+#1429838079
+cat .bash_va
+#1429838081
+cat .bash_variables 
+#1429857767
+scp Downloads/wordpress-4.2.zip plant@10.157.14.13:/home/plant
+#1429857790
+ssh plant@10.157.14.13
+#1429859227
+mysql
+#1429859444
+mysql
+#1429859473
+mysql-server
+#1429859488
+mysqlserver
+#1429859714
+port install apache2
+#1429859720
+sudo port install apache2
+#1429859835
+mysql
+#1429861879
+port install apache2
+#1429861881
+mysql
+#1429861951
+cat /Volumes/MacOSej/Backups.backupdb/iMac/2015-03-30-003028/iMac/Users/admin/.bash_history |wc -l
+#1429861957
+cat /Volumes/MacOSej/Backups.backupdb/iMac/2015-03-30-003028/iMac/Users/admin/.bash_history | grep mysql
+#1429864332
+scp Downloads/bitnami-wordpress-4.1.2-0-module-linux-x64-installer.run plant@10.157.14.13:/home/plant
+#1429876271
+ftp 10.157.44.31
+#1429878412
+git 
+#1429878423
+git pull git@git.oschina.net:sunhao-java/notepad-pyqt5.git
+#1429878451
+git pull https://git.oschina.net/sunhao-java/notepad-pyqt5.git
+#1429878508
+hist git
+#1429878543
+git clone git@git.oschina.net:sunhao-java/notepad-pyqt5.git
+#1429878758
+cd Downloads/
+#1429878815
+unzip sunhao-java-notepad-pyqt5-master.zip 
+#1429878829
+cd notepad-pyqt5/
+#1429878842
+sublime .
+#1429957827
+passwd admin
+#1429957843
+passwd admin
+#1429957853
+passwd admin
+#1429957875
+passwd admin
+#1429957890
+sudo passwd admin
+#1429957906
+passwd admin
+#1430040031
+killall Photos
+#1430105472
+nc -nvv 10.107.0.106
+#1430105496
+nc -nvv 10.107.0.106 15:25
+#1430105508
+nc -nvv 10.107.0.106 15-25
+#1430105579
+ssh admin@10.107.0.106
+#1430105617
+ssh admin@10.107.0.106
+#1430105654
+ssh admin@10.107.0.106
+#1430105675
+ssh admin@10.107.0.106
+#1430105816
+exit
+#1430339505
+cat /Volumes/MacOSej/Backups.backupdb/iMac/2015-04-02-093611/iMac/Users/admin/.bash_history | grep cufflinks
+#1430339532
+cat /Volumes/MacOSej/Backups.backupdb/iMac/2015-01-31-002032/iMac/Users/admin/.bash_history | grep cufflinks
+#1430339915
+exit
+#1430647401
+ifconfig
+#1430659909
+sudo ln -s /Volumes/SEAGATE/BookShelves ~/BookShelves
+#1430661412
+cd /Applications/XAMPP/bin
+#1430661417
+./mysql
+#1430663408
+cd /Applications/XAMPP/bin/mysql
+#1430663417
+cd /Applications/XAMPP/bin/mysql
+#1430663466
+cd /Applications/XAMPP/bin/mysql 
+#1430663473
+/Applications/XAMPP/bin/mysql 
+#1430663479
+/Applications/XAMPP/bin/mysql 
+#1430663483
+srcp
+#1430663484
+/Applications/XAMPP/bin/mysql 
+#1430663502
+/Applications/XAMPP/bin/mysql -uroot
+#1430663579
+/Applications/XAMPP/bin/mysql -uroot
+#1430663581
+/Applications/XAMPP/bin/mysql 
+#1430663676
+mysql -h 127.0.0.1 -P 3306 -u root
+#1430663683
+mysql -h 127.0.0.1 -P 3306 -u root -p
+#1430663693
+telnet 127.0.0.1 3306
+#1430663746
+/Applications/XAMPP/bin/mysql 
+#1430663766
+/Applications/XAMPP/bin/mysql
+#1430663859
+/Applications/XAMPP/bin/mysql
+#1430663879
+/Applications/XAMPP/bin/mysql -uroot
+#1430665382
+cd /Applications/XAMPP/xamppfiles/htdocs
+#1430665425
+mv ~/Downloads/wordpress ./
+#1430665431
+ls wordpress/
+#1430667116
+sudo vi /Applications/XAMPP/xamppfiles/phpmyadmin/config.inc.php 
+#1430665619
+../../bin/mysql -uroot
+#1430668417
+cd wordpress/
+#1430668429
+sudo vi wp-config.php
+#1430669600
+cd wp-content/
+#1430669604
+cd themes/
+#1430669608
+cd hashi/
+#1430669609
+ks
+#1430669610
+ks
+#1430669623
+cd ../../
+#1430669636
+mkdir uploads
+#1430669690
+sudo chmod 777 uploads/
+#1430671272
+open -a PhpStrom .
+#1430671277
+open -a PHPStrom .
+#1430671294
+open -a PhpStorm .
+#1430812366
+cd Documents/
+#1430812391
+awk -F'\t' '{print $6}'| sort -n | uniq
+#1430812403
+awk -F'\t' '{print $6}' F2_stat.txt | sort -n | uniq
+#1430812425
+awk -F'\t' '{print $6}' F2_stat.txt
+#1430812454
+awk -F'\t' '{print $6}' F2_stat.txt
+#1430812469
+awk -F'\t' '{print $6}' F2_stat.txt| cat
+#1430812483
+awk -F'\t' '{print $1}' F2_stat.txt
+#1430812489
+awk -F'\t' '{print $2}' F2_stat.txt
+#1430812494
+awk -F'\t' '{print $5}' F2_stat.txt
+#1430812505
+awk -F'\t' '{print $6}' F2_stat.txt
+#1430812518
+awk -F'\t' '{print $6}' < F2_stat.txt
+#1430812524
+awk -F'\t' '{print $5}' F2_stat.txt
+#1430812552
+cat F2_stat.txt | awk -F'\t' '{print $6}'
+#1430812558
+cat F2_stat.txt
+#1430894195
+ssh raylee@10.157.14.13
+#1431016045
+exit
+#1431017058
+exit
+#1431062283
+curl ifconfig.me
+#1431065029
+llocate xstartup
+#1431065033
+locate xstartup
+#1431065051
+sudo find ~ -name  xstartup
+#1431157052
+ssh 10.157.14.13
+#1431197647
+ll /Volumes/SEAGATE/
+#1431197715
+exitr
+#1431197718
+exit
+#1431157063
+ssh raylee@10.157.14.13
+#1431163892
+ssh raylee@10.157.14.13
+#1431377295
+awk -F'\t' '{print $5}' f2_gen_5.11.txt 
+#1431377303
+awk -F'\t' '{print $6}' f2_gen_5.11.txt 
+#1431377309
+awk -F'\t' '{print $6}' f2_gen_5.11.txt | sort |uniq
+#1431377348
+awk -F'\t' '{print $6}' f2_gen_5.11.txt | sort |uniq
+#1431377391
+awk -F'\t' '{print $6}' f2_gen_5.11.txt | sort |uniq
+#1431377483
+awk -F'\t' '{print $6}' f2_gen_5.11.txt | sort |uniq
+#1431424465
+R
+#1431432628
+cd Advanced/
+#1431432634
+mkdir gt12
+#1431433407
+man cat
+#1431433503
+cd gt12/
+#1431433508
+cat *.txt
+#1431433521
+cat *.txt | wc -l
+#1431433832
+cat *-d.txt | wc -l
+#1431433932
+cat *-d.txt | wc -l
+#1431434186
+cat -*-d.txt | wc -l
+#1431434224
+cat [0-9]*-[0-9*]-d.txt | wc -l
+#1431434273
+ls |grep [0-9]+-[0-9]+-d.txt|cat | wc -l
+#1431434277
+ls |grep [0-9]+-[0-9]+-d.txt|cat
+#1431434279
+ls |grep [0-9]+-[0-9]+-d.txt
+#1431434292
+ls |egrep "[0-9]+-[0-9]+-d.txt"
+#1431434305
+ls |egrep "[0-9]+-[0-9]+-d.txt" | cat | wc -l
+#1431434311
+ls |egrep "[0-9]+-[0-9]+-d.txt" | cat
+#1431434315
+ls |egrep "[0-9]+-[0-9]+-d.txt" | cat -
+#1431434339
+ls |egrep "[0-9]+-[0-9]+-d.txt" | xargs cat
+#1431434345
+ls |egrep "[0-9]+-[0-9]+-d.txt" | xargs cat | wc -l
+#1431436921
+cd 360云盘/
+#1431436943
+awk -F'\t' '{print $1}'
+#1431436949
+awk -F'\t' '{print $1}' untitled.html 
+#1431504799
+cd GitHub/
+#1431504818
+cd ..
+#1431504833
+mkdir GitOSC
+#1431504837
+cd GitOSC/
+#1431504862
+mkdir hen1-2xhen1-8_stat
+#1431504865
+cd hen1-2xhen1-8_stat/
+#1431504869
+git init
+#1431504909
+git
+#1431504935
+git config --global user.name "rayrlee"
+#1431504948
+git config --global user.email "antisunny@163.com"
+#1431504955
+git init
+#1431505012
+vi README.md
+#1431505056
+git add README.md
+#1431505088
+git commit -am "readme file update: 1"
+#1431505268
+git remote add origin git@git.oschina.net/rayrlee/hen1-2xhen1-8_stat.git
+#1431505285
+git push -u origin master
+#1431505302
+git remote add origin git.oschina.net/rayrlee/hen1-2xhen1-8_stat.git
+#1431505304
+git push -u origin master
+#1431505343
+git remote add origin http://git.oschina.net/rayrlee/hen1-2xhen1-8_stat.git
+#1431505395
+vi plot_stat_and_relation.R
+#1431505419
+git add plot_stat_and_relation.R 
+#1431505443
+git commit -am "add plot_stat_and_relation.R"
+#1431505519
+git remote add origin git@git.oschina.net:mitox/hen1-2xhen1-8_stat.git
+#1431505550
+git remote remove origin
+#1431505552
+git remote add origin git@git.oschina.net:mitox/hen1-2xhen1-8_stat.git
+#1431505584
+git push -u origin master
+#1431505615
+git push -u rayrlee master
+#1431505628
+git push -u mitox master
+#1431505634
+git push -u origin master
+#1431505665
+git remote add rayrlee git@git.oschina.net:mitox/hen1-2xhen1-8_stat.git
+#1431505672
+git push -u rayrlee master
+#1431505747
+man git
+#1431505822
+git push -u rayrlee master
+#1432178248
+ping 10.157.32.27
+#1432177841
+curl -sf -L https://static.rust-lang.org/rustup.sh | sh
+#1432178289
+ls /usr/local/
+#1432178327
+mkdir Rust
+#1432178329
+cd Rust/
+#1432178330
+ks
+#1432178369
+cargo new philosophers  --bin
+#1432178396
+vi philosophers/src/main.rs 
+#1432178463
+sublime philosophers/
+#1432185696
+cargo build philosophers
+#1432185704
+cargo build philosophers --bin
+#1432185714
+cd philosophers/
+#1432185720
+cargo run
+#1432185733
+cargo run
+#1432185807
+cargo run
+#1432190620
+hist samtools
+#1432190730
+cat /Volumes/MacOSej/Backups.backupdb/iMac/2015-03-28-001655/iMac/Users/admin/.bash_history | grep samtools
+#1432194012
+exit
+#1432199160
+cat /Volumes/MacOSej/Backups.backupdb/iMac/2015-03-28-001655/iMac/Users/admin/.bash_history | grep "samtools sort "
+#1432199188
+samtools sort
+#1432390521
+switchdesktop KDE
+#1432390535
+xwmconfig
+#1432405824
+exit
+#1432465566
+xwd
+#1432465574
+man xwd
+#1432465714
+xwd -root -display :1.0 | xwdtopnm | pnmtopng > Streenshot.png
+#1432465820
+xwdtopnm
+#1432465834
+xwdtopnm
+#1432465839
+man xwdtopnm
+#1432702493
+/Applications/Oxford/oald8.app/Contents/MacOS/oald8 
+#1432707077
+sublime .bash_functions 
+#1432819533
+cd Hello/tgh_bt2_cufflinks_pp/
+#1432819591
+scp -p -r raylee@10.157.14.13:/home/raylee/tgh/bowtie2-rst/cufflinks/flower_diff ./
+#1432819632
+scp -p -r raylee@10.157.14.13:/home/raylee/tgh/bowtie2-rst/cufflinks/leaf_diff ./
+#1432819710
+scp -p -r raylee@10.157.14.13:/home/raylee/tgh/bowtie2-rst/cufflinks/replicates ./
+#1432819786
+scp -p -r raylee@10.157.14.13:/home/raylee/tgh/bowtie2-rst/cufflinks/replicates_cuffd ./
+#1432826083
+/Users/admin/Hello/tgh_bt2_cufflinks_pp/flower_diff/gene_exp.et ; exit;
+#1432860619
+cd Hello/
+#1432860652
+cd tgh_bt2_cufflinks_pp/
+#1432860667
+touch flr.txt
+#1432860849
+exit
+#1432870797
+scp -p -r raylee@10.157.14.13:/home/raylee/tgh/bowtie2-rst/cufflinks/leaf_diff_new ./
+#1432870814
+scp -p -r raylee@10.157.14.13:/home/raylee/tgh/bowtie2-rst/cufflinks/flower_diff_new ./
+#1432896069
+ls Bin
+#1432909153
+sra-kar
+#1432909166
+sra-pileup
+#1432909261
+prefetch
+#1432909277
+cd /Volumes/SEAGATE/
+#1433409102
+ifconfig
+#1433418295
+ll /var/log/ftp.log
+#1433418312
+touch /var/log/ftp.log
+#1433418316
+sudo touch /var/log/ftp.log
+#1433512098
+cd Downloads/
+#1433512105
+wget www.broadinstitute.org/webservices/gpModuleRepository/download/prod/module/?file=/Cufflinks.cuffdiff/broad.mit.edu:cancer.software.genepattern.module.analysis/00236/3/Cufflinks_cuffdiff.pdf
+#1433592794
+curl -k -L http://git.io/I9B7RQ|sh
+#1433597506
+cat /proc/loadavg
+#1433592771
+goagent
+#1433761191
+cd Downloads/
+#1433761332
+hdiutil makehybrid -iso -joliet -o PS2014CC.iso Adobe\ CC\ 2014.cdr 
+#1433761370
+hdiutil makehybrid -iso -joliet -o PS2014CC.iso Adobe\ CC\ 2014.cdr 
+#1433761381
+hdiutil makehybrid -iso -joliet -o PS2014CC.iso Adobe\ CC\ 2014.cdr 
+#1433761757
+sudo find /Volumes/SEAGATE/ -name dobe
+#1433888612
+cd ../Hello/
+#1433888624
+py3 random250.py 
+#1433888668
+py3 random250.py 
+#1433888911
+sort -n A1-10-3 
+#1433888971
+sort -n -k4,5A1-10-3 
+#1433888975
+sort -n -k4,5A 1-10-3 
+#1433888979
+sort -n -k4,5 A1-10-3 
+#1434098724
+cd Downloads/
+#1434098727
+cd DockWindow
+#1434098732
+sublime .
+#1434098924
+fiel mainwindow.cpp 
+#1434098929
+file mainwindow.cpp 
+#1434098962
+sublime .
+#1434099133
+dos2unix
+#1434099149
+homebrew install dos2unix
+#1434099163
+port install dos2unix
+#1434099170
+sudo port install dos2unix
+#1434099937
+dos2unix *.cpp
+#1434099953
+dos2unix *.*
+#1434100034
+vi main.cpp 
+#1434100047
+vi mainwindow.cpp 
+#1434100076
+man convmv 
+#1434100089
+man iconv 
+#1434100131
+iconv  -f GBK -t UTF-8 *.*
+#1434100165
+iconv  -f GB2312 -t UTF-8 *.*
+#1434100225
+iconv  -f GB2312 -t GBK *.*
+#1434100241
+iconv  -f GBK -t UTF8 *.*
+#1434100248
+iconv -l
+#1434099202
+sudo port selfupdate
+#1434100289
+iconv  -f UTF8 -t GBK *.*
+#1434100297
+iconv  -f UTF-8 -t GBK *.*
+#1434518713
+sudo find /Volumes/SEAGATE/ -iname *.ISO 
+#1434519340
+show
+#1434519376
+cd /Volumes/SYSINSTA/
+#1434519380
+cd .Trashes/
+#1434519393
+sudo rm -r 501
+#1434519422
+y
+#1434520086
+hide
+#1434520163
+exit
+#1434688575
+lsof -Pni4 | grep LISTEN
+#1434688665
+apg -a 0 -n 10
+#1434978906
+man seq
+#1434978919
+man rep
+#1435138670
+ll Documents/
+#1435138717
+ll Documents/GroupMeeting-20150625.
+#1435138721
+ll Documents/GroupMeeting-20150625.*
+#1435386295
+ll Documents/GroupMeeting-20150625.*
+#1435386369
+ll .local/
+#1435493766
+echo $?
+#1435493798
+sublime .bash_functions 
+#1435493814
+srcp
+#1435493822
+print_dot 20 &
+#1435493838
+echo$?
+#1435493822
+print_dot 20 &
+#1435493847
+fg
+#1435493890
+print_dot 20 1>&2 2>/dev/null
+#1435493911
+print_dot 20 1>&2 2>/dev/null &
+#1435493911
+print_dot 20 1>&2 2>/dev/null &
+#1435493922
+fg
+#1435493969
+yes 32 &
+#1435494035
+yes 32 >> test.txt &
+#1435494039
+echo $?
+#1435494056
+echo $?
+#1435494062
+fg
+#1435494089
+$?=1
+#1435494104
+ls *
+#1435494109
+ls *.*.*
+#1435494113
+echo $?
+#1435494120
+yes 32 >> test.txt &
+#1435494121
+echo $?
+#1435494124
+echo $?
+#1435494260
+ps -p 14830 >&-
+#1435494347
+ps -p 14830 >&-
+#1435494352
+ps -p 14830
+#1435494363
+ps -p 14830 >&-
+#1435494371
+echo $0
+#1435494374
+echo $?
+#1435494426
+if ps -p 14830 >&-;then echo running;else echo not running;fi
+#1435494477
+if ps -p 14830 >&-;then echo running;else echo not running;fi
+#1435495596
+seqa="cuffmerge -g /home/raylee/tgh/REF/TAIR10_GFF3_genes.gff -o col6h_colD col6h_colD.txt"
+#1435495657
+seqa="/home/raylee/Pan1/Test/cuff_rst/cufflinks/det1_1_D_1/transcripts.gtf"
+#1435495686
+basea="/home/raylee/Pan1/Test/cuff_rst/cufflinks"
+#1435495708
+echo ${seqa//$basea/}
+#1435495718
+echo ${seqa//$basea\//}
+#1435574103
+n=0;yes $( $n + 1 )
+#1435574128
+n=0; yes $(( $n + 1 ))
+#1435574178
+n=0; while [ $n -lt 100 ];do n=$(( $n + 1 ));echo $n;done
+#1435574199
+n=0; while [ $n -lt 100 ];do n=$(( $n + 1 ));yes $n;done
+#1435574211
+n=0; while [ $n -lt 100 ];do n=$(( $n + 1 ));echo $n;done
+#1435730047
+sudo reboot
+#1435746259
+touch ls-custom.sh
+#1435749331
+cd Git
+#1435749334
+cd GitHub/
+#1435749340
+cd FreqUsedCustomCmds/
+#1435749347
+mkdir sources
+#1435749634
+/Applications/
+#1435754162
+hist color
+#1435754256
+hist Test
+#1435754405
+echo -e "\033[01;38;001mTest\033[00m"
+#1435754415
+echo -e "\033[01;38;46mTest\033[00m"
+#1435754422
+echo -e "\033[01;38;046mTest\033[00m"
+#1435754427
+echo -e "\033[01;48;046mTest\033[00m"
+#1435754433
+echo -e "\033[01;48;047mTest\033[00m"
+#1435754438
+echo -e "\033[00;48;047mTest\033[00m"
+#1435754454
+echo -e "\033[01;38;047mTest\033[00m"
+#1435754460
+echo -e "\033[01;38;037mTest\033[00m"
+#1435754473
+echo -e "\033[01;38;234mTest\033[00m"
+#1435754484
+echo -e "\033[38;234mTest\033[00m"
+#1435754549
+echo -e "\033[38;05;234mTest\033[00m"
+#1435754583
+for i in `seq 0 256`;do echo -e "\033[38;05;${num}mTest\033[00m";done
+#1435754595
+for i in `seq 000 256`;do echo -e "\033[38;05;${num}mTest\033[00m";done
+#1435754629
+for num in `seq 000 256`;do echo -e "\033[38;05;${num}mTest\033[00m";done
+#1435754905
+for num in `seq 000 256`;do echo -e "\033[48;05;${num}mTest\033[00m";done
+#1435755067
+for num in `seq 000 256`;do n=$(($n + 1)); if [ $(( $(($n + 1)) % 16 )) -eq 0 ];then echo -e "\033[48;05;${num}mTest\033[00m"; else echo -en "\033[48;05;${num}mTest\033[00m"; fi done
+#1435755157
+for num in `seq 000 256`;do n=$(($n + 1)); if [ $(( $(($n + $n % 16 )) -eq 0 ];then echo -e "\033[48;05;${num}mTest\033[00m"; else echo -en "\033[48;05;${num}mTest\033[00m"; fi done
+#1435755189
+for num in `seq 000 256`;do n=$(($n + 1)); if [ $(($n % 16 )) -eq 0 ];then echo -e "\033[48;05;${num}mTest\033[00m"; else echo -en "\033[48;05;${num}mTest\033[00m"; fi done
+#1435755246
+for num in `seq 000 256`;do n=$(($n + 1)); if [ $(($n % 16  $(($n + 1)) -eq 0 ];then echo -e "\033[48;05;${num}mTest\033[00m"; else echo -en "\033[48;05;${num}mTest\033[00m"; fi done
+#1435755273
+for num in `seq 000 256`;do n=$(($n + 1)); if [ $(( $(($n + 1)) % 16) -eq 0 ];then echo -e "\033[48;05;${num}mTest\033[00m"; else echo -en "\033[48;05;${num}mTest\033[00m"; fi done
+#1435755327
+for num in `seq 000 256`;do n=$(($n + 1)); if [ $(( $(($n + 1)) % 16 )) -eq 0 ];then echo -e "\033[48;05;${num}mTest\033[00m"; else echo -en "\033[48;05;${num}mTest\033[00m"; fi done
+#1435755389
+n=0; for num in `seq 000 256`;do if [ $(( $(($n + 1)) % 16 )) -eq 0 ];then echo -e "\033[48;05;${num}mTest\033[00m"; else echo -en "\033[48;05;${num}mTest\033[00m"; fi; n=$(($n + 1)); done
+#1435755417
+n=0; for num in `seq 000 256`;do if [ $(( $(($n + 1)) % 16 )) -eq 0 ];then echo -e "\033[38;05;${num}mTest\033[00m"; else echo -en "\033[38;05;${num}mTest\033[00m"; fi; n=$(($n + 1)); done
+#1435755455
+n=0; for num in `seq 000 255`;do if [ $(( $(($n + 1)) % 16 )) -eq 0 ];then echo -e "\033[38;05;${num}mTest\033[00m"; else echo -en "\033[38;05;${num}mTest\033[00m"; fi; n=$(($n + 1)); done
+#1435755480
+n=0; for num in `seq 000 255`;do if [ $(( $(($n + 1)) % 16 )) -eq 0 ];then echo -e "\033[48;05;${num}mTest\033[00m"; else echo -en "\033[48;05;${num}mTest\033[00m"; fi; n=$(($n + 1)); done
+#1435755730
+for code in {0..255};do echo "\033[38;05;${code}m"; done
+#1435755755
+for code in {0..255};do echo "\033[38;01;${code}m"; done
+#1435755764
+for code in {0..255};do echo -e "\033[38;01;${code}mTest"; done
+#1435755775
+for code in {0..255};do echo -e "\033[38;01;${code}mTest\033[00m"; done
+#1435755785
+for code in {0..255};do echo -e "\033[38;02;${code}mTest\033[00m"; done
+#1435755792
+for code in {0..255};do echo -e "\033[38;03;${code}mTest\033[00m"; done
+#1435755850
+n=0; for num in `seq 000 255`;do if [ $(( $(($n + 1)) % 16 )) -eq 0 ];then echo -e "\033[48;01;${num}mTest\033[00m"; else echo -en "\033[48;01;${num}mTest\033[00m"; fi; n=$(($n + 1)); done
+#1435755864
+n=0; for num in `seq 000 255`;do if [ $(( $(($n + 1)) % 16 )) -eq 0 ];then echo -e "\033[48;02;${num}mTest\033[00m"; else echo -en "\033[48;02;${num}mTest\033[00m"; fi; n=$(($n + 1)); done
+#1435755901
+n=0; for num in `seq 000 255`;do if [ $(( $(($n + 1)) % 16 )) -eq 0 ];then echo -e "\033[38;01;${num}mTest\033[00m"; else echo -en "\033[38;01;${num}mTest\033[00m"; fi; n=$(($n + 1)); done
+#1435755943
+n=0; for num in `seq 000 255`;do if [ $(( $(($n + 1)) % 16 )) -eq 0 ];then echo -e "\033[38;02;${num}mTest\033[00m"; else echo -en "\033[38;02;${num}mTest\033[00m"; fi; n=$(($n + 1)); done
+#1435755965
+n=0; for num in `seq 000 255`;do if [ $(( $(($n + 1)) % 16 )) -eq 0 ];then echo -e "\033[38;03;${num}mTest\033[00m"; else echo -en "\033[38;02;${num}mTest\033[00m"; fi; n=$(($n + 1)); done
+#1435755996
+n=0; for num in `seq 000 255`;do if [ $(( $(($n + 1)) % 16 )) -eq 0 ];then echo -e "\033[38;04;${num}mTest\033[00m"; else echo -en "\033[38;04;${num}mTest\033[00m"; fi; n=$(($n + 1)); done
+#1435756045
+n=0; for num in `seq 000 255`;do if [ $(( $(($n + 1)) % 16 )) -eq 0 ];then echo -e "\033[38;07;${num}mTest\033[00m"; else echo -en "\033[38;07;${num}mTest\033[00m"; fi; n=$(($n + 1)); done
+#1435756083
+n=0; for num in `seq 000 255`;do if [ $(( $(($n + 1)) % 16 )) -eq 0 ];then echo -e "\033[38;06;${num}mTest\033[00m"; else echo -en "\033[38;06;${num}mTest\033[00m"; fi; n=$(($n + 1)); done
+#1435756102
+n=0; for num in `seq 000 255`;do if [ $(( $(($n + 1)) % 16 )) -eq 0 ];then echo -e "\033[38;05;${num}mTest\033[00m"; else echo -en "\033[38;05;${num}mTest\033[00m"; fi; n=$(($n + 1)); done
+#1435757187
+n=0; for num in `seq 000 255`;do if [ $(( $(($n + 1)) % 8 )) -eq 0 ];then echo -e "\033[38;05;${num}mTest\033[00m"; else echo -en "\033[38;05;${num}mTest\033[00m"; fi; n=$(($n + 1)); done
+#1435757348
+n=0; for num in `seq 000 255`;do if [ $(( $(($n + 1)) % 8 )) -eq 0 ];then echo -e "\033[48;05;${num}mTest\033[00m"; else echo -en "\033[48;05;${num}mTest\033[00m"; fi; n=$(($n + 1)); done
+#1435754182
+ssh raylee@10.157.14.13
