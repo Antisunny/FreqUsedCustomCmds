@@ -25,7 +25,7 @@ fi
 		*  background color is given with a leading **4**
 		*  foreground color is given with a leading **3**  
 - The variables can be nested to function both styles, `$bold$red` equals to `$b_red`
-- `$endc` should be used whenever you want to end the style rendering
+- `$endc` should be used whenever you want to end the style rendering 
 ## colors-256.sh
 - The `38` and `48` are reserved for Terminal supporting `256-color`
 - You can see the resultant effect with code below:
