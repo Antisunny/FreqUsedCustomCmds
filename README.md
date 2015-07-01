@@ -6,12 +6,14 @@ freq used custom commands in linux/unix
 
 
 ## colors-8.sh
-- contains only 8 colors: `black`, `red`, `green`, `yellow`, `blue`, `fuchsia`, `ultramarine`, `white`
-- basic style: bold(01), underline(03), dim(02), reverse(07), blink(05)
-- b_* for bold, d_* for dim, i_* for blink, v_* for reverse
-- underline is not added as a group due to its infrequentness
-- The color motif is \033[❶<0?[0124578];>❷<[34][012345679]>m
- - ❷ 3 represents setting for foreground color
-     4 for background color
-| code | name  | command |
-| [0m  | black | sgr0    |
+- contains only 8 colors: `black`(0), `red`(1), `green`(2), `yellow`(3), `blue`(4), `fuchsia`(5), `ultramarine`(6), `white`(7)
+- basic style: `bold`(01), `underline`(03), `dim`(02), `reverse`(07), `blink`(05)
+- `b_*` for bold, `d_*` for dim, `i_*` for blink, `v_*` for reverse
+- `underline` is not added as a group due to its infrequentness
+- The color motif is `\033[<0?[0124578];><[34][012345679]>m`
+ - the part before `;` is for *basic style* setting with leading zero
+ - the part before `m`  and after `;` is for color
+		*  background color is given with a leading **4**
+		*  foreground color is given with a leading **3**  
+- The variables can be nested to function both styles, `$bold$red` equals to `$b_red`
+- `$endc` should be used whenever you want to end the style rendering

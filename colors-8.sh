@@ -1,6 +1,7 @@
 #color set for colorful interface
 
-# part one: normal
+endc="\033[00m"
+# part one: normal(0)
 black="\033[00;30m"
 red="\033[00;31m"
 green="\033[00;32m"
