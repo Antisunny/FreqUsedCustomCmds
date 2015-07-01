@@ -29,6 +29,7 @@ fi
 
 ## colors-256.sh
 - The `38` and `48` are reserved for Terminal supporting `256-color`
+- only the `05;` works with all colors display in Terminal
 - You can see the resultant effect with code below:
 ```bash
 n=0
