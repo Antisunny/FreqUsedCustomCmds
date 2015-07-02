@@ -6,6 +6,7 @@ function getpath() {
   cd $1
   echo `pwd`
 }
+
 # prepare colors' variables
 if [ -f colors-8.sh ];then
   . colors-8.sh
