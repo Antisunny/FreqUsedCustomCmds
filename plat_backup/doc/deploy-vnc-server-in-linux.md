@@ -36,8 +36,6 @@ vncserver-virtual -kill $DISPLAY
   - expired at March 28, 2035
   ![key-support](../sources/vnc-key-support.png)
 
-
-
 **Reference**
 1. [VNC Server in Virtual Mode appears to hang or you see a grey screen because a desktop environment cannot be loaded](https://support.realvnc.com/Knowledgebase/Article/View/345/0/)
 2. [Ubuntu 12.04 VNC server 5.0.x [RealVNC] 的配置和使用](http://blog.chinaunix.net/uid-12084847-id-3508474.html)
