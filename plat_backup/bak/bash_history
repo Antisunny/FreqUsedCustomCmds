@@ -1,0 +1,7534 @@
+vi .bashrc 
+ifconfig
+sudo apt-get update
+sudo logout
+ls
+ifconfig
+ping 10.157.44.31
+ls
+sudo ifconfig eth1 down
+ifconfig
+ifconfig eth0 status
+man useradd
+sudo apt-get install vim
+sudo apt-get update
+sudo apt-get install vim
+vi .bashrc 
+source .bashrc
+sudo apt-get install opensshd
+ssh
+sshd
+sudo apt-get install openssh-server
+ftpd
+sudo apt-get install vnc
+sudo apt-get install vnc-server
+sudo apt-get install vnc4server
+sudo vi .bashrc
+source .bashrc
+install ftp
+install ftpd
+sshd status
+ssh
+sshs
+sshd
+whereis sshd
+/usr/sbin/sshd
+/usr/sbin/sshd -h
+sshd_config
+vim /etc/ssh/sshd_config 
+ifcongfig
+ifconfig
+#1429719579
+ls
+#1429719583
+cd /software/
+#1429719584
+ls
+#1429719588
+ll
+#1429719599
+sudo chmod a+x bowtie2-2.2.5/
+#1429719603
+ll
+#1429719651
+vi ~plant/.bashrc
+#1429719661
+vi ~plant/.bash_aliases 
+#1429719695
+srcp
+#1429719711
+vi ~plant/.bash_aliases 
+#1429719747
+source ~/.bashrc
+#1429719749
+ls
+#1429719826
+vi ~plant/.bash_aliases 
+#1429719846
+source ~/.bashrc
+#1429719848
+ls
+#1429719851
+cd
+#1429719852
+;s
+#1429719853
+ls
+#1429719955
+vi .bash_aliases 
+#1429719987
+source .bashrc
+#1429719989
+ls
+#1429720019
+vi l
+#1429720027
+l
+#1429720033
+vi .bash_aliases 
+#1429720089
+source .bashrc
+#1429720092
+ls
+#1429720096
+la
+#1429720098
+ll
+#1429720102
+lz
+#1429720106
+lu
+#1429720110
+lz
+#1429720130
+du
+#1429720133
+lu
+#1429720576
+ls
+#1429720583
+install zlib*
+#1429721695
+ls
+#1429721697
+ll
+#1429721704
+vi .bashrcd
+#1429721708
+vi .bashrc
+#1429721748
+srcp
+#1429721749
+ll
+#1429721841
+scp ray@10.160.45.37:/home/ray/Documents/teamview* ./
+#1429721857
+ls
+#1429721868
+dpkg -i teamviewer_10.0.41499_i386.deb 
+#1429721873
+sudo dpkg -i teamviewer_10.0.41499_i386.deb 
+#1429721897
+sudo apt-get install  teamviewer_10.0.41499_i386.deb 
+#1429721908
+sudo apt-get install -f
+#1429721920
+ifconfig
+#1429721957
+ls
+#1429721966
+ping www.baidu.com
+#1429721979
+ping www.hao123.com
+#1429721998
+ping cn.bing.com
+#1429722035
+ls
+#1429722046
+sudo dpkg -i -f teamviewer_10.0.41499_i386.deb 
+#1429722058
+sudo gdebiteamviewer_10.0.41499_i386.deb 
+#1429722063
+sudo gdebi teamviewer_10.0.41499_i386.deb 
+#1429722122
+ls
+#1429722131
+sudo ap-get install -f
+#1429722135
+sudo apt-get install -f
+#1429722149
+top
+#1429722182
+sudo reboot
+vi .bashrc
+touch .bash_aliases .bash_functions .bash_variables
+vi .bashrc
+vi .bash_variables 
+vi .bash_functions 
+vi .bash_variables 
+vi .bash_aliases 
+echo $PATH
+vi .bash_variables 
+vi .bashrc
+ls /
+sudo mkdir /software
+ls
+mv bowtie2-2.2.5 /software/
+sudo mv bowtie2-2.2.5 /software/
+man ls
+ls
+vi .bashrc 
+vi .bash_functions 
+man ls
+ls
+mv cufflinks-2.2.1 /software/
+sudo mv cufflinks-2.2.1 /software/
+sudo mv samtools-1.1 /software/
+sudo mv tophat2.0.13 /software/
+ls /software/
+cd /software/samtools-1.1/
+ls
+make clean
+ls
+sudo make
+sudo apt-get install zlib
+sudo apt-get install zlib1g-dev
+install zlib1g-dev
+update
+ls
+#1429756895
+vi .bash_variables 
+#1429756923
+srcp
+#1429756925
+ls
+#1429756933
+vi .bash_variables 
+#1429756956
+srcp
+#1429756965
+vi .bash_variables 
+#1429756983
+srcp
+#1429756985
+vi .bash_variables 
+#1429757001
+ls
+#1429757005
+cd Desktop/
+#1429757006
+;s
+#1429757009
+ls
+#1429757015
+scrp
+#1429757019
+srcp
+#1429757031
+cd
+#1429757100
+ls
+#1429757118
+srcp
+#1429757263
+vi /etc/motd
+#1429757033
+vi .bash_variables 
+#1429757446
+ls
+#1429757527
+tt=`tty | awk -F'/dev/' '{print $2}'`; ttyip=`who | grep "$tt " | awk '{print $5}'`; ttyip=${ttyip[@]/\(/}; ttyip=${ttyip[@]/)/}; echo $ttyip
+#1429757547
+srcp
+#1429757554
+vi .bashrc 
+#1429757600
+srcp
+#1429757322
+pico /etc/motd
+#1429757657
+sudo pico /etc/motd
+#1429757748
+cat /etc/motd 
+#1429757788
+sudo pico /etc/motd
+#1429757878
+sudo vi /etc/ssh/sshd_config 
+#1429757973
+sudo vi /etc/issue.net 
+#1429757980
+sudo vi /etc/ssh/sshd_config 
+#1429758195
+ls
+#1429758210
+sudo /etc/motd
+#1429758217
+sudo vi /etc/motd
+#1429758243
+exit
+#1429758324
+exit
+#1429758352
+sshd restart
+#1429758360
+/usr/sbin/sshd restart
+#1429758368
+/usr/sbin/sshd up
+#1429758374
+/usr/sbin/sshd
+#1429758384
+ls /etc/ssh
+#1429758444
+sudo vi /etc/ssh/welcome.msg
+#1429758331
+sudo vi /etc/ssh/sshd_config
+#1429758485
+sudo vi /etc/ssh/sshd_config 
+#1429758540
+sudo service ssh reload
+#1429758554
+exit
+#1429758570
+ls /etc/ssh
+#1429758582
+sudo vi /etc/ssh/sshd_config
+#1429758696
+sudo service ssh reload
+#1429758715
+ssh localhost
+#1429758741
+exit
+#1429758773
+sudo service ssh status
+#1429758788
+sudo service ssh  force-reload
+#1429758792
+exit
+#1429758809
+exit
+#1429758812
+exit
+#1429758930
+/etc/init.d/sshd restart
+#1429758933
+/etc/init.d/ssh restart
+#1429758968
+sudo ci /etc/issue.net 
+#1429758977
+sudo vi /etc/issue.net 
+#1429759067
+man sshd
+#1429759093
+update
+#1429759104
+clean
+#1429759108
+autoclean
+#1429759115
+autoremove
+#1429759121
+autoremove -f
+#1429759136
+ls
+#1429759176
+ls /var/cache/apt/archives/partial/
+#1429759182
+ls /var/cache/apt/archives/lock
+#1429759196
+sudo rm /var/cache/apt/archives/lock
+#1429759204
+update
+#1429759313
+sudo mv /etc/apt/sources.list /etc/apt/sources.list.bak
+#1429759476
+cat /etc/apt/sources.list.bak 
+#1429759327
+sudo vi /etc/apt/sources.list
+#1429759647
+update
+#1429763355
+ls
+#1429763386
+cat /etc/*td
+#1429763391
+ls /etc/*td
+#1429763401
+cat /etc/motd
+#1429763440
+sudo kpdg -i teamviewer_10.0.41499_i386.deb 
+#1429763454
+sudo dpkg -i teamviewer_10.0.41499_i386.deb 
+#1429763542
+firefox 
+#1429763550
+firefox  & 
+#1429763560
+firefox  www.baidu.com
+#1429763594
+ls
+#1429763883
+update
+#1429763903
+ls
+#1429763965
+zsudo rm /etc/apt/sources.list
+#1429764002
+sudo rm /etc/apt/sources.list
+#1429764066
+sudo cp /etc/apt/sources.list.bak /etc/apt/sources.list
+#1429764071
+update
+#1429764298
+install gdebi
+#1429766232
+install gdebi-core
+#1429766247
+apt-get install -f
+#1429766309
+clean
+#1429766312
+autoclean
+#1429766318
+autoremove
+#1429766338
+sudo apt-get -f install
+#1429766510
+sudo install gdebi
+#1429766520
+install gdebi
+#1429766573
+sudo dpkg -i teamviewer_10.0.41499_i386.deb 
+#1429766608
+man useradd
+#1429766669
+man adduser
+#1429766716
+man useradd
+#1429766992
+addgroup -ol
+#1429767005
+id
+#1429767061
+useradd -d /home/raylee -m -s /bin/bash -g 1000 -u 1005 raylee
+#1429767069
+sudo useradd -d /home/raylee -m -s /bin/bash -g 1000 -u 1005 raylee
+#1429767082
+passwd raylee
+#1429767092
+sudo passwd raylee
+#1429767295
+sudo useradd -d /home/liuyuhao -m -s /bin/bash -g 1000 -u 1006 liuyuhao
+#1429767306
+sudo passwd liuyuhao
+#1429767331
+ls ../
+#1429767423
+sudo useradd -d /home/pengmaolin -m -s /bin/bash -g 1000 -u 1007 pengml
+#1429767432
+sudo passwd pengml
+#1429767475
+sudo passwd plant
+#1429769372
+install gdebi
+#1429769401
+install zlib1g-dev
+#1429769406
+ls
+#1429769407
+id
+#1429773346
+su plant && chown raylee:plant /home/raylee/.bash*
+#1429773508
+ls
+#1429773510
+id
+#1429773606
+ll
+#1429773610
+la
+#1429773613
+ls
+#1429773615
+l
+#1429773631
+vi .bash_aliases 
+#1429773687
+srcp
+#1429773688
+ls
+#1429773692
+ll
+#1429773695
+la
+#1429773709
+l
+#1429773718
+vi .bash_aliases 
+#1429773759
+ls
+#1429773761
+ll
+#1429773769
+srcp
+#1429773773
+ls
+#1429773781
+vi .bash_aliases 
+#1429773823
+srcp
+#1429773824
+ls
+#1429777619
+mkdir tgh
+#1429777620
+ls
+#1429777623
+cd tgh/
+#1429777624
+ls
+#1429777674
+cd .
+#1429777683
+cd ..
+#1429777689
+rmdir tgh/
+#1429777691
+ls
+#1429777693
+l
+#1429777719
+vi .bash_aliases 
+#1429777761
+srcp
+#1429777763
+ls
+#1429777766
+l
+#1429777771
+vi .bash_aliases 
+#1429777784
+srcp
+#1429777788
+ls
+#1429777965
+vi .bash_variables 
+#1429778087
+srcp
+#1429778093
+bowtie2
+#1429778106
+ll /software/
+#1429780918
+ls
+#1429777821
+scp -r -p renlab@10.157.31.22:/home/renlab/tgh ./
+#1429795249
+ls
+#1429795253
+cd tgh/
+#1429795253
+ls
+#1429795263
+vu cufflinks_all.pl 
+#1429795269
+vi cufflinks_all.pl 
+#1429816670
+ls
+#1429780992
+su plant
+#1429816689
+ls
+#1429816709
+grep cuff tophat2_all.pl 
+#1429816717
+grep "cuff "tophat2_all.pl 
+#1429816731
+grep "cuff" < tophat2_all.pl 
+#1429816737
+cat tophat2_all.pl 
+#1429816756
+grep cuff cufflinks_all.pl 
+#1429816761
+cat cufflinks_all.pl 
+#1429816790
+ls
+#1429816800
+cd tophat2_rst/
+#1429816801
+ls
+#1429816815
+srcp
+#1429817398
+vi .bash_variables 
+#1429817451
+ls
+#1429817454
+srcp
+#1429817949
+cd tgh/
+#1429817951
+ls
+#1429818019
+for dir in `ls tophat2_rst`; do samtools index $dir/accepted_hits.bam;done
+#1429818060
+cd tophat2_rst && for dir in `ls tophat2_rst`; do samtools index $dir/accepted_hits.bam;done
+#1429818076
+cd tophat2_rst && for dir in `ls .; do samtools index $dir/accepted_hits.bam;done
+#1429818089
+cd tophat2_rst && for dir in `ls .`; do samtools index $dir/accepted_hits.bam;done
+#1429818103
+or dir in `ls .`; do samtools index $dir/accepted_hits.bam;done
+#1429818108
+for dir in `ls .`; do samtools index $dir/accepted_hits.bam;done
+#1429820173
+ls
+#1429820183
+ll col_flower_1_rrna/
+#1429820200
+cd col_flower_1_rrna/
+#1429820222
+samtools index accepted_hits.bam
+#1429816968
+mkdir ../cuffl_rst && cufflinks -p 32 -u -g ../REF/TAIR10_GFF3_genes.gff  -o ../cuffl_rst/col_flower_1 col_flower_1_rrna/accepted_hits.bam 
+#1429822640
+cd ../../cuffl_rst/
+#1429822641
+ls
+#1429822644
+ls col_flower_1/
+#1429822682
+cd ../tophat2_rst/
+#1429822701
+cufflinks -p 100 -u -g ../REF/TAIR10_GFF3_genes.gff  -o ../cuffl_rst/col_leaf_2 col_leaf_2_rrna/accepted_hits.bam
+#1429822656
+cufflinks -p 100 -u -g ../REF/TAIR10_GFF3_genes.gff  -o ../cuffl_rst/col_flower_2 col_flower_2_rrna/accepted_hits.bam 
+#1429838104
+cat .bashr
+#1429838109
+cat .bash_variables 
+#1429838191
+update
+#1429838431
+ls
+#1429838437
+cd tgh/cuffl_rst/
+#1429838439
+ls
+#1429838450
+ll col_flower_2/
+#1429838461
+ll col_leaf_2/
+#1429838478
+hist cufflinks
+#1429838511
+cufflinks -p 64 -u -g ../REF/TAIR10_GFF3_genes.gff  -o ../cuffl_rst/col_leaf_1 col_leaf_1_rrna/accepted_hits.bam
+#1429838521
+cd ../tophat2_rst/
+#1429841783
+cd tgh
+#1429841787
+cd tophat2_rst/
+#1429841788
+ls
+#1429841832
+Rcount-multireads col_flower_1_rrna/accepted_hits.bam
+#1429841844
+Rcount-multireads 
+#1429841849
+Rcount-multireads -h
+#1429841860
+X11
+#1429838523
+cufflinks -p 64 -u -g ../REF/TAIR10_GFF3_genes.gff  -o ../cuffl_rst/col_leaf_1 col_leaf_1_rrna/accepted_hits.bam
+#1429843108
+vnc4passwd 
+#1429843121
+vnc4server
+#1429843150
+ls
+#1429843168
+Rcount-multireads 
+#1429843191
+cd tgh
+#1429843192
+ls
+#1429843209
+mkdir Rcount_multi
+#1429843216
+Rcount-multireads 
+#1429844194
+ll Rcount_multi/
+#1429844225
+ll tophat2_rst/col_flower_1_rrna/
+#1429844279
+head Rcount_multi/col_flw_1 
+#1429844299
+mv Rcount_multi/col_flw_1 Rcount_multi/col_flw_1.sam
+#1429850101
+cd
+#1429850109
+vi .vnc/xstartup 
+#1429850140
+vnc4server status
+#1429850231
+google-chrome
+#1429850244
+exit
+#1429850246
+exit
+#1429850318
+id
+#1429850327
+gnome-terminal
+#1429850343
+gnome-terminal -X11
+#1429850346
+gnome-terminal -1X11
+#1429850351
+gnome-terminal --X11
+#1429850398
+man gnome-terminal
+#1429852339
+exit
+#1429852439
+vnc4server restart
+#1429852443
+vnc4server
+#1430129897
+echo $PS1
+#1430130370
+ls
+#1430130373
+cd tgh/
+#1430130373
+ls
+#1430131697
+ls /etc/vsftpd
+#1430131711
+cat /etc/vsftpd.user_list 
+#1430374129
+vi .bashrc 
+#1430374135
+vi .bash_variables 
+#1430374157
+ls
+#1430374165
+source .bashrc
+#1430374218
+cd tgh/
+#1430374219
+ls
+#1430374223
+cd tophat2_rst/
+#1430374224
+ls
+#1430374230
+mkdir gfold
+#1430374235
+cd gfold/
+#1430374237
+gfold
+#1430374258
+ls ../col_flower_1/
+#1430341146
+./cufflinks_all.pl 
+#1430407125
+ll
+#1430637031
+ls
+#1430637034
+cd ..
+#1430637035
+ls
+#1430637196
+cd cuffl_rst/
+#1430637196
+ls
+#1430637239
+vi run.log
+#1430638835
+ls
+#1430638855
+Rcount-format 
+#1430638871
+vnc4server 
+#1430638899
+vnc4passwd 
+#1430638910
+sudo vnc4passwd 
+#1430638963
+vnc4server -kill :3
+#1430638967
+vnc4server -kill :2
+#1430644457
+ls
+#1430644461
+ll
+#1430644625
+cd tgh/
+#1430644626
+ls
+#1430644630
+ls New\ Folder/
+#1430644638
+mv New\ Folder New
+#1430644639
+ls
+#1430644644
+cd Rcount_multi/
+#1430644645
+ls
+#1430644648
+ll
+#1430644658
+ls ../REF/
+#1430812603
+ls
+#1430812691
+vi f2_stat.txt
+#1430812719
+awk -F"\t" '{print $6}' f2_stat.txt 
+#1430812730
+awk -F"\t" '{print $6}' f2_stat.txt | sort -n | uniq
+#1430817452
+awk -F"\t" '{print $6}' f2_stat.txt | sort -n | uniq -c
+#1430821639
+awk -F"\t" '{if($1==1){print $6}}' f2_stat.txt | sort -n | uniq -c
+#1430890553
+cd tgh/
+#1430890555
+ls
+#1430890579
+ll tophat2_rst/
+#1430890599
+cd gfold
+#1430890739
+ll cuffl_rst/
+#1430890750
+cat cuffl_rst/run.log 
+#1430890844
+ls
+#1430890847
+cd cuffl_rst/
+#1430890847
+ls
+#1430890890
+cuffmerge 
+#1430890927
+touch asssembly_GTF_list.txt
+#1430890961
+ls ./*/accepted*
+#1430890965
+ls ./accepted*
+#1430890980
+ls col_flower_1/
+#1430890985
+ll
+#1430890987
+lz
+#1430890990
+lu
+#1430891081
+ls col_flower_1/
+#1430891154
+ls /home/raylee/tgh/cuffl_rst/col_flower_1/transcripts.gtf
+#1430891168
+vi asssembly_GTF_list.txt 
+#1430891197
+cuffmerge
+#1430894215
+ls
+#1430894224
+cd tgh
+#1430894229
+exit
+#1430891242
+cuffmerge -p 32 -g /home/raylee/tgh/REF/TAIR10_GFF3_genes.gff -o cuffm_rst asssembly_GTF_list.txt 
+#1430898699
+cd cuffm_rst/
+#1430898701
+ls
+#1430898706
+lz
+#1430898713
+lu
+#1430899055
+cuffdiff
+#1430899063
+cd ..
+#1430899276
+cuffdiff -o cuffd_rst -p 32 cuffm_rst/merged.gtf  ../tophat2_rst/col_flower_1/accepted_hits.bam,../tophat2_rst/col_flower_2/accepted_hits.bam ../tophat2_rst/tgh_flower_1/accepted_hits.bam,../tophat2_rst/tgh_flower_2/accepted_hits.bam
+#1430903792
+ls
+#1430903599
+cuffdiff -o leaf_col_tgh -p 32 cuffm_rst/merged.gtf  ../tophat2_rst/col_leaf_1/accepted_hits.bam,../tophat2_rst/col_leaf_2/accepted_hits.bam ../tophat2_rst/tgh_leaf_1/accepted_hits.bam,../tophat2_rst/tgh_leaf_2/accepted_hits.bam
+#1430903803
+vi .bash_variables 
+#1430905294
+srcp
+#1430905299
+vi .bash_variables 
+#1430905383
+srcp
+#1430905464
+cd tgh/
+#1430905467
+cd cuffl_rst/
+#1430905472
+cd cuffd_rst/
+#1430905474
+ls
+#1430905483
+ll ..
+#1430905490
+cd ..
+#1430905491
+ls
+#1430905513
+mv cuffd_rst flower_tgh_col
+#1430905514
+ll
+#1430905404
+cuffdiff -o leaf_col_tgh -p 32 cuffm_rst/merged.gtf  ../tophat2_rst/col_leaf_1/accepted_hits.bam,../tophat2_rst/col_leaf_2/accepted_hits.bam ../tophat2_rst/tgh_1_leaf_1/accepted_hits.bam,../tophat2_rst/tgh_1_leaf_2/accepted_hits.bam
+#1430920758
+ls
+#1431001267
+jobs
+#1431001269
+lls
+#1431001276
+cd tgh/cuffl_rst/
+#1431001276
+ls
+#1431001329
+hist cuffdiff
+#1431001415
+cuffdiff -o col_flr_leaf -p 32 cuffm_rst/merged.gtf  ../tophat2_rst/col_flower_1/accepted_hits.bam,../tophat2_rst/col_flower_2/accepted_hits.bam ../tophat2_rst/col_leaf_1/accepted_hits.bam,../tophat2_rst/col_leaf_2/accepted_hits.bam
+#1431001431
+bg
+#1431001485
+cuffdiff -o tgh_flr_leaf -p 32 cuffm_rst/merged.gtf ../tophat2_rst/tgh_flower_1/accepted_hits.bam,../tophat2_rst/tgh_flower_2/accepted_hits.bam ../tophat2_rst/tgh_1_leaf_1/accepted_hits.bam,../tophat2_rst/tgh_1_leaf_2/accepted_hits.bam
+#1431001488
+bg
+#1431001491
+jobs
+#1431006253
+Rcount-format 
+#1431006343
+ls tgh
+#1431006349
+cd Re
+#1431006358
+cd tgh
+#1431006361
+cd REF/
+#1431006362
+ll
+#1431006369
+ll ..
+#1431006376
+ll ~
+#1431006390
+Rcount-format 
+#1431006457
+ll
+#1431006463
+ll -h
+#1431006475
+less tair10.xml 
+#1431006498
+less TAIR10_GFF3_genes.gff 
+#1431006530
+Rcount-format 
+#1431006637
+ll -h
+#1431006648
+less tair10_mRNA.xml 
+#1431006785
+vnc4server 
+#1431006821
+vnc4passwd 
+#1431006839
+sudo vnc4passwd 
+#1431006851
+ll
+#1431006854
+la
+#1431006861
+ll -a
+#1431006909
+sudo cp -r ~/../plant/.vnc ~
+#1431006929
+id
+#1431006940
+groupadd 
+#1431006950
+useradd
+#1431006963
+id
+#1431007031
+vnc4server 
+#1431016060
+jobs
+#1431016069
+exit
+#1431016311
+ls
+#1431016339
+cd tgh
+#1431016341
+ls
+#1431016358
+cd cuffl_rst/
+#1431016360
+ls
+#1431016399
+ll -h tgh_flr_leaf/
+#1431016417
+hist cuffdiff
+#1431016474
+cuffdiff -o col_flr_leaf -p 32 cuffm_rst/merged.gtf  ../tophat2_rst/col_flower_1/accepted_hits.bam,../tophat2_rst/col_flower_2/accepted_hits.bam ../tophat2_rst/col_leaf_1/accepted_hits.bam,../tophat2_rst/col_leaf_2/accepted_hits.bam
+#1431018114
+jobs
+#1431018143
+ps aux | grep cuffdiff
+#1431018152
+nohub
+#1431018169
+man at
+#1431018172
+at
+#1431018335
+hist cuffdiff
+#1431018353
+pwd
+#1431018357
+cd tgh
+#1431018369
+cd cuffl_rst/
+#1431018371
+ls
+#1431018395
+rm -r tgh_flr_leaf
+#1431018407
+nohup cuffdiff -o col_flr_leaf -p 32 cuffm_rst/merged.gtf  ../tophat2_rst/col_flower_1/accepted_hits.bam,../tophat2_rst/col_flower_2/accepted_hits.bam ../tophat2_rst/col_leaf_1/accepted_hits.bam,../tophat2_rst/col_leaf_2/accepted_hits.bam
+#1431018444
+bg
+#1431018459
+jobs
+#1431018462
+ll
+#1431018478
+tail nohup.out 
+#1431018650
+jobs
+#1431018810
+nohup cuffdiff -o col_flr_leaf -p 32 cuffm_rst/merged.gtf ../tophat2_rst/tgh_flower_1/accepted_hits.bam,../tophat2_rst/tgh_flower_2/accepted_hits.bam ../tophat2_rst/tgh_1_leaf_1/accepted_hits.bam,../tophat2_rst/tgh_1_leaf_2/accepted_hits.bam
+#1431018828
+bg
+#1431018833
+jobs
+#1431018858
+man jobs
+#1431018882
+jobs -kill 2
+#1431018899
+jobs --help
+#1431018910
+info jobs
+#1431018926
+jobs
+#1431018931
+fg
+#1431018949
+jobs
+#1431018951
+ll
+#1431018986
+rm -r col_flr_leaf
+#1431018988
+ll
+#1431019039
+nohup cuffdiff -o col_flr_leaf -p 32 cuffm_rst/merged.gtf ../tophat2_rst/col_flower_1/accepted_hits.bam,../tophat2_rst/col_flower_2/accepted_hits.bam ../tophat2_rst/col_leaf_1/accepted_hits.bam,../tophat2_rst/col_leaf_2/accepted_hits.bam &
+#1431019106
+nohup cuffdiff -o tgh_flr_leaf -p 32 cuffm_rst/merged.gtf ../tophat2_rst/tgh_flower_1/accepted_hits.bam,../tophat2_rst/tgh_flower_2/accepted_hits.bam ../tophat2_rst/tgh_1_leaf_1/accepted_hits.bam,../tophat2_rst/tgh_1_leaf_2/accepted_hits.bam &
+#1431019109
+ll
+#1431019126
+jobs
+#1431019144
+man nohup
+#1431019188
+tail nohup.out 
+#1431019226
+info nohup
+#1431019312
+logout
+#1431019790
+jobs
+#1431019835
+cd tgh/cuffl_rst/
+#1431019845
+tail nohup.out 
+#1431019881
+exit
+#1431060115
+ll -h tgh_flr_leaf/
+#1431060122
+ll
+#1431060127
+less nohup.out 
+#1431060432
+ls
+#1431060443
+cd ../Rcount_multi/
+#1431060443
+ls
+#1431060445
+ll
+#1431060655
+rm *
+#1431060656
+ll
+#1431060678
+Rcount-multireads 
+#1431061752
+ifconfig
+#1431061766
+curl ifconfig.me
+#1431062547
+cat ~/.bashrc 
+#1431062657
+cat ~/.bash_variables 
+#1431062677
+cat ~/.bash_functions 
+#1431062718
+cat ~/.bash_aliases 
+#1431065740
+ls
+#1431065750
+Rcount-multireads -h
+#1431065756
+Rcount-multireads --help
+#1431065760
+Rcount-multireads
+#1431068679
+cat ~/.vnc/xstartup 
+#1431068684
+vncserver
+#1431069600
+top
+#1431075018
+cls
+#1431075024
+cd tgh
+#1431075028
+ls
+#1431075040
+ll -h Rcount_multi/
+#1431075537
+vncgroups
+#1431075541
+groups
+#1431075550
+srcp
+#1431075558
+source ~/.bashrc
+#1431075637
+id
+#1431076603
+ll
+#1431076606
+ll Rcount_multi/
+#1431156633
+vi .bashrc 
+#1431156642
+vi .bash_variables 
+#1431157046
+srcp
+#1431157082
+ll
+#1431157197
+vi .bash_variables 
+#1431157306
+srcp
+#1431162340
+ls
+#1431162342
+cd thg
+#1431162346
+cd tgh
+#1431162348
+ls
+#1431162375
+srcp
+#1431162358
+vi ~/.bash_variables 
+#1431162413
+srcp
+#1431163785
+man File:Basename
+#1431163797
+man File::Basename
+#1431163804
+perldoc File::Basename
+#1431163818
+perl -V
+#1431163843
+sudo ports intall perl-doc
+#1431163859
+install perl-doc
+#1431163911
+ls
+#1431163918
+perldoc
+#1431163876
+update
+#1431163927
+perldoc File::Basename
+#1431175519
+ls
+#1431175524
+cd Rcount_multi/
+#1431175525
+ll
+#1431175647
+Rcount-distribute 
+#1431075149
+top
+#1431176071
+cls
+#1431176084
+less /software/Rcount-master/Rcount-distribute 
+#1431176095
+file /software/Rcount-master/Rcount-distribute 
+#1431069470
+Rcount-multireads 
+#1431176394
+Rcount-format 
+#1431176589
+Rcount-multireads 
+#1431178803
+locate cpan
+#1431174002
+perldoc File::Spec
+#1431178927
+perldoc cpanp
+#1431177706
+top
+#1431188298
+cls
+#1431188307
+ls
+#1431188316
+ll -h Rcount_multi/
+#1431188332
+less Rcount_multi/col_flr_1.txt 
+#1431188374
+cd
+#1431188375
+ll
+#1431188383
+ll /media/
+#1431188395
+cd /media/Pan1
+#1431188397
+ll
+#1431188433
+ls
+#1431188441
+rm -r D*
+#1431188443
+ll
+#1431188445
+ls
+#1431188454
+rm -r P*
+#1431188460
+rm -r Music
+#1431188466
+rm -r Templates/
+#1431188473
+rm -r Videos/
+#1431188474
+ll
+#1431188476
+ls
+#1431188490
+lu
+#1431188638
+cd /media/Pan1/
+#1431188639
+ll
+#1431188643
+lu
+#1431188414
+mv ~/tgh ./
+#1431189687
+ln -s /media/Pan1/tgh ./tgh/
+#1431189691
+ln -s /media/Pan1/tgh ./tgh
+#1431189693
+ll
+#1431189695
+ls
+#1431190015
+ll
+#1431190025
+rm f2_stat.txt 
+#1431190028
+ls
+#1431190033
+less tair10 
+#1431190039
+rm tair10 
+#1431190137
+scp -r -p admin@10.157.44.31:/Volumes/SEAGATE/ZZ /media/Pan1/
+#1431197521
+ll
+#1431197584
+ln -s /media/Pan1/ZZ ~/ZZ
+#1431197586
+ll
+#1431197587
+ls
+#1431197590
+cd ZZ
+#1431197591
+ls
+#1431197594
+cd ..
+#1431197595
+ls
+#1431197620
+ssh 10.157.44.31
+#1431197632
+ssh admin@10.157.44.31
+#1431197731
+ll
+#1431197775
+cd /media/Pan1/
+#1431197776
+ll
+#1431197788
+cd
+#1431197951
+scp -r -p renlab@10.157.31.22:/home/renlab/zz_new ./
+#1431197971
+ll
+#1431197978
+ll zz_new/
+#1431198023
+rm -r zz_new/
+#1431198034
+scp -r -p renlab@10.157.31.22:/home/renlab/Advanced ./
+#1431197681
+scp -r -p admin@10.157.44.31:/Volumes/SEAGATE/ZZ_NEW /media/Pan1/
+#1431198240
+cd /media/Pan1/
+#1431198245
+cd ZZ_NEW/
+#1431198246
+ls
+#1431198251
+cd ..
+#1431198257
+rm -r ZZ_NEW
+#1431198259
+ll
+#1431239050
+ls
+#1431239073
+ln -s /media/Pan1/Advanced ~/Advanced
+#1431239087
+ls
+#1431239094
+cd ..
+#1431239095
+ls
+#1431239100
+ll plant/
+#1431239914
+ls
+#1431239946
+lu ../../
+#1431239963
+lu ../../home/
+#1431240180
+sudo gparted
+#1431240190
+id
+#1431240279
+srcp
+#1431240282
+id
+#1431197828
+ssh renlab@10.157.31.22
+#1431240438
+id
+#1431240449
+groups
+#1431240465
+sudo gprated
+#1431240473
+sudo gparted
+#1431240483
+sudo gparted
+#1431240495
+id
+#1431240519
+vncserver -list
+#1431240590
+cd
+#1431240607
+vncserver
+#1431240721
+id
+#1431240864
+cd /media/
+#1431240865
+ls
+#1431240882
+sudo mount /dev/sdb1 /media/Pan0
+#1431240883
+ll
+#1431240894
+ll plant/
+#1431240921
+sudo mount /dev/sdc2 /media/Pan2
+#1431240968
+ln -s Pan2 ~/Pan2
+#1431240977
+ln -s Pan0 ~/Pan0
+#1431240982
+ln -s Pan1 ~/Pan1
+#1431240997
+ll
+#1431241017
+ls Pan0/
+#1431241022
+ls Pan1/
+#1431241026
+ls Pan2/
+#1431241050
+ll ~
+#1431241060
+cd
+#1431241070
+ln -s /media/Pan1 ~/Pan1
+#1431241080
+ln -s /media/Pan1 Pan1
+#1431241101
+rm Pan*
+#1431241104
+ln -s /media/Pan1 Pan1
+#1431241112
+ln -s /media/Pan0 Pan0
+#1431241118
+ln -s /media/Pan2 Pan2
+#1431241466
+ls
+#1431243665
+lu /media/
+#1431244930
+lu /
+#1431245499
+ifconfig
+#1431245650
+cd Pan2/
+#1431245656
+cd ../Pan1
+#1431245657
+ll
+#1431245660
+cd ad
+#1431245663
+cd Advanced/
+#1431245666
+cd REF/
+#1431245666
+ls
+#1431245692
+mv rice_MSU_v.7.0.55803.gff3 rice_MSU_v.7.0.55803.GFF3
+#1431245601
+Rcount-format 
+#1431261662
+ll
+#1431261667
+ll
+#1431261669
+ls
+#1431261697
+mv rice_mRNA.xml Pan1/Advanced/REF/
+#1431261703
+ls
+#1431261708
+lu
+#1431261732
+Rcount-multireads 
+#1431261773
+who
+#1431261843
+fuser
+#1431261853
+lsof
+#1431262013
+exit
+#1431262289
+ls
+#1431262295
+hdparm
+#1431262349
+fio
+#1431262354
+install fio
+#1431262387
+perl -V
+#1431262441
+uname -a
+#1431262449
+dist-upgrade
+#1431262558
+ls
+#1431262565
+cd Pan1/
+#1431262568
+cd Advanced/
+#1431262569
+ls
+#1431262573
+cd Rcount_mlt/
+#1431262574
+ls
+#1431262575
+ll
+#1431262453
+update
+#1431262018
+Rcount-multireads 
+#1431332786
+install gdebi
+#1431332909
+cd Pan1/Advanced/REF/
+#1431332910
+ls
+#1431332913
+lz
+#1431332917
+lu
+#1431332937
+vi rice_MSU_v.7.0.55803.GFF3 ]
+#1431332986
+Rcount-format 
+#1431333139
+ll -h
+#1431333164
+diff rice_mRNA_66338.xml rice_mRNA.xml 
+#1431335856
+vncserver
+#1431335866
+ll
+#1431335876
+id
+#1431335928
+vncserver
+#1431335984
+ls
+#1431335987
+cd Pan1
+#1431335988
+ls
+#1431335996
+cd ..
+#1431336001
+ls Pan1/
+#1431336005
+ls Pan2/
+#1431336008
+ls Pan1
+#1431336011
+ls Pan0
+#1431336016
+cd /media/
+#1431336017
+ls
+#1431336021
+ls plant/
+#1431336039
+mount /dev/sdb1 /media/Pan0
+#1431336044
+sudo mount /dev/sdb1 /media/Pan0
+#1431336056
+sudo mount /dev/sdc1 /media/Pan1
+#1431336064
+sudo mount /dev/sdc2 /media/Pan2
+#1431336067
+cd
+#1431336071
+ls Pan1
+#1431341783
+ll ../liuyuhao/
+#1431341837
+sudo chown -R liuyuhao:plant ../liuyuhao/.vnc
+#1431341853
+ll ../liuyuhao/
+#1431341863
+ll ../liuyuhao/.vnc
+#1431341891
+cat ../liuyuhao/.vnc/xstartup 
+#1431342109
+vncserver
+#1431342134
+vncserver -list
+#1431342204
+exit
+#1431349152
+ls ../liuyuhao/
+#1431349160
+ls ../liuyuhao/Downloads/
+#1431349170
+ls ../liuyuhao/apps
+#1431349205
+sudo cp ../liuyuhao/apps/fastx_toolkit-0.0.14.tar.bz2 Downloads/
+#1431349216
+cd Downloads/
+#1431349216
+ls
+#1431349263
+tar -zxvf tar*
+#1431349267
+ll
+#1431349291
+tar -zxvf fast*
+#1431349310
+man tar
+#1431349352
+bunzip2 fastx_toolkit-0.0.14.tar.bz2 
+#1431349354
+ll
+#1431349365
+tar -xvf fastx_toolkit-0.0.14.tar 
+#1431349367
+ll
+#1431349371
+cd fastx_toolkit-0.0.14/
+#1431349372
+ls
+#1431349379
+less README 
+#1431349397
+ll
+#1431349562
+./configure -prefix=/software/fastx-tools
+#1431349570
+ls
+#1431349573
+make
+#1431349587
+make test
+#1431349593
+make install
+#1431349604
+sudo make install
+#1431349646
+ll /software/fastx-tools/
+#1431349654
+ll /software/fastx-tools/bin/
+#1431349670
+cd
+#1431349682
+ls ../liuyuhao/apps/
+#1431349812
+vncserver _status
+#1431349857
+vncserver _-status
+#1431349926
+vncserver _-showexistingstatus
+#1431350000
+Xvnc -showexistingstatus
+#1431350008
+vncserver
+#1431350079
+remove firefox
+#1431350215
+google-chrome
+#1431350236
+ll
+#1431350350
+ll .cache
+#1431350430
+sudo chown -R raylee:plant .cache
+#1431350440
+google-chrome
+#1431350467
+sudo chown -R raylee:plant .config
+#1431350472
+google-chrome
+#1431350874
+update
+#1431350660
+firefox --new-window
+#1431355524
+cd Downloads/
+#1431355525
+ls
+#1431355532
+unzip Trimmomatic-0.33.zip 
+#1431355533
+ls
+#1431355537
+cd Trimmomatic-0.33/
+#1431355537
+ls
+#1431355543
+less Li
+#1431355546
+less LICENSE 
+#1431355567
+ls
+#1431355583
+ls adapters/
+#1431355606
+less adapters/TruSeq2-PE.fa 
+#1431355660
+sudo mkdir /software/Trimmomatic-0.33
+#1431355678
+cp trimmomatic-0.33.jar /software/Trimmomatic-0.33/
+#1431355684
+sudo cp trimmomatic-0.33.jar /software/Trimmomatic-0.33/
+#1431355689
+java
+#1431355696
+java --versionn
+#1431355697
+java --version
+#1431355703
+javac -V
+#1431355709
+javac --version
+#1431355714
+javac -v
+#1431355719
+javac
+#1431355862
+ls /software/
+#1431355869
+ls /software/Trimmomatic-0.33/
+#1431356156
+sudo vi ~/../liuyuhao/.bash_variables 
+#1431356165
+sudo vi ~/../liuyuhao/.bash_aliases 
+#1431356215
+sudo vi ~/../liuyuhao/.bash_variables 
+#1431358175
+vi .bash_variables 
+#1431358210
+srcp
+#1431358218
+ll /software/fastx-tools/
+#1431358220
+ll /software/fastx-tools/bin/
+#1431358258
+vi .bash_aliases 
+#1431358327
+srcp
+#1431358330
+trimmomatic 
+#1431358380
+cls
+#1431358387
+ls
+#1431358390
+ll
+#1431358396
+cd Advanced
+#1431358398
+cls
+#1431358399
+ls
+#1431358402
+cd REF/
+#1431358403
+ls
+#1431358415
+less rice_mRNA_66338.xml 
+#1431368018
+cd
+#1431368027
+cd Advanced/REF/
+#1431368028
+ls
+#1431368036
+ll
+#1431368002
+Rcount-format 
+#1431368186
+ls
+#1431368199
+cd ../Rcount_mlt/
+#1431368199
+ls
+#1431368212
+less pBZ-0d.txt 
+#1431368259
+less pBZ-10d.txt 
+#1431368303
+Rcount-distribute 
+#1431369686
+Rcount-format 
+#1431369964
+cd
+#1431369971
+cd .local/
+#1431369972
+ls
+#1431369975
+cd share/
+#1431369977
+ls'
+'
+#1431369981
+ls
+#1431369992
+ll ..
+#1431370022
+sudo chown -R raylee:plant ~/.local
+#1431370032
+ls
+#1431370075
+mkdir Trash
+#1431370111
+ll
+#1431370118
+cd ..
+#1431370119
+ll
+#1431370122
+cd ..
+#1431370123
+ls
+#1431370125
+ll
+#1431370287
+cd Advanced
+#1431370288
+ls
+#1431373951
+cd ../Rcount_dist/
+#1431373952
+ll
+#1431373955
+ll -h
+#1431373999
+less h2o-0d.txt 
+#1431370293
+Rcount-distribute 
+#1431379875
+diff h2o-0d.txt  ../Rcount_mlt/3h2o-0d.txt 
+#1431380236
+R
+#1431380292
+ll /software/Rcount-master/
+#1431380846
+cd ~/Downloads/
+#1431380849
+cd R-3.1.3/
+#1431380850
+ls
+#1431380871
+./configure 
+#1431381078
+ls
+#1431381171
+cat INSTALL 
+#1431381176
+make
+#1431381803
+dfl
+#1431381805
+dl
+#1431381811
+cd R-3.1.3/
+#1431381813
+cat INSTALL 
+#1431381865
+make install-info
+#1431381726
+make check
+#1431381949
+make info
+#1431381987
+install makeinfo
+#1431381998
+makeinfo
+#1431381957
+make pdf
+#1431382006
+install texinfo
+#1431382029
+make info
+#1431382034
+srcp
+#1431382036
+make info
+#1431382043
+makeinfo 
+#1431382049
+makeinfo --verison
+#1431382054
+makeinfo --version
+#1431382073
+make info
+#1431382079
+sudo make info
+#1431382093
+make install
+#1431382096
+sudo make install
+#1431382101
+sudo make install-pdf
+#1431382110
+sudo make install-info
+#1431382130
+make install-info
+#1431382144
+makeinfo
+#1431382149
+makeinfo --help
+#1431382751
+install synaptic
+#1431382156
+R
+#1431382936
+./configure 
+#1431383003
+make info
+#1431383070
+make pdf
+#1431383086
+pdflatex
+#1431383093
+install texlive-latex-base
+#1431383194
+./configure 
+#1431383227
+make info
+#1431383247
+make install
+#1431383259
+sudo make install
+#1431383263
+sudo make install-info
+#1431383268
+sudo make install-pdf
+#1431383404
+vi /software/Rcount-master/Rcount-R-functions.R 
+#1431383282
+R
+#1431383651
+sudo vi /software/Rcount-master/Rcount-R-functions.R 
+#1431383784
+scp /home/raylee/Advanced/Rcount_dist/*.txt admin@10.157.44.31:/Users/admin/
+#1431383831
+scp /software/Rcount-master/Rcount-R-functions.R  admin@10.157.44.31:/Users/admin/
+#1431430038
+gtar
+#1431430626
+ls
+#1431430629
+make clean
+#1431430644
+./configure 
+#1431430733
+tex
+#1431430768
+latex
+#1431430873
+cd ..
+#1431430874
+ls
+#1431430901
+tar -zxvf R-3.2.0.tar.gz 
+#1431430906
+cd R-3.2.0/
+#1431430907
+ls
+#1431430946
+cd
+#1431430951
+mkdir software
+#1431430952
+ls
+#1431430965
+./configure --prefix=/home/raylee/software
+#1431434114
+update
+#1431434379
+upgrade
+#1431434405
+dist-upgrade
+#1431434412
+autoremove
+#1431434419
+clean
+#1431434422
+autoclean
+#1431434429
+autoremvoe
+#1431434440
+update
+#1431499393
+R
+#1431499412
+ls
+#1431499415
+make install
+#1431499734
+git
+#1431499739
+install git
+#1431499420
+make
+#1431500106
+lintian
+#1431500133
+sogou-qimpanel
+#1431500176
+ibus
+#1431500186
+ibus-daemon
+#1431500276
+ps aux | grep sogou
+#1431500288
+kill -9 45124
+#1431500293
+kill -9 45126
+#1431500298
+kill -9 45299
+#1431500345
+sogou-qimpanel
+#1431500417
+fcitx-config-gtk3
+#1431500672
+ibus-setup 
+#1431500724
+sogou-qimpanel
+#1431500754
+fcitx-config-gtk3
+#1431500805
+sudo fcitx-config-gtk3
+#1431500830
+fcitx-configtool 
+#1431500847
+fcitx-qimpanel
+#1431500856
+fcitx-qimpanel-autostart 
+#1431501253
+install language-pack-zh-hant-base language-pack-zh-hans-base
+#1431501384
+fcitx
+#1431501493
+bg
+#1431501567
+fcitx-config-gtk3
+#1431501722
+sogou-qimpanel
+#1431501727
+sogou-qimpanel-watchdog 
+#1431501737
+sogou-diag 
+#1431501766
+sogou-qimpanel
+#1431501777
+fcitx
+#1431501963
+sogou-qimpanel
+#1431501967
+sogou-qimpanel-watchdog
+#1431501974
+sogou-session 
+#1431501984
+sogou-diag 
+#1431502965
+git config --global user.name "mitox"
+#1431503049
+git config --global user.email "antisunny@163.com"
+#1431503317
+git clone http://git.oschina.net/mitox/R_lib_pan.git
+#1431503385
+git clone https://git.oschina.net/rayrlee/R-lib-pan.git
+#1431503443
+git checkout -b $feature_name
+#1431503470
+ls
+#1431503477
+cd R-lib-pan/
+#1431503478
+ls
+#1431503482
+vi plot_stat_and_relation.R 
+#1431503521
+git commit -am ""
+#1431503532
+git commit -am "add the code"
+#1431503585
+git checkout -b additon
+#1431503609
+git commit -am "add the code"
+#1431503638
+git push origin addition
+#1431503779
+git checkout -b R_lib_pan
+#1431503790
+ls
+#1431503793
+ll ..
+#1431503796
+ls ..
+#1431503801
+ll
+#1431503812
+cd
+#1431503830
+git push origin R-lib_pan
+#1431503839
+git push origin addition
+#1431591656
+cd
+#1431591663
+R
+#1431592054
+cd Advanced/REF/
+#1431592055
+ls
+#1431592066
+subl rice_MSU_v.7.0.55803.GFF3 
+#1431592447
+egrep "\tgene\t" rice_MSU_v.7.0.55803.GFF3 > rice_genes.gff3
+#1431592455
+less rice_genes.gff3 
+#1431592465
+egrep "\tgene\t" rice_MSU_v.7.0.55803.GFF3
+#1431592476
+egrep ".*\tgene\t.*" rice_MSU_v.7.0.55803.GFF3
+#1431592483
+grep ".*\tgene\t.*" rice_MSU_v.7.0.55803.GFF3
+#1431592791
+Rcount-format 
+#1431592856
+less rice_MSU_v.7.0.no.GFF3
+#1431592873
+subl rice_MSU_v.7.0.no.GFF3
+#1431430170
+/software/srun3_linux_client_amd64/srun3_client 
+#1431593098
+egrep ".*\tgene\t.*" rice_MSU_v.7.0.55803.GFF3
+#1431593111
+egrep '.*\tgene\t.*' rice_MSU_v.7.0.55803.GFF3 
+#1431593121
+egrep '\tgene\t' rice_MSU_v.7.0.55803.GFF3 
+#1431593130
+egrep '\\tgene\\t' rice_MSU_v.7.0.55803.GFF3 
+#1431593151
+egrep '\s+gene\s+' rice_MSU_v.7.0.55803.GFF3 
+#1431593161
+egrep '\s+gene\s+' rice_MSU_v.7.0.55803.GFF3 > rice_genes.gff3 
+#1431593300
+less rice_genes.gff3 
+#1431594495
+dl
+#1431594498
+ll
+#1431594511
+./QIpmsg 
+#1431594590
+locate libX11-xcb
+#1431594608
+file QIpmsg 
+#1431594620
+less QIpmsg 
+#1431594651
+ld QIpmsg 
+#1431594812
+subl rice_MSU_v.7.0.no.GFF3 
+#1431594852
+who
+#1431594894
+write pts/7
+#1431594897
+write pts/4
+#1431594903
+write pts/11
+#1431594908
+write pts/13
+#1431594914
+write pts/15
+#1431594919
+write pts/16
+#1431594925
+write pts/19
+#1431594930
+write pts/20
+#1431594934
+write pts/21
+#1431594936
+write pts/22
+#1431594941
+write pts/6
+#1431594948
+write :2
+#1431594955
+write raylee:2
+#1431594959
+write raylee:5
+#1431594965
+log
+#1431594968
+last
+#1431595022
+write raylee:3
+#1431595026
+write :3
+#1431595044
+write raylee
+#1431595063
+write pts/4
+#1431595076
+write 10.157.14.13
+#1431595081
+write 10.157.14.13:4
+#1431595094
+write raylee@10.157.14.13
+#1431595103
+write raylee:10.157.14.13
+#1431595108
+man write
+#1431595126
+write raylee pts/4
+#1431595324
+ls
+#1431595330
+rm Feige_for_32_Linux.tar.gz 
+#1431595336
+rm QIpmsg 
+#1431595424
+./QIpmsg 
+#1431595714
+ll /usr/lib/x86_64-linux-gnu/libstdc++.so.6*
+#1431598915
+locate libX11-xcb
+#1431598947
+ll /usr/lib/x86_64-linux-gnu/libX11-xcb*
+#1431599061
+ll/usr/lib/x86_64-linux-gnu/libstdc++*
+#1431599067
+ll/usr/lib/x86_64-linux-gnu/libstdc++
+#1431599072
+ll/usr/lib/x86_64-linux-gnu/libstdc*
+#1431599083
+ll /usr/lib/x86_64-linux-gnu/libstdc++*
+#1431599108
+strings
+#1431599115
+man strings
+#1431599173
+strings /usr/lib/x86_64-linux-gnu/libstdc++.so.6 | grep CXXABI
+#1431599318
+strings /usr/lib/x86_64-linux-gnu/libstdc++.so.6.19 | grep CXXABI
+#1431599331
+strings /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19 | grep CXXABI
+#1431599342
+cat /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19 | grep CXXABI
+#1431599523
+locate gcc-4.9.0
+#1431599525
+locate gcc-4.9
+#1431599556
+update
+#1431602991
+gcc -V
+#1431602995
+gcc --version
+#1431603006
+g++ --version
+#1431603018
+install build-essential
+#1431603035
+./QIpmsg 
+#1431603100
+locate g++-4.9
+#1431603103
+locate g++
+#1431603207
+update
+#1431603478
+wget http://gcc.parentingamerica.com/releases/gcc-5.1.0/gcc-5.1.0.tar.bz2
+#1431603518
+wget http://ftp.tsukuba.wide.ad.jp/software/gcc/releases/gcc-5.1.0/gcc-5.1.0.tar.bz2
+#1431604383
+scp admin@10.157.44.31:/Users/admin/Downloads/gcc* ./
+#1431604453
+tar jxf gcc-4.9.2.tar.bz2 
+#1431604471
+ll
+#1431604480
+cd gcc-4.9.2/
+#1431604480
+ls
+#1431604489
+less README 
+#1431604495
+less INSTALL/
+#1431604559
+./configure 
+#1431604677
+cd
+#1431604680
+dl
+#1431604695
+wget ftp://ftp.gnu.org/gnu/gmp/gmp-6.0.0a.tar.bz2
+#1431606342
+ls
+#1431606356
+tar jxvf gmp-6.0.0a.tar.bz2 
+#1431606384
+ll
+#1431606395
+rm gmp-6.0.0a.tar.bz2 
+#1431606493
+tar jxvf gmp-6.0.0a.tar.bz2 
+#1431606495
+ls
+#1431606498
+cd gmp-6.0.0/
+#1431606500
+ls
+#1431606509
+make
+#1431606580
+mkdir temp
+#1431606583
+cd temp/
+#1431606601
+cd 
+#1431606604
+cd -
+#1431606605
+cd ..
+#1431606615
+rmdir temp
+#1431606619
+cd
+#1431606623
+dl
+#1431606627
+mkdir temp
+#1431606629
+cd temp/
+#1431606656
+../gmp-6.0.0/configure --prefix=/usr/local/gmp-6.0.0
+#1431606768
+dl
+#1431606773
+unzip mpfr-3.1.2.zip 
+#1431606686
+sudo make install
+#1431606801
+tar zxvf mpc-1.0.3.tar.gz 
+#1431606805
+cd mpc-1.0.3/
+#1431606806
+ls
+#1431606817
+./configure 
+#1431606838
+cd ..
+#1431606842
+cd mpfr-3.1.2/
+#1431606843
+ls
+#1431606852
+cd ../temp/
+#1431606922
+../mpfr-3.1.2/configure --prefix=/usr/local/mpfr-3.1.2 --with-gmp=/usr/local/gmp-6.0.0
+#1431606937
+make
+#1431607068
+sudo make install
+#1431607122
+../mpc-1.0.3/configure --prefix=/usr/local/mpc-1.0.3 --with-gmp=/usr/local/gmp-6.0.0 --with-mpfr=/usr/local/mpfr-3.1.2
+#1431607129
+make
+#1431607159
+viprofile 
+#1431607368
+ll ..
+#1431607173
+vi ~/.bash_variables 
+#1431607383
+srcp
+#1431607393
+vi ~/.bash_variables 
+#1431607416
+srcp
+#1431607600
+../gcc-4.9.2/configure --prefix=/usr/local/gcc-4.9.2 --enable-threads=posix --disable-cheching --disable-multilib --enable-language=c,c++ --with-gmp=/usr/local/gmp-6.0.0 --with-mpfr=/usr/local/mpfr-3.1.2 --with-mpc=/usr/local/mpc-1.0.3
+#1431607679
+ls /usr/local/
+#1431607697
+ls
+#1431607702
+sudo make install
+#1431607714
+ls /usr/local/
+#1431607754
+cd ../gcc-4.9.2/
+#1431607774
+./configure --prefix=/usr/local/gcc-4.9.2 --enable-threads=posix --disable-cheching --disable-multilib --enable-language=c,c++ --with-gmp=/usr/local/gmp-6.0.0 --with-mpfr=/usr/local/mpfr-3.1.2 --with-mpc=/usr/local/mpc-1.0.3
+#1431607797
+./configure --prefix=/usr/local/gcc-4.9.2 --enable-threads=posix --disable-multilib --enable-language=c,c++ --with-gmp=/usr/local/gmp-6.0.0 --with-mpfr=/usr/local/mpfr-3.1.2 --with-mpc=/usr/local/mpc-1.0.3
+#1431607805
+cd ..
+#1431607808
+cd gmp-6.0.0/
+#1431607826
+./configure --prefix=/usr/local/gmp-6.0.0
+#1431607847
+sudo make install
+#1431607924
+cd ../gcc-4.9.2/
+#1431607944
+./configure --prefix=/usr/local/gcc-4.9.2 --with-gmp=/usr/local/gmp-6.0.0 --with-mpfr=/usr/local/mpfr-3.1.2 --with-mpc=/usr/local/mpc-1.0.3
+#1431607973
+./configure --prefix=/usr/local/gcc-4.9.2 --with-gmp=/usr/local/gmp-6.0.0/lib --with-mpfr=/usr/local/mpfr-3.1.2/lib --with-mpc=/usr/local/mpc-1.0.3/lib
+#1431608012
+echo $LD_LIBRARY_PATH
+#1431608131
+srcp
+#1431608136
+./configure --prefix=/usr/local/gcc-4.9.2 --with-gmp=/usr/local/gmp-6.0.0/lib --with-mpfr=/usr/local/mpfr-3.1.2/lib --with-mpc=/usr/local/mpc-1.0.3/lib
+#1431608178
+./configure --prefix=/usr/local/gcc-4.9.2 --with-gmp=/usr/local/gmp-6.0.0 --with-mpfr=/usr/local/mpfr-3.1.2 --with-mpc=/usr/local/mpc-1.0.3
+#1431608188
+echo $LD_LIBRARY_PATH
+#1431608203
+ls /usr/local/mpc-1.0.3/lib
+#1431608214
+ls /usr/local/mpc-1.0.3/
+#1431608322
+make clean
+#1431608328
+ls
+#1431608339
+less install-sh 
+#1431608414
+./configure --prefix=/usr/local/gcc-4.9.2
+#1431608438
+./configure --prefix=/usr/local/gcc-4.9.2 --with-gmp=/usr/local/gmp-6.0.0 --with-mpfr=/usr/local/mpfr-3.1.2 --with-mpc=/usr/local/mpc-1.0.3
+#1431608590
+ls /usr/local/mpc-1.0.3/
+#1431608597
+ls /usr/local/mpfr-3.1.2/
+#1431608601
+ls /usr/local/gmp-6.0.0/
+#1431608649
+gmp
+#1431608654
+mpfc
+#1431608661
+ls
+#1431608669
+cd INSTALL/
+#1431608670
+ls
+#1431608681
+google-chrome configure.html 
+#1431608713
+cd ../../
+#1431608721
+cd temp/
+#1431608722
+ls
+#1431608729
+rm ./*
+#1431608740
+sudo rm -r ./*
+#1431608745
+ls
+#1431608767
+../gcc-4.9.2/configure --prefix=/usr/local/gcc-4.9.2 --with-gmp=/usr/local/gmp-6.0.0 --with-mpfr=/usr/local/mpfr-3.1.2 --with-mpc=/usr/local/mpc-1.0.3
+#1431608888
+../gcc-4.9.2/configure --prefix=/usr/local/gcc-4.9.2 --with-gmp=/usr/local/gmp-6.0.0 --with-mpfr=/usr/local/mpfr-3.1.2 --with-mpc=/usr/local/mpc-1.0.3 --enable-threads=posix --disable-checking --disable-multilib --enable-languages=c,c++
+#1431608906
+srcp
+#1431608928
+../gcc-4.9.2/configure --prefix=/usr/local/gcc-4.9.2 --with-gmp=/usr/local/gmp-6.0.0 --with-mpfr=/usr/local/mpfr-3.1.2 --with-mpc=/usr/local/mpc-1.0.3 --enable-threads=posix --disable-checking --disable-multilib --enable-languages=c,c++
+#1431608948
+vi ../gcc-4.9.2/configure
+#1431608961
+cd ..
+#1431608963
+ls
+#1431608977
+tar jxvf gcc-5.1.0.tar.bz2 
+#1431608999
+cd temp/
+#1431609027
+../gcc-5.1.0/configure --prefix=/usr/local/gcc-4.9.2 --with-gmp=/usr/local/gmp-6.0.0 --with-mpfr=/usr/local/mpfr-3.1.2 --with-mpc=/usr/local/mpc-1.0.3 --enable-threads=posix --disable-checking --disable-multilib --enable-languages=c,c++
+#1431609177
+../gcc-5.1.0/configure --prefix=/usr/local/gcc-5.1.0 --with-gmp=/usr/local/gmp-6.0.0 --with-mpfr=/usr/local/mpfr-3.1.2 --with-mpc=/usr/local/mpc-1.0.3 --enable-threads=posix --disable-checking --disable-multilib --enable-languages=c,c++
+#1431609250
+cd
+#1431609253
+cd Advanced
+#1431609254
+ls
+#1431609262
+cd 
+#1431609265
+ls
+#1431609267
+cd tgh/
+#1431609268
+ls
+#1431609275
+cd Rcount_multi/
+#1431609277
+ls
+#1431609283
+R
+#1431609669
+ls ../REF/
+#1431609678
+cd 
+#1431609696
+cd Advanced/REF/
+#1431609697
+ls
+#1431609765
+cd ~/tgh/
+#1431609771
+ls REF/
+#1431610092
+whereis htseq-count 
+#1431613469
+ls
+#1431613481
+cd ../Advanced/REF/
+#1431613482
+ls
+#1431613554
+scp -r -p admin@10.157.44.31:/Users/admin/Ray/new_* ./
+#1431613574
+Rcount-format 
+#1431607996
+vi ~/.bash_variables 
+#1431613787
+cd
+#1431613789
+ll
+#1431613818
+sudo chmod -R 722 .ssh 
+#1431613780
+scp -r -p admin@10.157.44.31:/Users/admin/Ray/new_* ./
+#1431613845
+Rcount-format 
+#1431622856
+kdesktop -v
+#1431622952
+kde
+#1431622969
+kde4 -v
+#1431622972
+kde4
+#1431623034
+dpkg --get-selections | grep kde
+#1431623111
+cd
+#1431623147
+sudo apt-add-repository ppa:kubuntu-ppa/next-backports
+#1431623168
+update
+#1431623295
+upgrade
+#1431623429
+vi .bash_variables 
+#1431623487
+srcp
+#1431623495
+dist-upgrade
+#1431623530
+install kubuntu-plasma5-desktop plasma-workspace-wallpapers
+#1431623545
+sudo apt-add-repository ppa:kubuntu-ppa/next-backports
+#1431623624
+../gcc-4.9.2/configure --prefix=/usr/local/gcc-4.9.2 --with-gmp=/usr/local/gmp-6.0.0 --with-mpfr=/usr/local/mpfr-3.1.2 --with-mpc=/usr/local/mpc-1.0.3 --enable-threads=posix --disable-checking --disable-multilib --enable-languages=c,c++
+#1431623560
+update
+#1431623954
+sudo vi /etc/apt/sources.list
+#1431624013
+sudo apt-add-repository ppa:kubuntu-ppa/backports
+#1431624057
+exit
+#1431624038
+update
+#1431624155
+sudo vi /etc/apt/sources.list
+#1431624199
+dist-upgrade
+#1431624513
+update
+#1431624774
+sudo ppa-purge ppa:kubuntu-ppa/next
+#1431624798
+sudo apt-get ppa-purge ppa:kubuntu-ppa/next
+#1431624838
+cd
+#1431624890
+sudo apt-get dist-upgrade
+#1431624899
+autoremove
+#1431624907
+clean
+#1431624912
+autoclean
+#1431624917
+update
+#1431625057
+man apt-get update
+#1431625070
+man update
+#1431625091
+vi .bash_variables 
+#1431625102
+srcp
+#1431625112
+update
+#1431625255
+dist-upgrade
+#1431625262
+upgrade
+#1431625272
+sudo reboot
+#1431631444
+vncserver
+#1431631453
+ll
+#1431631472
+sudo chmod -R 755 .vnc
+#1431631480
+vncserver
+#1431631544
+ls
+#1431631557
+cd /media/
+#1431631558
+ls
+#1431631563
+ls Pan1
+#1431631593
+sudo mount /dev/sdb1 /media/Pan0
+#1431631604
+sudo mount /dev/sdc1 /media/Pan1
+#1431631609
+sudo mount /dev/sdc2 /media/Pan2
+#1431631614
+ls Pan1
+#1431631680
+ls
+#1431631682
+cd
+#1431631683
+ls
+#1431631687
+cd Advanced
+#1431631688
+ls
+#1431632026
+dl
+#1431632065
+update
+#1431632034
+wget https://github.com/ratschlab/spladder/archive/master.zip
+#1431632812
+scp admin@10.157.44.31:/Usres/admin/Downloads/spladder* ./
+#1431632911
+scp admin@10.157.44.31:/Users/admin/Downloads/spladder* ./
+#1431632923
+unzip spladder-master.zip 
+#1431632925
+ls
+#1431632927
+cd spladder-master/
+#1431632928
+lks
+#1431632929
+ls
+#1431632933
+cd matlab/
+#1431632933
+ls
+#1431632942
+less In
+#1431632945
+less INSTALL 
+#1431632950
+./configure 
+#1431632963
+less INSTALL 
+#1431633063
+locate samtools
+#1431632992
+./configure -i
+#1431633158
+ls /usr/local/lib/
+#1431633167
+locate sam.h
+#1431633189
+ls /software/
+#1431633217
+ls /software/.samtools-1.1/
+#1431633258
+./configure -i
+#1431633314
+ls
+#1431633317
+make
+#1431633325
+sudo make install
+#1431633335
+ll
+#1431633343
+ls tools/
+#1431633350
+cd ../python/
+#1431633352
+ls
+#1431633362
+less INSTALL 
+#1431633393
+cat IN
+#1431633394
+cat INSTALL 
+#1431633402
+pip install pysam
+#1431634223
+sudo pip install wiggelen
+#1431634146
+sudo pip install pysam
+#1431634256
+hist scp |tail
+#1431634279
+scp -p -r admin@10.157.44.31:/Users/admin/Downloads/pile* ./
+#1431634291
+tar -zxvf piletools-0.21.1.tar.gz 
+#1431634293
+ls
+#1431634298
+cd piletools-0.21.1/
+#1431634298
+ls
+#1431634305
+python setup.py install
+#1431634313
+sudo python setup.py install
+#1431634353
+sudo pip install piletools
+#1431634381
+scp -p -r admin@10.157.44.31:/Users/admin/Downloads/Scripts.* ./
+#1431634391
+tar -zxvf Scripts.tar.gz 
+#1431634443
+scp -p -r admin@10.157.44.31:/Users/admin/Downloads/splicing_* ./
+#1431634453
+unzip splicing_analysis_pipeline-master.zip 
+#1431634459
+ls splicing_analysis_pipeline-master
+#1431634470
+cd splicing_analysis_pipeline-master/Source/
+#1431634472
+ls
+#1431634510
+cd
+#1431634511
+ls
+#1431634520
+mkdir Bin
+#1431634521
+cd Bin
+#1431634663
+mkdir splicing_analysis_pipeline
+#1431634667
+cd splicing_analysis_pipeline/
+#1431634687
+cd
+#1431634687
+ls
+#1431634702
+cd piletools-0.21.1/
+#1431634703
+ls
+#1431634720
+mv splicing_analysis_pipeline-master ~/Bin/
+#1431634722
+ls
+#1431634728
+mv splicing_analysis_pipeline-master.zip ..
+#1431634729
+ls
+#1431634735
+mv Scripts.tar.gz ..
+#1431634747
+cd ..
+#1431634748
+ls
+#1431634754
+cd Bin/
+#1431634755
+ls
+#1431634761
+rmdir splicing_analysis_pipeline
+#1431634764
+cd splicing_analysis_pipeline-master/
+#1431634765
+ls
+#1431634767
+cd Source/
+#1431634768
+ls
+#1431634780
+tar -zxvf Scripts.tar.gz 
+#1431634782
+ls
+#1431634818
+ll
+#1431634828
+mv *.pl ..
+#1431634829
+ls
+#1431634837
+mv *.R ..
+#1431634841
+mv *.sh ..
+#1431634843
+ls
+#1431634848
+less Results_overview.txt 
+#1431634852
+cd ..
+#1431634853
+ls
+#1431634858
+less README.md 
+#1431634879
+ls
+#1431634886
+cd ..
+#1431634888
+cd
+#1431634888
+ls
+#1431635084
+cd Bin/
+#1431635087
+cd splicing_analysis_pipeline-master/
+#1431635088
+ls
+#1431635205
+cat ./run_template.sh | sed 's/PATH_TO_SCRIPTS/\/home\/raylee/\/Bin\/splicing_analysis_pipeline-master/'
+#1431635211
+cat ./run_template.sh | sed 's/PATH_TO_SCRIPTS/\/home\/raylee/\/Bin\/splicing_analysis_pipeline-master/g'
+#1431635231
+cat ./run_template.sh | sed -e 's/PATH_TO_SCRIPTS/\/home\/raylee/\/Bin\/splicing_analysis_pipeline-master/g'
+#1431635283
+cat ./run_template.sh | sed -e 's#PATH_TO_SCRIPTS#/home/raylee/Bin/splicing_analysis_pipeline-master#g'
+#1431635347
+which samtools
+#1431635363
+which piletools
+#1431635460
+scp -p -r admin@10.157.44.31:/Users/admin/Downloads/example* ./
+#1431635520
+tar -zxvf -C Bin/splicing_analysis_pipeline-master example_data.tar.gz 
+#1431635545
+tar -zxf -C /home/rayleeBin/splicing_analysis_pipeline-master example_data.tar.gz 
+#1431635553
+tar -zxf -C /home/raylee/Bin/splicing_analysis_pipeline-master example_data.tar.gz 
+#1431635564
+tar -zxvf example_data.tar.gz 
+#1431635568
+ls
+#1431635587
+mv example_* Bin/splicing_analysis_pipeline-master/
+#1431635589
+ls
+#1431635682
+cd Bin/splicing_analysis_pipeline-master/
+#1431635683
+ls
+#1431635695
+less example_annotation.bed 
+#1431635711
+less example_annotation.txt 
+#1431635762
+sudo pip install bedtools
+#1431635832
+cd ..
+#1431635834
+cd tgh/
+#1431635834
+ls
+#1431635854
+sudo chmod a-x ./*
+#1431635858
+ls
+#1431635860
+ll
+#1431635870
+sudo chmod a-x *
+#1431635872
+ls
+#1431635876
+ll
+#1431635906
+sudo chmod 744 Done
+#1431635908
+ll
+#1431635941
+sudo chown raylee:plant Done
+#1431635943
+ll
+#1431635953
+ls Rcount_multi/
+#1431635960
+cd Rcount_multi/
+#1431635960
+ls
+#1431635966
+mkdir logs
+#1431635976
+mv *.xml logs/
+#1431635978
+ls
+#1431635984
+R
+#1431636149
+ls
+#1431636173
+less ../all_counts.txt 
+#1431636326
+ll
+#1431636339
+cd ../REF/
+#1431636340
+ls
+#1431636341
+ll
+#1431636376
+Rcount-format 
+#1431636509
+ls
+#1431636621
+locate new_TAIR10_GFF3_genes.gff
+#1431636657
+hist scp | tail
+#1431636681
+scp -r -p admin@10.157.44.31:/Users/admin/Ray/new_* ./
+#1431636696
+ls
+#1431636708
+Rcount-format 
+#1431636757
+scp -r -p admin@10.157.44.31:/Users/admin/Ray/new_* ./
+#1431636767
+Rcount-format 
+#1431636909
+scp -r -p admin@10.157.44.31:/Users/admin/Ray/new_* ./
+#1431636919
+Rcount-format 
+#1431637758
+scp -r -p admin@10.157.44.31:/Users/admin/Ray/new_* ./
+#1431637768
+Rcount-format 
+#1431637901
+scp -r -p admin@10.157.44.31:/Users/admin/Ray/new_* ./
+#1431637912
+Rcount-format 
+#1431638795
+scp -r -p admin@10.157.44.31:/Users/admin/Ray/new_new* ./
+#1431638807
+Rcount-format 
+#1431638894
+scp -r -p admin@10.157.44.31:/Users/admin/Ray/new_new* ./
+#1431638909
+Rcount-format 
+#1431638959
+scp -r -p admin@10.157.44.31:/Users/admin/Ray/new_new* ./
+#1431638970
+Rcount-format 
+#1431639535
+scp -r -p admin@10.157.44.31:/Users/admin/Ray/new_new* ./
+#1431639544
+Rcount-format 
+#1431641979
+scp -r -p admin@10.157.44.31:/Users/admin/Ray/new_2* ./
+#1431641989
+Rcount-format 
+#1431642223
+scp -r -p admin@10.157.44.31:/Users/admin/Ray/new_2* ./
+#1431642296
+cd
+#1431642300
+cd tgh/
+#1431642302
+cd REF/
+#1431642303
+ls
+#1431642322
+vi new_new_TAIR10_GFF3_genes.gff 
+#1431642233
+Rcount-format 
+#1431642502
+scp -r -p admin@10.157.44.31:/Users/admin/Ray/new_2* ./
+#1431642510
+Rcount-format 
+#1431642559
+scp -r -p admin@10.157.44.31:/Users/admin/Ray/new_2* ./
+#1431642569
+Rcount-format 
+#1431642687
+scp -r -p admin@10.157.44.31:/Users/admin/Ray/new_2* ./
+#1431642696
+Rcount-format 
+#1431642984
+scp -r -p admin@10.157.44.31:/Users/admin/Ray/new_2* ./
+#1431642994
+Rcount-format 
+#1431643129
+la
+#1431643132
+ll
+#1431643159
+grep gene tair10_new_2.xml 
+#1431643188
+grep \<gene tair10_new_2.xml 
+#1431643201
+egrep "<gene" tair10_new_2.xml 
+#1431643264
+cls
+#1431643266
+ls
+#1431643373
+egrep "AT1G01020.2" tair10_new_2.xml 
+#1431643390
+egrep "AT1G01020.1" tair10_new_2.xml 
+#1431643571
+scp -r -p admin@10.157.44.31:/Users/admin/Ray/new_2* ./
+#1431643587
+Rcount-format 
+#1431643635
+ll
+#1431643644
+rm tair10_mRNA.xml
+#1431643652
+rm tair10.xml
+#1431646649
+gfold
+#1431646658
+cd ..
+#1431646659
+ls
+#1431646667
+mkdir gfold
+#1431646672
+cd gfold/
+#1431646673
+ls
+#1431646682
+gfold count 
+#1431646744
+gfold count -ann ../REF/TAIR10_GFF3_genes.gff -tag ../tophat2_rst/col_flower_1/accepted_hits.bam -o col_flower_1.reads_cnt
+#1431646759
+ls ..
+#1431646769
+mkdir ../SAM
+#1431646775
+cd
+#1431646777
+cd -
+#1431646779
+cd ..
+#1431646867
+mkdir htseq
+#1431646870
+cd htseq/
+#1431646878
+htseq-count 
+#1431646970
+ls
+#1431646985
+less *.gtf
+#1431647042
+htseq-count -i ../tophat2_rst/col_flower_1/accepted_hits.bam ../REF/tair10_gff3_genes.gtf > col_flower_1.txt
+#1431647062
+cls
+#1431647076
+htseq-count ../tophat2_rst/col_flower_1/accepted_hits.bam ../REF/tair10_gff3_genes.gtf > col_flower_1.txt
+#1431647731
+cd ../SAM/
+#1431647750
+samtools sort -n ../tophat2_rst/col_flower_1/accepted_hits.bam
+#1431647809
+cd ../tophat2_rst/col_flower_1/
+#1431647823
+samtools sort -n accepted_hits.bam
+#1431647841
+cd -
+#1431647874
+samtools sort -n ../tophat2_rst/col_flower_1/accepted_hits.bam col_flower_1
+#1431647902
+bg
+#1431647921
+samtools sort -n ../tophat2_rst/col_flower_2/accepted_hits.bam col_flower_2 &
+#1431647939
+samtools sort -n ../tophat2_rst/col_leaf_1/accepted_hits.bam col_leaf_1 &
+#1431647947
+samtools sort -n ../tophat2_rst/col_leaf_2/accepted_hits.bam col_leaf_2 &
+#1431647954
+top
+#1431649326
+jobs
+#1431649333
+jobs
+#1431649348
+ls
+#1431649378
+samtools view -h col_leaf_2.bam > col_leaf_2.sam
+#1431649391
+bg
+#1431649394
+top
+#1431649494
+jobs
+#1431649505
+ls
+#1431649523
+samtools view -h col_leaf_1.bam > col_leaf_1.sam
+#1431649527
+bg
+#1431649528
+jobs
+#1431649975
+ls
+#1431649996
+samtools view -h col_flower_1.bam > col_flower_1.sam
+#1431649999
+bg
+#1431650002
+jobs
+#1431650018
+samtools view -h col_flower_2.bam > col_flower_2.sam
+#1431650021
+bg
+#1431650023
+jobs
+#1431650025
+ls
+#1431650031
+ll
+#1431650083
+jobs
+#1431650092
+top
+#1431650477
+jobs
+#1431650487
+ll
+#1431650636
+jobs
+#1431651251
+cd
+#1431651254
+cd Advanced
+#1431651255
+ls
+#1431651261
+cd Rcount_dist/
+#1431651262
+ls
+#1431651284
+libreoffice all_counts.csv 
+#1431651454
+ls
+#1431651459
+R
+#1431651531
+scp all_counts.
+#1431651681
+scp -p -r all_counts.csv admin@10.157.44.31:/Users/admin/Ray/
+#1431653259
+ls
+#1431653270
+cd
+#1431653276
+cd tgh/Rcount_dist/
+#1431653277
+ll
+#1431653281
+ls
+#1431653438
+for i in `ls *.counts`; do mv $i $i.txt;done
+#1431653440
+ll
+#1431653302
+R
+#1431654423
+ls
+#1431654462
+scp all.counts_tgh.txt admin@10.157.44.31:/Users/admin/Ray/
+#1431661570
+less all.counts_tgh.txt 
+#1431661691
+cd
+#1431661692
+ls
+#1431661699
+cd tgh/
+#1431661700
+ks
+#1431661701
+ls
+#1431643657
+Rcount-distribute 
+#1431662355
+cd htseq/
+#1431662356
+ls
+#1431662362
+cd ../SAM/
+#1431662363
+ls
+#1431662381
+hist samtools | tail
+#1431662410
+viprofile 
+#1431662423
+vi ~/.bash_variables 
+#1431666065
+update
+#1431680034
+cd
+#1431680042
+vi .bash_variables 
+#1431680103
+srcp
+#1431680111
+vi .bash_variables 
+#1431680141
+srcp
+#1431680157
+R
+#1431680299
+locale -a
+#1431680179
+vi .bash_variables 
+#1431680412
+srcp
+#1431680414
+R
+#1431680450
+srcp
+#1431680453
+dl
+#1431680523
+scp admin@10.157.44.31:/Users/admin/Downloads/PyQt* ./
+#1431680536
+tar -zxvf PyQt-gpl-5.4.1.tar.gz 
+#1431680540
+cd PyQt-gpl-5.4.1/
+#1431680541
+ls
+#1431680550
+less README 
+#1431680567
+py3 -v
+#1431680574
+python -v
+#1431680587
+python -V
+#1431680705
+ls
+#1431680709
+cd
+#1431680711
+cd -
+#1431680714
+cd ..
+#1431680715
+ls
+#1431680735
+tar -zxvf Python-3.4.3.tgz 
+#1431680738
+ls
+#1431680743
+cd Python-3.4.3/
+#1431680744
+ls
+#1431680800
+g++
+#1431680806
+g++ -V
+#1431680813
+g++ --version
+#1431680771
+./configure --prefix=/usr/local/python3.4.3
+#1431680822
+make
+#1431681228
+sudo make install
+#1431681504
+cd ..
+#1431681512
+tar -zxvf qt-creator-opensource-src-3.4.0.tar.gz 
+#1431681519
+cd qt-creator-opensource-src-3.4.0/
+#1431681519
+ls
+#1431681536
+less README.md 
+#1431682003
+cd src/
+#1431682004
+ls
+#1431682014
+qmake -r
+#1431682034
+ls /usr/lib/x86_64-linux-gnu/
+#1431682041
+ls /usr/lib/x86_64-linux-gnu/qt5/
+#1431682048
+ls /usr/lib/x86_64-linux-gnu/qt5/bin/
+#1431682355
+dl
+#1431682358
+ls
+#1431682379
+unzip hisat-0.1.6-beta-Linux_x86_64.zip 
+#1431682386
+cd hisat-0.1.6-beta/
+#1431682387
+ls
+#1431682405
+cd ..
+#1431682414
+mv hisat-0.1.6-beta /software/
+#1431682419
+sudo mv hisat-0.1.6-beta /software/
+#1431682483
+cd
+#1431682487
+sl
+#1431682490
+dl
+#1431682492
+ls
+#1431682501
+ls /software/
+#1431682463
+vi ~/.bash_variables 
+#1431682527
+srcp
+#1431682850
+cd
+#1431682853
+ls
+#1431682857
+cd Pan1/
+#1431682858
+ls
+#1431682879
+mkdir tgh-hisat
+#1431682930
+ln -s /home/raylee/tgh-hisat /media/Pan1/tgh-hisat
+#1431682974
+ll Pan1
+#1431682979
+ll
+#1431995836
+update
+#1431996117
+upgrade
+#1431996140
+dist-upgrade
+#1431996150
+cls
+#1431996151
+ls
+#1431996527
+ll
+#1432001544
+ls
+#1432001548
+cd
+#1432001550
+ls
+#1432001561
+ls PIF/
+#1432001566
+ll PIF/
+#1432001606
+vi /etc/apt/sources.list
+#1432001637
+vi /etc/apt
+#1432001643
+clean
+#1432001652
+autoclean
+#1432001658
+autoremove
+#1432001705
+ls
+#1432001724
+vi .bash_aliases 
+#1432001832
+srcp
+#1432001896
+rayfromadmin 
+#1432001918
+vi .bash_functions 
+#1432002498
+srcp
+#1432002504
+vi .bash_functions 
+#1432002518
+srcp
+#1432002552
+rayfrom vol LinuxDeepin/PIF Pan1
+#1432004940
+ls
+#1432004950
+\cd Pan1
+#1432004951
+ls
+#1432004958
+cd PIF
+#1432004958
+ls
+#1432005200
+ls Sample_0Dcol_1_20140304/
+#1432005229
+cd Sample_0Dcol_1_20140304/
+#1432005231
+ls
+#1432005234
+cd ..
+#1432005290
+mkdir REF
+#1432005323
+cp ~/ZZ/REF/GCF_Rice_Index.fa .
+#1432005329
+ls
+#1432005334
+hisat-build
+#1432005367
+cd REF/
+#1432005369
+ls
+#1432005382
+mv ../GCF_Rice_Index.fa .
+#1432005384
+ls
+#1432005410
+hisat-build GCF_Rice_Index.fa GCF_Rice_Index
+#1432006534
+ls
+#1432006959
+hisat
+#1432007265
+cd ..
+#1432007382
+python3.4
+#1432007359
+hisat -x REF/GCF_Rice_Index -U Sample_0Dcol_1_20140304/0Dcol_1_20140304_ATCACG_L006_R1_001.fastq -S col_1_0D.sam
+#1432008220
+ls
+#1432008224
+cd Sample_0Dcol_1_20140304/
+#1432008225
+ls
+#1432008236
+less 0Dcol_1_20140304_ATCACG_L006_R1_001.fastq
+#1432014195
+srcp
+#1432014198
+exit
+#1432014203
+cd
+#1432014205
+ls
+#1432014245
+last
+#1432014255
+last -u raylee
+#1432014262
+last raylee
+#1432014309
+ls
+#1432014312
+cd ..
+#1432014314
+ls
+#1432014317
+rm REF
+#1432014322
+rm -r REF
+#1432014332
+echo LC_ALL
+#1432014337
+echo $LC_ALL
+#1432014362
+vi ~/.bash_variables 
+#1432014578
+srcp
+#1432014582
+ll
+#1432042275
+ls
+#1432042281
+cd Downloads/
+#1432042281
+ls
+#1432042297
+quit
+#1432042299
+exit
+#1432096440
+ls
+#1432096449
+cd tgh
+#1432096449
+ls
+#1432096477
+mkdir bowtie2-rst
+#1432096482
+cd bowtie2-rst/
+#1432096482
+ls
+#1432096548
+bowtie2
+#1432096728
+bowtie2 -x ../REF/tair10_chr_all -1 ../Sample_col_flower_1_rRNA_removal_20140613/col_flower_1_rRNA_removal_20140613_ACTGAT_L004_R1_001.fastq.gz -2 ../Sample_col_flower_2_rRNA_removal_20140624/col_flower_2_rRNA_removal_20140624_ATTCCT_L007_R2_001.fastq.gz -S col-flower-1.sam
+#1432096844
+bg
+#1432096848
+jobs
+#1432096852
+ls
+#1432096856
+ll
+#1432097044
+cd ..
+#1432097045
+ls
+#1432097059
+HISATREF
+#1432097068
+MKDIR HISATREF
+#1432097085
+mkdir REFHISAT
+#1432097094
+CD REFHISAT/
+#1432097095
+ls
+#1432097106
+cd REFH
+#1432097112
+cd REFHISAT/
+#1432097113
+ls
+#1432097146
+cp ../REF/tair10_chr_all.fa .
+#1432097172
+cp ../REF/TAIR10_GFF3_genes.gff .
+#1432097174
+ls
+#1432097195
+hisat-build tair10_chr_all.fa tair10_chr_all
+#1432097354
+cd ..
+#1432097359
+ls
+#1432097368
+mkdir hisat
+#1432097373
+cd hisat/
+#1432097383
+hisat
+#1432097534
+hisat -x ../REFHISAT/tair10_chr_all -1 ../Sample_col_flower_1_rRNA_removal_20140613/col_flower_1_rRNA_removal_20140613_ACTGAT_L004_R1_001.fastq.gz -2 ../Sample_col_flower_2_rRNA_removal_20140624/col_flower_2_rRNA_removal_20140624_ATTCCT_L007_R2_001.fastq.gz -S col_flower_1.sam &
+#1432097556
+top
+#1432097575
+cls
+#1432097578
+mtop
+#1432097583
+ntop
+#1432097588
+install ntop
+#1432097617
+update --fix-missing
+#1432097689
+update --fix-missing
+#1432098022
+install ntop
+#1432098096
+jobs
+#1432098100
+ll
+#1432098138
+cd ../bowtie2-rst/
+#1432098140
+ll
+#1432098178
+jobs
+#1432098341
+ll
+#1432098353
+cd ../hisat/
+#1432098355
+ll
+#1432099406
+top
+#1432099439
+cd tgh
+#1432099446
+cd hisat/
+#1432099448
+ls
+#1432099449
+ll
+#1432099567
+ll ../bowtie2-rst/
+#1432099569
+ll
+#1432106386
+hist group
+#1432106393
+exit
+#1432108178
+ls
+#1432108186
+groups
+#1432108206
+cat /etc/group | grep sudo
+#1432108366
+visudo
+#1432108375
+su root
+#1432108410
+exit
+#1432109404
+echo $PS1
+#1432109416
+exit
+#1432126544
+ls
+#1432126983
+top
+#1432126988
+cls
+#1432126988
+ls
+#1432126992
+cd tgh
+#1432126996
+cd hisat/
+#1432126999
+ll
+#1432127013
+hist '' | tail -n 2
+#1432127016
+hist '' | tail -n 20
+#1432127025
+hist hisat
+#1432127105
+hisat -x ../REFHISAT/tair10_chr_all -1 ../Sample_col_flower_2_rRNA_removal_20140624/col_flower_2_rRNA_removal_20140624_ATTCCT_L007_R1_001.fastq.gz -2 ../Sample_col_flower_2_rRNA_removal_20140624/col_flower_2_rRNA_removal_20140624_ATTCCT_L007_R2_001.fastq.gz -S col_flower_2.sam &
+#1432127198
+hisat -x ../REFHISAT/tair10_chr_all -1 ../Sample_col_leaf_1_rRNA_removal_20140613/col_leaf_1_rRNA_removal_20140613_GTGGCC_L004_R1_001.fastq.gz -2 ../Sample_col_leaf_1_rRNA_removal_20140613/col_leaf_1_rRNA_removal_20140613_GTGGCC_L004_R2_001.fastq.gz  -S col_leaf_1.sam &
+#1432127246
+hisat -x ../REFHISAT/tair10_chr_all -1 ../Sample_col_leaf_2_rRNA_removal_20140613/col_leaf_2_rRNA_removal_20140613_GTTTCG_L004_R1_001.fastq.gz -2 ../Sample_col_leaf_2_rRNA_removal_20140613/col_leaf_2_rRNA_removal_20140613_GTTTCG_L004_R2_001.fastq.gz -S col_leaf_2.sam &
+#1432127326
+hisat -x ../REFHISAT/tair10_chr_all -1 ../Sample_Tgh_1_leaf_1_rRNA_removal_20140624/Tgh_1_leaf_1_rRNA_removal_20140624_ATTCCT_L008_R1_001.fastq.gz -2 ../Sample_Tgh_1_leaf_1_rRNA_removal_20140624/Tgh_1_leaf_1_rRNA_removal_20140624_ATTCCT_L008_R2_001.fastq.gz -S tgh_1_leaf_1.sam &
+#1432127399
+hisat -x ../REFHISAT/tair10_chr_all -1 ../Sample_Tgh_1_leaf_2_rRNA_removal_20140613/Tgh_1_leaf_2_rRNA_removal_20140613_GAGTGG_L004_R1_001.fastq.gz -2 ../Sample_Tgh_1_leaf_2_rRNA_removal_20140613/Tgh_1_leaf_2_rRNA_removal_20140613_GAGTGG_L004_R2_001.fastq.gz -S tgh_1_leaf_2.sam &
+#1432127461
+hisat -x ../REFHISAT/tair10_chr_all -1 ../Sample_Tgh_flower_1_rRNA_removal_20140613/Tgh_flower_1_rRNA_removal_20140613_ATCACG_L004_R1_001.fastq.gz  -2 ../Sample_Tgh_flower_2_rRNA_removal_20140613/Tgh_flower_2_rRNA_removal_20140613_TTAGGC_L004_R2_001.fastq.gz -S tgh_flower_1.sam &
+#1432127572
+hisat -x ../REFHISAT/tair10_chr_all -1 ../Sample_Tgh_flower_2_rRNA_removal_20140613/Tgh_flower_2_rRNA_removal_20140613_TTAGGC_L004_R1_001.fastq.gz  -2 ../Sample_Tgh_flower_2_rRNA_removal_20140613/Tgh_flower_2_rRNA_removal_20140613_TTAGGC_L004_R2_001.fastq.gz -S tgh_flower_2.sam &
+#1432127574
+jobs
+#1432127584
+exit
+#1432189626
+mkdir srtd
+#1432189633
+cd srtd/
+#1432189640
+samtools sort
+#1432189695
+for sam in ../*.sam; do echo $sam;done
+#1432189737
+for sam in ../*_1.sam; echo $sam;done
+#1432189743
+for sam in ../*_1.sam; echo $sam ;done
+#1432189751
+for sam in ../*_1.sam;do echo $sam ;done
+#1432189808
+samtools view
+#1432190224
+man kwin
+#1432190228
+kwin
+#1432190303
+xs
+#1432190305
+cd
+#1432190317
+cd tgh/hisat/srtd/
+#1432190318
+ls
+#1432190319
+ll
+#1432190322
+ll ..
+#1432190347
+exit
+#1432190350
+exit
+#1432190373
+exit
+#1432190379
+cd
+#1432190381
+update
+#1432190582
+cd tgh/hisat/
+#1432190585
+ll
+#1432190547
+upgrade
+#1432190842
+for sam in ../tgh*.sam;do echo $sam; samtools view -b -o ${sam}.bam $sam;done
+#1432190848
+cd srtd/
+#1432190865
+dist-upgrade
+#1432190989
+cd ..
+#1432190989
+ll
+#1432190850
+for sam in ../tgh*.sam;do echo $sam; samtools view -b -o ${sam}.bam $sam;done
+#1432189881
+for sam in ../*.sam;do echo $sam; samtools view -b -o ${sam}.bam $sam;done
+#1432199094
+ll
+#1432199098
+cd ..
+#1432199100
+ll
+#1432199260
+for bam in ../*.sam.bam;do echo $bam; samtools sort -O sam -o ${sam}.sorted.sam $bam;done
+#1432199285
+for bam in ../*.bam;do echo $bam; samtools sort -O sam -o ${sam}.sorted.sam $bam;done
+#1432199329
+for bam in ../*.bam;do echo $bam; samtools sort -O sam -T ${sam}_AAA -o ${sam}.sorted.sam $bam;done
+#1432199383
+cd srtd/
+#1432199454
+ls
+#1432199385
+for bam in ../*.bam;do echo $bam; samtools sort -O sam -T ${sam}_AAA -o ${sam}.sorted.sam $bam;done
+#1432199477
+ll
+#1432199479
+ll ..
+#1432199511
+rm çtgh_flower_2.sam_AAA.000[0-9].bam
+#1432199520
+rm çtgh_flower_2.sam_AAA.0000.bam
+#1432199525
+ll ..
+#1432199555
+cd srtd/
+#1432190201
+top
+#1432199749
+cd
+#1432199762
+cd tgh/hisat/
+#1432199763
+ll
+#1432200250
+ll srtd/
+#1432199543
+for bam in ../col_*.bam;do echo $bam; samtools sort -O sam -T ${sam}_AAA -o ${sam}.sorted.sam $bam;done
+#1432199566
+for bam in ../tgh_*.bam;do echo $bam; samtools sort -O sam -T ${sam}_AAA -o ${sam}.sorted.sam $bam;done
+#1432275611
+ls
+#1432275614
+cd ../
+#1432275616
+ll
+#1432275656
+ll
+#1432275760
+for bam in ../tgh_*.bam;do echo $bam; samtools sort -O sam -T ${bam}_AAA -o ${bam}.sorted.sam $bam;done
+#1432275763
+cd srtd/
+#1432275773
+ll
+#1432275776
+cd srtd/
+#1432275777
+ll
+#1432276291
+ls
+#1432276297
+cd ZZ/
+#1432276298
+ls
+#1432276312
+cd ../Pan1
+#1432276313
+ls
+#1432276321
+cd Advanced/
+#1432276322
+ls
+#1432276332
+cd Rcount_dist/
+#1432276334
+ls
+#1432275682
+for bam in ../col_*.bam;do echo $bam; samtools sort -O sam -T ${bam}_AAA -o ${bam}.sorted.sam $bam;done
+#1432275765
+for bam in ../tgh_*.bam;do echo $bam; samtools sort -O sam -T ${bam}_AAA -o ${bam}.sorted.sam $bam;done
+#1432291692
+ll ..
+#1432291783
+guake
+#1432291788
+install guake
+#1432292018
+install emph*
+#1432292035
+install empathy*
+#1432292065
+install account-plugin-empathy
+#1432292075
+install empathy*
+#1432292122
+install account-plugin-empathy
+#1432292133
+autoremove
+#1432292170
+update
+#1432292328
+upgrade
+#1432292426
+sudo dpkg --get-selections | grep linux-
+#1432292445
+ls
+#1432292449
+cd ..
+#1432292450
+ls
+#1432292481
+install account-plugin-empathy
+#1432292503
+install account-plugin-zephyr:i386 account-plugin-yahoojp:i386
+#1432292551
+install account-plugin-zephyr:i386 account-plugin-yahoojp:i386 account-plugin-sip:i386 account-plugin-sametime:i386 account-plugin-myspace:i386 account-plugin-mxit:i386 account-plugin-irc:i386 account-plugin-icq:i386 account-plugin-groupwise:i386 account-plugin-gadugadu:i386 mcp-account-manager-uoa:i386 account-plugin-yahoo:i386 account-plugin-salut:i386 account-plugin-jabber:i386 account-plugin-aim:i386 account-plugin-zephyr account-plugin-yahoojp account-plugin-sip account-plugin-sametime account-plugin-myspace account-plugin-mxit account-plugin-irc account-plugin-icq account-plugin-groupwise account-plugin-gadugadu mcp-account-manager-uoa account-plugin-yahoo account-plugin-salut account-plugin-jabber account-plugin-aim 
+#1432368279
+vncserver --help
+#1432368299
+vncserver-virtual -list
+#1432368337
+srcp
+#1432368340
+ls
+#1432368348
+vncserver-virtual -list
+#1432368376
+vncserver-virtual -list :2
+#1432371822
+vncserver
+#1432372040
+install libqt4-dbg
+#1432372458
+install kwindow-dbg
+#1432372463
+install kwindows-dbg
+#1432372978
+sudo apt-add-repository ppa:kubuntu-ppa/next-backports
+#1432372989
+update
+#1432373145
+upgrade
+#1432373157
+dist-upgrade
+#1432373164
+sudo apt-get install plasma-desktop plasma-workspace plasma-workspace-wallpapers
+#1432373178
+sudo apt-get install plasma-desktop
+#1432373192
+sudo apt-get install plasma-desktopthemes-artwork 
+#1432373207
+sudo apt-get install plasma-*
+#1432373222
+intall libnepomuk4
+#1432373227
+install libnepomuk4
+#1432373797
+sudo apt-get install plasma-*
+#1432374668
+update
+#1432374775
+upgrade
+#1432374961
+dist-upgrade
+#1432375901
+dist-upgrade --fixmissing
+#1432376415
+dist-upgrade --fix-missing
+#1432376490
+autoremove
+#1432376520
+update
+#1432376546
+dist-upgrade
+#1432385810
+ls
+#1432385819
+exit
+#1432385831
+sudo reboot
+#1432386716
+vncserver
+#1432386730
+ll
+#1432386754
+sudo chmod -R a+wxr .vnc/
+#1432386759
+ll
+#1432386763
+vncserver
+#1432386779
+cd .vnc/
+#1432386780
+ls
+#1432386801
+less plant-PowerEdge-T620\:1.log 
+#1432386806
+ks
+#1432386811
+rm *.log
+#1432386815
+rm *.pid
+#1432386817
+ll
+#1432386823
+less xstartup 
+#1432386838
+vi xstartup 
+#1432386852
+vncserver
+#1432387119
+grep Exec= /usr/share/xsessions/*.desktop
+#1432387165
+ls
+#1432387174
+mv xstartup xstartup.kde
+#1432387181
+vi xstartup
+#1432387242
+vncserver
+#1432387318
+grep Exec= /usr/share/xsessions/*.desktop
+#1432387533
+ll ../Desktop/
+#1432387596
+ll /etc/ | grep ^d
+#1432387685
+vi /etc/init/
+#1432387742
+vi /etc/init.d/
+#1432387786
+vi /etc/inittab
+#1432388018
+cls
+#1432388020
+cd
+#1432388038
+suo vi /etc/default/grub 
+#1432388042
+sudo vi /etc/default/grub 
+#1432388521
+ls /etc/rc*
+#1432388559
+less /etc/rc0.d/README 
+#1432388571
+less /etc/rc2.d/README 
+#1432388592
+less /etc/init.d/README 
+#1432388655
+cls
+#1432388665
+cd /etc/rc2.d/
+#1432388665
+ls
+#1432388703
+update-grub
+#1432388707
+sudo update-grub
+#1432388725
+uname -a
+#1432388734
+kernels
+#1432388747
+dpkg --get-selections | grep ^linux
+#1432388766
+purge linux-headers-3.16.0-34
+#1432388772
+sudo  pat-get purge linux-headers-3.16.0-34
+#1432388777
+sudo  apt-get purge linux-headers-3.16.0-34
+#1432388822
+purge linux-headers-3.16.0-34
+#1432388825
+dpkg --get-selections | grep ^linux
+#1432388862
+sudo apt-get purge linux-headers-3.16.0-37 linux-image-3.16.0-37-generic 
+#1432388881
+dpkg --get-selections | grep ^linux
+#1432388914
+sudo apt-get purge linux-image-3.16.0-34-generic
+#1432388931
+clean
+#1432388935
+autoclean
+#1432388941
+autoremove
+#1432388949
+dpkg --get-selections | grep ^linux
+#1432388973
+uname -a
+#1432388987
+ls
+#1432389045
+sudo dpkg-reconfigure lightdm
+#1432389071
+logout
+#1432389082
+ll
+#1432389085
+ls
+#1432389090
+cd Pan2/
+#1432389091
+ls
+#1432389097
+cd ../Pan1
+#1432389098
+ls
+#1432389108
+cd /media/
+#1432389109
+ls
+#1432389135
+sudo mount /dev/sdb1 /media/Pan0
+#1432389155
+sudo mount /dev/sdc1 /media/Pan1
+#1432389161
+sudo mount /dev/sdc2 /media/Pan2
+#1432389168
+cd Pan1/
+#1432389168
+ls
+#1432389171
+cd 
+#1432389172
+ls
+#1432389175
+cd tgh/
+#1432389176
+ls
+#1432389178
+cd
+#1432389187
+vncserver
+#1432389219
+vi /etc/vnc/xstartup 
+#1432389314
+grep Exec= /usr/share/xsessions/*.desktop
+#1432389275
+vi .vnc/xstartup
+#1432389363
+vncserver
+#1432389398
+install kubuntu-desktop
+#1432389649
+vi .bash_variables 
+#1432389667
+srcp
+#1432389670
+install kubuntu-desktop
+#1432389798
+upgrade
+#1432389805
+dist-upgrade
+#1432389809
+update
+#1432389816
+vi .bash_variables 
+#1432389834
+srcp
+#1432389872
+ls /etc/kde4/kdm/Xsession 
+#1432389876
+less /etc/kde4/kdm/Xsession 
+#1432389891
+vi /etc/vnc/xstartup 
+#1432389948
+sudo vi /etc/vnc/xstartup 
+#1432389970
+srcp
+#1432389996
+mv .vnc/xstartup.kde .vnc/xstartup
+#1432390001
+vncserver
+#1432390081
+sudo apt-get remove gnome-shell
+#1432390104
+sudo apt-get remove gnome
+#1432390110
+autoremove
+#1432390121
+sudo apt-get remove gnome
+#1432390137
+sudo apt-get purge gnome
+#1432390148
+autoclean
+#1432390152
+autoremove
+#1432390199
+sudo /usr/lib/lightdm/lightdm-set-defaults
+#1432390203
+sudo /usr/lib/lightdm/lightdm-set-defaults -s
+#1432390215
+locate lightdm-set-defaults
+#1432390229
+sudo find / -namelightdm-set-defaults
+#1432390234
+sudo find / -name lightdm-set-defaults
+#1432390413
+Get:145 http://mirrors.aliyun.com/ubuntu/ trusty/universe oxygen-cursor-theme all 0.0.2012-06-kde4.8-2.1ubuntu1 [363 kB]
+#1432390413
+Get:146 http://mirrors.aliyun.com/ubuntu/ trusty-updates/universe kde-workspace-data all 4:4.11.11-0ubuntu0.2 [4,679 kB]
+#1432390413
+Get:147 http://mirrors.aliyun.com/ubuntu/ trusty-updates/universe kde-workspace-kgreet-plugins amd64 4:4.11.11-0ubuntu0.2 [38.4 kB]
+#1432390413
+Get:148 http://mirrors.aliyun.com/ubuntu/ trusty-updates/universe kde-workspace-bin amd64 4:4.11.11-0ubuntu0.2 [1,887 kB]
+#1432390413
+Get:149 http://mirrors.aliyun.com/ubuntu/ trusty-updates/universe klipper amd64 4:4.11.11-0ubuntu0.2 [101 kB]
+#1432390413
+Get:150 http://mirrors.aliyun.com/ubuntu/ trusty-updates/universe libksignalplotter4 amd64 4:4.11.11-0ubuntu0.2 [42.4 kB]
+#1432390413
+Get:151 http://mirrors.aliyun.com/ubuntu/ trusty-updates/universe ksysguardd amd64 4:4.11.11-0ubuntu0.2 [61.4 kB]
+#1432390413
+Get:152 http://mirrors.aliyun.com/ubuntu/ trusty-updates/universe ksysguard amd64 4:4.11.11-0ubuntu0.2 [211 kB]
+#1432390413
+Get:153 http://mirrors.aliyun.com/ubuntu/ trusty-updates/universe systemsettings amd64 4:4.11.11-0ubuntu0.2 [235 kB]
+#1432390414
+Get:154 http://mirrors.aliyun.com/ubuntu/ trusty-updates/universe kde-workspace all 4:4.11.11-0ubuntu0.2 [15.7 kB]
+#1432390414
+Get:155 http://mirrors.aliyun.com/ubuntu/ trusty-updates/universe kinfocenter amd64 4:4.11.11-0ubuntu0.2 [483 kB]
+#1432390414
+Get:156 http://mirrors.aliyun.com/ubuntu/ trusty/universe libqaccessibilityclient0 amd64 0+git20140203-0ubuntu2 [78.7 kB]
+#1432390414
+Get:157 http://mirrors.aliyun.com/ubuntu/ trusty-updates/universe kmenuedit amd64 4:4.11.11-0ubuntu0.2 [300 kB]
+#1432390414
+Get:158 http://mirrors.aliyun.com/ubuntu/ trusty/universe libktorrent5 amd64 1.3.1-3ubuntu1 [514 kB]
+#1432390414
+Get:159 http://mirrors.aliyun.com/ubuntu/ trusty/universe ktorrent-data all 4.3.1-2ubuntu1 [1,414 kB]
+#1432390414
+Get:160 http://mirrors.aliyun.com/ubuntu/ trusty/universe libktorrent-l10n all 1.3.1-3ubuntu1 [72.3 kB]
+#1432390414
+Get:161 http://mirrors.aliyun.com/ubuntu/ trusty/universe ktorrent amd64 4.3.1-2ubuntu1 [956 kB]
+#1432390414
+Get:162 http://mirrors.aliyun.com/ubuntu/ trusty/universe kubuntu-debug-installer amd64 13.10ubuntu1 [14.6 kB]
+#1432390414
+Get:163 http://mirrors.aliyun.com/ubuntu/ trusty-updates/main liblightdm-qt-3-0 amd64 1.10.5-0ubuntu1 [30.1 kB]
+#1432390414
+Get:164 http://mirrors.aliyun.com/ubuntu/ trusty/universe lightdm-kde-greeter amd64 0.3.2.2-0ubuntu1 [1,094 kB]
+#1432390414
+Get:165 http://mirrors.aliyun.com/ubuntu/ trusty-updates/universe libkscreen1 amd64 1.0.5-0ubuntu1~ubuntu14.04 [73.3 kB]
+#1432390415
+Get:166 http://mirrors.aliyun.com/ubuntu/ trusty-updates/universe kubuntu-desktop amd64 1.308.1.2 [4,498 B]
+#1432390415
+Get:167 http://mirrors.aliyun.com/ubuntu/ trusty/universe libdebconf-kde0 amd64 0.3-1 [47.0 kB]
+#1432390415
+Get:168 http://mirrors.aliyun.com/ubuntu/ trusty-updates/universe kubuntu-driver-manager amd64 14.04ubuntu10 [36.2 kB]
+#1432390415
+Get:169 http://mirrors.aliyun.com/ubuntu/ trusty/universe kubuntu-notification-helper amd64 14.04ubuntu11 [58.9 kB]
+#1432390415
+Get:170 http://mirrors.aliyun.com/ubuntu/ trusty-updates/universe kubuntu-settings-desktop all 1:14.04ubuntu15.1 [1,410 kB]
+#1432390415
+Get:171 http://mirrors.aliyun.com/ubuntu/ trusty-updates/universe kubuntu-settings-netbook all 1:14.04ubuntu15.1 [4,812 B]
+#1432390415
+Get:172 http://mirrors.aliyun.com/ubuntu/ trusty/universe kubuntu-web-shortcuts all 13.04ubuntu4 [6,542 B]
+#1432390415
+Get:173 http://mirrors.aliyun.com/ubuntu/ trusty/universe libchm1 amd64 2:0.40a-3 [24.8 kB]
+#1432390415
+Get:174 http://mirrors.aliyun.com/ubuntu/ trusty/universe libindicate5 amd64 12.10.1-0ubuntu3 [27.3 kB]
+#1432390415
+Get:175 http://mirrors.aliyun.com/ubuntu/ trusty/universe libqoauth1 amd64 1.0.1-2ubuntu1 [25.2 kB]
+#1432390415
+Get:176 http://mirrors.aliyun.com/ubuntu/ trusty-updates/universe libmuonprivate2 amd64 2.2.0-0ubuntu3.2 [372 kB]
+#1432390415
+Get:177 http://mirrors.aliyun.com/ubuntu/ trusty/main libpam-ck-connector amd64 0.4.5-3.1ubuntu2 [8,266 B]
+#1432390416
+Get:178 http://mirrors.aliyun.com/ubuntu/ trusty-updates/universe libreoffice-kde amd64 1:4.2.8-0ubuntu2 [101 kB]
+#1432390416
+Get:179 http://mirrors.aliyun.com/ubuntu/ trusty-updates/universe muon-discover amd64 2.2.0-0ubuntu3.2 [138 kB]
+#1432390416
+################################################
+#1432390416
+Get:180 http://mirrors.aliyun.com/ubuntu/ trusty-updates/universe muon-updater amd64 2.2.0-0ubuntu3.2 [57.1 kB]
+#1432390416
+Get:181 http://mirrors.aliyun.com/ubuntu/ trusty-updates/universe ubuntu-release-upgrader-qt all 1:0.220.7 [5,764 B]
+#1432390416
+Get:182 http://mirrors.aliyun.com/ubuntu/ trusty-updates/universe muon-notifier amd64 2.2.0-0ubuntu3.2 [14.4 kB]
+#1432390416
+Get:183 http://mirrors.aliyun.com/ubuntu/ trusty/universe socat amd64 1.7.2.3-1 [302 kB]
+#1432390416
+Get:184 http://mirrors.aliyun.com/ubuntu/ trusty-updates/universe pam-kwallet amd64 0.0~git20140410-0ubuntu2.1 [9,098 B]
+#1432390416
+Get:185 http://mirrors.aliyun.com/ubuntu/ trusty/universe partitionmanager amd64 1.0.3-2ubuntu2 [420 kB]
+#1432390416
+Get:186 http://mirrors.aliyun.com/ubuntu/ trusty-updates/universe plasma-runner-telepathy-contact amd64 0.8.1-0ubuntu0.1 [45.4 kB]
+#1432390416
+Get:187 http://mirrors.aliyun.com/ubuntu/ trusty-updates/universe qapt-deb-installer amd64 2.1.70-0ubuntu4.2 [56.1 kB]
+#1432390416
+Get:188 http://mirrors.aliyun.com/ubuntu/ trusty/universe libindicate-qt1 amd64 0.2.5.91-5 [31.9 kB]
+#1432390416
+Get:189 http://mirrors.aliyun.com/ubuntu/ trusty-updates/universe quassel-data all 0.10.0-0ubuntu2.2 [598 kB]
+#1432390417
+Get:190 http://mirrors.aliyun.com/ubuntu/ trusty-updates/universe quassel amd64 0.10.0-0ubuntu2.2 [1,032 kB]
+#1432390417
+Get:191 http://mirrors.aliyun.com/ubuntu/ trusty-proposed/universe usb-creator-kde amd64 0.2.56.3ubuntu0.2 [67.4 kB]
+#1432390417
+Get:192 http://mirrors.aliyun.com/ubuntu/ trusty/universe about-distro amd64 1.0.1-0ubuntu1 [26.3 kB]
+#1432390417
+#!/bin/sh
+#1432390417
+Get:193 http://mirrors.aliyun.com/ubuntu/ trusty/universe kde-config-tablet amd64 2.0-2 [385 kB]
+#1432390417
+Get:194 http://mirrors.aliyun.com/ubuntu/ trusty/universe kde-config-whoopsie amd64 14.04ubuntu2 [14.1 kB]
+#1432390417
+Get:195 http://mirrors.aliyun.com/ubuntu/ trusty/universe kio-mtp amd64 0.75+git20140304-1 [35.3 kB]
+#1432390417
+Get:196 http://mirrors.aliyun.com/ubuntu/ trusty/universe kscreen amd64 1.0.2.1-0ubuntu1 [129 kB]
+#1432390417
+Get:197 http://mirrors.aliyun.com/ubuntu/ trusty/universe kubuntu-docs all 14.04ubuntu6 [4,763 kB]
+#1432390417
+Get:198 http://mirrors.aliyun.com/ubuntu/ trusty/universe libmodemmanagerqt1 amd64 1.0.1-0ubuntu2 [135 kB]
+#1432390417
+Get:199 http://mirrors.aliyun.com/ubuntu/ trusty/universe libnetworkmanagerqt1 amd64 0.9.8.1-0ubuntu2 [392 kB]
+#1432390417
+Get:200 http://mirrors.aliyun.com/ubuntu/ trusty/universe plasma-nm amd64 0.9.3.3-0ubuntu1 [699 kB]
+#1432390417
+Get:201 http://mirrors.aliyun.com/ubuntu/ trusty/universe plasma-widget-menubar amd64 0.1.18-0ubuntu2 [40.5 kB]
+#1432390418
+Get:202 http://mirrors.aliyun.com/ubuntu/ trusty/universe skanlite amd64 1.1-0ubuntu1 [2,499 kB]
+#1432390418
+Get:203 http://mirrors.aliyun.com/ubuntu/ trusty/universe ttf-oxygen-font-family amd64 0.4~git20140212-0ubuntu1 [64.7 kB]
+#1432390418
+Get:204 http://mirrors.aliyun.com/ubuntu/ trusty/universe user-manager amd64 0.0~git20140416-0ubuntu1 [70.6 kB]
+#1432390418
+0% [Waiting for headers]                                                     
+#1432390418
+0% [Waiting for headers]
+#1432390418
+0% [Waiting for headers]^C~ => upgrade
+#1432390418
+Reading package lists... Done
+#1432390418
+Building dependency tree       
+#1432390418
+Reading state information... Done
+#1432390418
+Calculating upgrade... Done
+#1432390418
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+#1432390418
+~ => dist-upgrade
+#1432390418
+Reading package lists... Done
+#1432390419
+Building dependency tree       
+#1432390419
+Reading state information... Done
+#1432390419
+Calculating upgrade... Done
+#1432390419
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+#1432390419
+~ => update
+#1432390419
+Get:1 http://mirrors.aliyun.com trusty InRelease [269 B]
+#1432390419
+Get:2 http://mirrors.aliyun.com trusty-updates InRelease [269 B]               
+#1432390419
+99% [1 InRelease gpgv 269 B] [Connecting to mirrors.aliyun.com (115.28.122.210)Splitting up /var/lib/apt/lists/partial/mirrors.aliyun.com_ubunIgn http://mirrors.aliyun.com trusty InRelease                                 
+#1432390427
+sudo dpkg-reconfigure gdm
+#1432390499
+install gdm
+#1432390419
+E: GPG error: http://mirrors.aliyun.com trusty InRelease: Clearsigned file isn't valid, got 'NODATA' (does the network require authentication?)
+~ => vi .bash_variables 
+~ => srcp
+~ => ls /etc/kde4/kdm/
+backgroundrc  kdm.options   kdmrc         README        Xaccess       Xreset        Xsession      Xsetup        Xstartup      Xwilling
+~ => ls /etc/kde4/kdm/
+backgroundrc  kdm.options   kdmrc         README        Xaccess       Xreset        Xsession      Xsetup        Xstartup      Xwilling
+~ => ls /etc/kde4/kdm/
+backgroundrc  kdm.options   kdmrc         README        Xaccess       Xreset        Xsession      Xsetup        Xstartup      Xwilling
+~ => ls /etc/kde4/kdm/Xsession 
+/etc/kde4/kdm/Xsession
+~ => less /etc/kde4/kdm/Xsession 
+~ => 
+~ => vi /etc/vnc/xstartup 
+~ => sudo vi /etc/vnc/xstartup 
+~ => srcp
+~ => mv .vnc/xstartup.kde .vnc/xstartup
+~ => vncserver
+VNC(R) Server 5.2.3 (r8648) 64-bit (Jan 28 2015 15:47:49)
+Copyright (C) 2002-2015 RealVNC Ltd.
+VNC is a registered trademark of RealVNC Ltd in the U.S. and in other
+countries.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.2/acknowledgements.txt
+
+If a desktop environment fails to load for this virtual desktop, please see:
+http://www.realvnc.com/kb-345
+Running applications in /home/raylee/.vnc/xstartup
+
+VNC Server catchphrase: "Denmark except giro. Ladder joker truck."
+             signature: 9d-68-7f-36-2d-17-71-fa
+
+Log file is /home/raylee/.vnc/plant-PowerEdge-T620:2.log
+New desktop is plant-PowerEdge-T620:2 (10.157.14.13:2)
+~ => sudo apt-get remove gnome-shell
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  gir1.2-accountsservice-1.0 gir1.2-caribou-1.0 gir1.2-clutter-1.0
+  gir1.2-cogl-1.0 gir1.2-coglpango-1.0 gir1.2-gck-1 gir1.2-gcr-3
+  gir1.2-gdesktopenums-3.0 gir1.2-gdm-1.0 gir1.2-gkbd-3.0
+  gir1.2-gnomedesktop-3.0 gir1.2-json-1.0 gir1.2-mutter-3.0 gir1.2-nmgtk-1.0
+  gir1.2-polkit-1.0 gir1.2-telepathyglib-0.12 gir1.2-telepathylogger-0.2
+  gir1.2-upowerglib-1.0 gir1.2-xkl-1.0 gjs gnome-shell-common
+  gnome-themes-standard gnome-themes-standard-data gtk2-engines-pixbuf
+  libcaribou-common libcaribou0 libgdm1 libgjs0e libmozjs-24-0 libmutter0c
+  mutter-common
+Use 'apt-get autoremove' to remove them.
+The following packages will be REMOVED:
+  gdm gnome-shell
+0 upgraded, 0 newly installed, 2 to remove and 0 not upgraded.
+After this operation, 6,702 kB disk space will be freed.
+Do you want to continue? [Y/n] Y
+(Reading database ... 222516 files and directories currently installed.)
+Removing gdm (3.10.0.1-0ubuntu3.2) ...
+Removing gnome-shell (3.10.4-0ubuntu5.2) ...
+Processing triggers for hicolor-icon-theme (0.13-1) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Processing triggers for libglib2.0-0:amd64 (2.40.2-0ubuntu1) ...
+Processing triggers for gnome-menus (3.10.1-0ubuntu2) ...
+Processing triggers for desktop-file-utils (0.22-1ubuntu1) ...
+Processing triggers for bamfdaemon (0.5.1+14.04.20140409-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Processing triggers for mime-support (3.54ubuntu1.1) ...
+~ => sudo apt-get remove gnome
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Package 'gnome' is not installed, so not removed
+The following packages were automatically installed and are no longer required:
+  gir1.2-accountsservice-1.0 gir1.2-caribou-1.0 gir1.2-clutter-1.0
+  gir1.2-cogl-1.0 gir1.2-coglpango-1.0 gir1.2-gck-1 gir1.2-gcr-3
+  gir1.2-gdesktopenums-3.0 gir1.2-gdm-1.0 gir1.2-gkbd-3.0
+  gir1.2-gnomedesktop-3.0 gir1.2-json-1.0 gir1.2-mutter-3.0 gir1.2-nmgtk-1.0
+  gir1.2-polkit-1.0 gir1.2-telepathyglib-0.12 gir1.2-telepathylogger-0.2
+  gir1.2-upowerglib-1.0 gir1.2-xkl-1.0 gjs gnome-shell-common
+  gnome-themes-standard gnome-themes-standard-data gtk2-engines-pixbuf
+  libcaribou-common libcaribou0 libgdm1 libgjs0e libmozjs-24-0 libmutter0c
+  mutter-common
+Use 'apt-get autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+~ => autoremove
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages will be REMOVED:
+  gir1.2-accountsservice-1.0 gir1.2-caribou-1.0 gir1.2-clutter-1.0
+  gir1.2-cogl-1.0 gir1.2-coglpango-1.0 gir1.2-gck-1 gir1.2-gcr-3
+  gir1.2-gdesktopenums-3.0 gir1.2-gdm-1.0 gir1.2-gkbd-3.0
+  gir1.2-gnomedesktop-3.0 gir1.2-json-1.0 gir1.2-mutter-3.0 gir1.2-nmgtk-1.0
+  gir1.2-polkit-1.0 gir1.2-telepathyglib-0.12 gir1.2-telepathylogger-0.2
+  gir1.2-upowerglib-1.0 gir1.2-xkl-1.0 gjs gnome-shell-common
+  gnome-themes-standard gnome-themes-standard-data gtk2-engines-pixbuf
+  libcaribou-common libcaribou0 libgdm1 libgjs0e libmozjs-24-0 libmutter0c
+  mutter-common
+0 upgraded, 0 newly installed, 31 to remove and 0 not upgraded.
+After this operation, 31.7 MB disk space will be freed.
+Do you want to continue? [Y/n] Y
+(Reading database ... 222264 files and directories currently installed.)
+Removing gir1.2-accountsservice-1.0 (0.6.35-0ubuntu7.2) ...
+Removing gir1.2-caribou-1.0 (0.4.13-0ubuntu1) ...
+Removing gir1.2-mutter-3.0 (3.10.4-0ubuntu2.1) ...
+Removing gir1.2-clutter-1.0 (1.16.4-0ubuntu2) ...
+Removing gir1.2-coglpango-1.0 (1.16.2-1) ...
+Removing gir1.2-cogl-1.0 (1.16.2-1) ...
+Removing gir1.2-gcr-3 (3.10.1-1) ...
+Removing gir1.2-gck-1 (3.10.1-1) ...
+Removing gir1.2-gnomedesktop-3.0 (3.8.4-0ubuntu3.1) ...
+Removing gir1.2-gdesktopenums-3.0 (3.10.1-0ubuntu1) ...
+Removing gir1.2-gdm-1.0 (3.10.0.1-0ubuntu3.2) ...
+Removing gir1.2-gkbd-3.0 (3.6.0-0ubuntu2) ...
+Removing gir1.2-json-1.0 (0.16.2-1ubuntu1) ...
+Removing gir1.2-nmgtk-1.0 (0.9.8.8-0ubuntu4.3) ...
+Removing gir1.2-polkit-1.0 (0.105-4ubuntu2.14.04.1) ...
+Removing gir1.2-telepathylogger-0.2 (0.8.0-3) ...
+Removing gir1.2-telepathyglib-0.12 (0.22.1-1ubuntu2) ...
+#1432391133
+install kubuntu-desktop
+#1432405105
+update
+#1432405130
+upgrade
+#1432405140
+dist-upgrade
+#1432405151
+install kubuntu-desktop
+#1432405379
+vncserver
+#1432454655
+exit
+#1432454687
+ls
+#1432454698
+cd tgh/
+#1432454699
+ks
+#1432454700
+ls
+#1432454711
+sudo chmod a-x ./*
+#1432454718
+ll
+#1432454733
+cd hisat/
+#1432454735
+ls
+#1432454738
+ll
+#1432454907
+ls -1 | grep "^(col|tgh)"
+#1432454914
+ls -1 | grep "^col|tgh"
+#1432454919
+ls -1 | grep ""
+#1432454934
+ls -1 | grep "(tgh|col)"
+#1432454938
+ls -1 | egrep "(tgh|col)"
+#1432454774
+vi rename.pl
+#1432455170
+perl rename.pl 
+#1432455173
+vi rename.pl
+#1432455185
+perl rename.pl 
+#1432455213
+vi rename.pl
+#1432455242
+perl rename.pl 
+#1432455255
+vi rename.pl
+#1432455276
+perl rename.pl 
+#1432455312
+vi rename.pl 
+#1432455805
+perl rename.pl 
+#1432455810
+vi rename.pl 
+#1432455832
+perl rename.pl 
+#1432455847
+vi rename.pl 
+#1432455856
+perl rename.pl 
+#1432455859
+ll
+#1432455880
+ls
+#1432455902
+mv *sorted.sam srtd/
+#1432455904
+ls
+#1432455936
+cd ../
+#1432455937
+ls
+#1432455944
+cd hisat/
+#1432455949
+mkdir cufflinks
+#1432455952
+cd cufflinks/
+#1432455955
+cufflinks 
+#1432456010
+ls ../../REFHISAT/
+#1432456362
+exit
+#1432456366
+exit
+#1432456494
+sudo umount /dev/sdb1
+#1432456502
+sudo umount /dev/sdb2
+#1432456556
+sudo umount /dev/sdc1
+#1432456564
+sudo umount /dev/sdc2
+#1432456593
+top
+#1432456539
+sudo gparted
+#1432457664
+sudo umount /dev/sdc1
+#1432457710
+ls
+#1432457716
+ls Pan1/
+#1432457720
+ls Pan2/
+#1432457723
+ls Pan0
+#1432457736
+sudo umount /media/Pan1 
+#1432457744
+ls Pan1/
+#1432457749
+vncserver
+#1432457850
+vi .bash_functions 
+#1432457964
+srcp
+#1432457967
+mountall 
+#1432458480
+git clone https://code.google.com/p/qt-creator-python/
+#1432465731
+cls
+#1432465743
+xwd -root -display :1.0 | xwdtopnm | pnmtopng > Streenshot.png
+#1432465746
+ll
+#1432465874
+man xwdtopnm 
+#1432466370
+ls
+#1432468133
+ll
+#1432520958
+ls
+#1432520966
+cd tgh/hisat/
+#1432520967
+ls
+#1432520977
+cd cufflinks/
+#1432520984
+cufflinks 
+#1432521262
+cd tgh/hisat/cufflinks/
+#1432521263
+ls
+#1432521427
+#cufflinks -o col_flower_1 -p 32 -G ../../REFHISAT/TAIR10_GFF3_genes.gff --library-type fr-stranded
+#1432521433
+cufflinks 
+#1432521593
+hisat
+#1432521662
+cd ../..
+#1432521663
+ls
+#1432521682
+cd bowtie2-rst/
+#1432521682
+ls
+#1432521686
+ll
+#1432521695
+rm col-flower-1.sam 
+#1432521701
+bowtie2
+#1432523224
+bowtie2 -x ../REF/tair10_chr_all -1 ../Sample_col_flower_1_rRNA_removal_20140613/col_flower_1_rRNA_removal_20140613_ACTGAT_L004_R1_001.fastq.gz -2 ../Sample_col_flower_1_rRNA_removal_20140613/col_flower_1_rRNA_removal_20140613_ACTGAT_L004_R2_001.fastq.gz -S col_flower_1.sam | tee col_flower_1.bt2.log
+#1432523232
+bg
+#1432523472
+bowtie2 -x ../REF/tair10_chr_all -1 ../Sample_col_flower_2_rRNA_removal_20140624/col_flower_2_rRNA_removal_20140624_ATTCCT_L007_R1_001.fastq.gz -2 ../Sample_col_flower_2_rRNA_removal_20140624/col_flower_2_rRNA_removal_20140624_ATTCCT_L007_R2_001.fastq.gz -S col_flower_2.sam | tee col_flower_2.bt2.log &
+#1432523478
+jobs
+#1432523488
+ll
+#1432523505
+tail col_flower_1.bt2.log 
+#1432523674
+jobs
+#1432523831
+nohup bowtie2 -x ../REF/tair10_chr_all -1 ../Sample_col_leaf_1_rRNA_removal_20140613/col_leaf_1_rRNA_removal_20140613_GTGGCC_L004_R1_001.fastq.gz -2 ../Sample_col_leaf_1_rRNA_removal_20140613/col_leaf_1_rRNA_removal_20140613_GTGGCC_L004_R2_001.fastq.gz -S col_leaf_1.sam | tee col_leaf_1.bt2.log &
+#1432523940
+bowtie2 -x ../REF/tair10_chr_all -1 ../Sample_col_leaf_2_rRNA_removal_20140613/col_leaf_2_rRNA_removal_20140613_GTTTCG_L004_R1_001.fastq.gz -2 ../Sample_col_leaf_2_rRNA_removal_20140613/col_leaf_2_rRNA_removal_20140613_GTTTCG_L004_R2_001.fastq.gz -S col_leaf_2.sam | tee col_leaf_2.bt2.log
+#1432523954
+bg
+#1432523956
+jobs
+#1432523960
+ll
+#1432523966
+la
+#1432523985
+less col_flower_1.bt2.log 
+#1432552388
+remove firefox
+#1432552401
+install firefox
+#1432552409
+update
+#1432552430
+install firefox
+#1432552497
+ps aux |grep firefox
+#1432552507
+kill -9 18645
+#1432552514
+kill -9 36548
+#1432552896
+cd tgh/
+#1432552899
+cd bowtie2-rst/
+#1432552900
+la
+#1432552903
+ll
+#1432552919
+ps aux | grep nohup
+#1432552935
+less col_leaf_2.sam 
+#1432552944
+rm *.sam
+#1432553006
+curl -sf -L https://static.rust-lang.org/rustup.sh | sh
+#1432553082
+xs
+#1432553083
+cd
+#1432553086
+cd Downloads/
+#1432553091
+unzip IGV_2.3.52.zip 
+#1432553410
+rust
+#1432553416
+curl -sf -L https://static.rust-lang.org/rustup.sh
+#1432553422
+curl -sf -L https://static.rust-lang.org/rustup.sh | sh
+#1432553637
+dl
+#1432553642
+sh install_rust.sh 
+#1432553759
+rust
+#1432553765
+rustc 
+#1432553772
+cd ..
+#1432553785
+cd tgh/bowtie2-rst/
+#1432553801
+cargo bowtie_all --bin
+#1432553816
+cargo build --bin bowtie_all
+#1432553825
+cargo build bowtie_all
+#1432553830
+cargo
+#1432553857
+cargo new bowtie2_all --bin
+#1432553860
+cd bowtie2_all/
+#1432553861
+ls
+#1432553863
+cd src/
+#1432553864
+ls
+#1432553870
+kate main.rs 
+#1432553893
+subl main.rs 
+#1432553906
+subl ..
+#1432554726
+ps aux | grep subl
+#1432554738
+kill -9 39465
+#1432554743
+kill -9 39454
+#1432556248
+cd ..
+#1432556258
+subl bowtie2_all/
+#1432557041
+whereis bowtie2
+#1432557051
+locate bowtie2
+#1432557173
+vncserver
+#1432557221
+cd tgh
+#1432557225
+cd bowtie2-rst/
+#1432557242
+subl bowtie2_all/
+#1432557419
+sh -c echo hello
+#1432557977
+hist bowtie2
+#1432559590
+cargo build --bin
+#1432561511
+cargo build
+#1432561531
+kate cd bowtie2_all/
+#1432561540
+cargo build
+#1432561554
+kate Cargo.xml
+#1432561559
+ls
+#1432561563
+cd bowtie2_all/
+#1432561569
+cargo build
+#1432629140
+cargo build --vorbose
+#1432629156
+cargo --verbose build
+#1432629162
+cargo build --verbose
+#1432631589
+ls
+#1432631591
+cd ..
+#1432631591
+ls
+#1432631604
+touch bowtie2-all.py
+#1432631608
+subl bowtie2
+#1432631624
+subl bowtie2-all.py 
+#1432632194
+python3.4 bowtie2-all.py 
+#1432632204
+python3.4 bowtie2-all.py col_flower_1
+#1432632334
+cd
+#1432632336
+update
+#1432640408
+ls
+#1432640411
+ll
+#1432640415
+rm *.log
+#1432640416
+ls
+#1432640422
+rm *.sam
+#1432640423
+ll
+#1432640891
+python3.4 bowtie2-all.py col_flower_1
+#1432640944
+ls
+#1432640949
+rm *.sam
+#1432640995
+python3.4 bowtie2-all.py col_flower_1 &
+#1432641345
+python3.4 bowtie2-all.py col_flower_2 &
+#1432641351
+python3.4 bowtie2-all.py col_leaf_1 &
+#1432641353
+python3.4 bowtie2-all.py col_leaf_2 &
+#1432641365
+python3.4 bowtie2-all.py tgh_1_flower_1 &
+#1432641376
+jobs
+#1432641396
+man jobs
+#1432641426
+kill -9 49034
+#1432641438
+ps aux | grep col_flower
+#1432641442
+ll
+#1432641479
+rm tgh*
+#1432641480
+ll
+#1432641485
+fg
+#1432641494
+bg
+#1432641498
+jobs
+#1432641502
+fg
+#1432641510
+fg
+#1432641521
+jobs
+#1432641524
+ls
+#1432641528
+rm col*
+#1432641529
+ll
+#1432641563
+ll ../samples/
+#1432641583
+python3.4 bowtie2-all.py col_flower_1 &
+#1432641588
+python3.4 bowtie2-all.py col_flower_2 &
+#1432641595
+python3.4 bowtie2-all.py col_leaf_1 &
+#1432641598
+python3.4 bowtie2-all.py col_leaf_2 &
+#1432641608
+python3.4 bowtie2-all.py tgh_1__leaf_1 &
+#1432641620
+jobs
+#1432641626
+python3.4 bowtie2-all.py tgh_1_leaf_1 &
+#1432641631
+python3.4 bowtie2-all.py tgh_1_leaf_2 &
+#1432641640
+python3.4 bowtie2-all.py tgh_flower_1 &
+#1432641698
+jobs
+#1432641704
+python3.4 bowtie2-all.py tgh_flower_1 &
+#1432641706
+python3.4 bowtie2-all.py tgh_flower_2 &
+#1432641709
+jobs
+#1432704936
+ls
+#1432704938
+ll
+#1432704951
+less tgh_1_leaf_1.log 
+#1432705018
+bowtie2
+#1432705247
+ls
+#1432705274
+tosortedbam.py
+#1432705279
+touch tosortedbam.py
+#1432705285
+subl .
+#1432705293
+subl tosortedbam.py 
+#1432705602
+sudo ln -s /usr/bin/python3.4 /usr/bin/py3
+#1432705619
+py3 tosortedbam.py 
+#1432705625
+py3 tosortedbam.py col_flower-1
+#1432705631
+py3 tosortedbam.py col_flower_1
+#1432706389
+ls
+#1432706409
+py3 tosortedbam.py col_flower_1
+#1432706866
+ll
+#1432706871
+ls .sam
+#1432706876
+ls *.sam
+#1432706891
+ll *.sam
+#1432706904
+rm tgh_1__leaf_1.sam
+#1432706906
+ll
+#1432706918
+rm tgh_1__*
+#1432706919
+ll
+#1432706926
+rm *.outs
+#1432706929
+rm *.errs
+#1432706930
+ll
+#1432706967
+man time
+#1432707002
+date +%s%N
+#1432707054
+vi ~/.bash_functions 
+#1432707484
+srcp
+#1432707486
+ls
+#1432707515
+exit
+#1432709257
+ls
+#1432709260
+ll
+#1432707554
+toSortedBAM col_leaf_2
+#1432707581
+toSortedBAM tgh_1_leaf_2
+#1432707544
+toSortedBAM col_leaf_1
+#1432707567
+toSortedBAM tgh_1_leaf_1
+#1432707497
+toSortedBAM col_flower_1
+#1432707594
+toSortedBAM tgh_flower_1
+#1432707602
+toSortedBAM tgh_flower_2
+#1432707534
+toSortedBAM col_flower_2
+#1432716301
+mkdir cufflinks
+#1432716304
+cd cufflinks/
+#1432716318
+touch runCufflinks.py
+#1432716354
+cd
+#1432716360
+hist cufflinks
+#1432716876
+ls
+#1432716881
+cd tgh/
+#1432716883
+ls
+#1432716902
+cd bowtie2-rst/
+#1432716903
+ls
+#1432716907
+cd cufflinks/
+#1432716908
+ls
+#1432716929
+py3 runCufflinks.py col_flower_1
+#1432717074
+cd cufflinks
+#1432717076
+ll
+#1432717081
+ll col_flower_1/
+#1432717574
+py3 runCufflinks.py col_flower_2
+#1432717652
+py3 runCufflinks.py col_leaf_1
+#1432717667
+py3 runCufflinks.py col_leaf_2
+#1432717683
+py3 runCufflinks.py tgh_1_leaf_1
+#1432717698
+py3 runCufflinks.py tgh_1_leaf_2
+#1432717709
+py3 runCufflinks.py tgh_flower_1
+#1432717721
+py3 runCufflinks.py tgh_flower_2
+#1432717925
+cd
+#1432717931
+remove okular
+#1432717954
+install okular
+#1432717958
+update
+#1432718138
+exit
+#1432722948
+cd tgh/bowtie2-rst/
+#1432722949
+ls
+#1432722954
+cd cufflinks/
+#1432722955
+ls
+#1432723008
+cd col_flower_w
+#1432723011
+cd col_flower_1
+#1432723013
+ls
+#1432723018
+ll
+#1432723030
+touch log.log
+#1432723122
+cd col_flower_2/
+#1432723127
+touch log.log
+#1432723169
+cd ../col_leaf_1 && touch log.log
+#1432723175
+cd ../col_leaf_2 && touch log.log
+#1432723210
+cd ../col_leaf_1 && touch log.log
+#1432723294
+cd ../tgh_1_leaf_1 && touch log.log
+#1432723299
+cd ../tgh_1_leaf_2 && touch log.log
+#1432723312
+cd ../tgh_flower_1 && touch log.log
+#1432723317
+cd ../tgh_flower_2 && touch log.log
+#1432723970
+lz
+#1432723978
+lz .
+#1432723988
+lz ..
+#1432724002
+vi ~/.bash_functions 
+#1432724118
+cd /home/raylee
+#1432724025
+kate  ~/.bash_functions 
+#1432726041
+lz
+#1432726100
+srcp
+#1432726104
+lz
+#1432726139
+srcp
+#1432726141
+lz
+#1432726156
+srcp
+#1432726158
+lz
+#1432726177
+lz *
+#1432726234
+srcp
+#1432726236
+lz *
+#1432726395
+src
+#1432726398
+srcp
+#1432726401
+lz *
+#1432726428
+lz .
+#1432726705
+srcp
+#1432726707
+lz
+#1432726712
+cd tgh
+#1432726713
+lz
+#1432726754
+lz -h
+#1432726759
+lz -V
+#1432726762
+srcp
+#1432726806
+lz -V
+#1432726846
+srcp
+#1432726847
+lz -V
+#1432726939
+srcp
+#1432726940
+lz -V
+#1432726978
+srcp
+#1432726979
+lz -V
+#1432727145
+srcp
+#1432727152
+lz -V
+#1432727301
+srcp
+#1432727302
+lz -V
+#1432727352
+srcp
+#1432727353
+lz -V
+#1432727373
+srcp && lz -V
+#1432729430
+lz
+#1432729435
+srcp
+#1432729437
+lz
+#1432729446
+lz -V
+#1432729726
+ll
+#1432729727
+lz
+#1432729809
+exit
+#1432729818
+exit
+#1432729841
+exit
+#1432723652
+top
+#1432732604
+cd /home/raylee/tgh/bowtie2-rst/cufflinks
+#1432732610
+hist cuffmerge
+#1432732943
+cuffmerge -p 32 -g /home/raylee/tgh/REF/TAIR10_GFF3_genes.gff -o cuffm-rst asssembly_GTF_list.txt
+#1432732963
+cuffmerge -p 32 -g /home/raylee/tgh/REF/TAIR10_GFF3_genes.gff -o cuffm-rst asssembly_GTF.list
+#1432733218
+ll cuffm-rst/
+#1432733359
+cuffcompare 
+#1432734074
+ls
+#1432734077
+cd cuffm-rst/
+#1432734093
+touch col_flower.list
+#1432734098
+touch col_leaf.list
+#1432734105
+touch tgh_1__leaf.list
+#1432734110
+touch tgh_1_leaf.list
+#1432734120
+touch tgh_flower.list
+#1432734146
+ls
+#1432734463
+cd ..
+#1432734484
+cuffmerge -p 32 -g /home/raylee/tgh/REF/TAIR10_GFF3_genes.gff -o col_flower col_flower.list 
+#1432734811
+cuffmerge -p 32 -g /home/raylee/tgh/REF/TAIR10_GFF3_genes.gff -o flower_col_tgh flower.list 
+#1432734870
+cuffmerge -p 32 -g /home/raylee/tgh/REF/TAIR10_GFF3_genes.gff -o leaf_col_tgh leaf.list
+#1432735148
+ld
+#1432735149
+ls
+#1432735164
+hist cuffdiff
+#1432735317
+ls
+#1432735362
+cuffdiff -o flower_diff -p 32 leaf_col_tgh/merged.gtf ../col_leaf_1.std.bam,../col_leaf_2.std.bam ../tgh_1_leaf_1.std.bam,../tgh_1_leaf_2.std.bam
+#1432735302
+cuffdiff -o flower_diff -p 32 flower_col_tgh/merged.gtf ../col_flower_1.std.bam,../col_flower_2.std.bam ../tgh_flower_1.std.bam,../tgh_flower_2.std.bam 
+#1432789149
+hist col_flower
+#1432789199
+exit
+#1432789291
+hist cuffmerge
+#1432789325
+cd tgh/bowtie2-rst/cufflinks/
+#1432789326
+ls
+#1432789371
+cuffmerge -p 8 -g /home/raylee/tgh/REF/TAIR10_GFF3_genes.gff -o col_leaf col_leaf.list
+#1432789979
+cuffmerge -p 8 -g /home/raylee/tgh/REF/TAIR10_GFF3_genes.gff -o tgh_1_leaf tgh_1_leaf.list
+#1432790060
+cuffmerge -p 8 -g /home/raylee/tgh/REF/TAIR10_GFF3_genes.gff -o tgh_flower tgh_flower.list
+#1432790540
+remove sogou*
+#1432790609
+cd
+#1432790610
+dl
+#1432790611
+ls
+#1432790627
+gdebi sogoupinyin_1.2.0.0056_amd64.deb 
+#1432790635
+sudo gdebi sogoupinyin_1.2.0.0056_amd64.deb 
+#1432790718
+fcitx-config-gtk3
+#1432790727
+sogou-qimpanel
+#1432790741
+fcitx-qimpanel
+#1432790766
+fcitx-qimpanel-configtool
+#1432790802
+im-config 
+#1432790836
+im-launch 
+#1432790848
+fcitx-qimpanel
+#1432790865
+sogou-qimpanel
+#1432790872
+fcitx-config-gtk3
+#1432791033
+ll
+#1432791171
+mkdir replicates_cuffd && cd replicates_cuffd
+#1432791303
+exit
+#1432789057
+cuffdiff -o flower_diff -p 32 flower_col_tgh/merged.gtf ../col_flower_1.std.bam,../col_flower_2.std.bam ../tgh_flower_1.std.bam,../tgh_flower_2.std.bam
+#1432791465
+cuffdiff -o tgh_1_flower -p 12 ../replicates_cuffm/tgh_1_flower/merged.gtf ../../tgh_1_flower_1.std.bam ../../tgh_1_flower_2.std.bam
+#1432792212
+update
+#1432791402
+cuffdiff -o col_leaf -p 12 ../replicates_cuffm/col_leaf/merged.gtf ../../col_leaf_1.std.bam ../../col_leaf_2.std.bam
+#1432791513
+cuffdiff -o tgh_1_leaf -p 12 ../replicates_cuffm/tgh_1_leaf/merged.gtf ../../tgh_1_leaf_1.std.bam ../../tgh_1_leaf_2.std.bam
+#1432791286
+cuffdiff -o col_flower -p 12 ../replicates_cuffm/col_flower/merged.gtf ../../col_flower_1.std.bam ../../col_flower_2.std.bam 
+#1432792944
+cd
+#1432791543
+cuffdiff -o tgh_flower -p 12 ../replicates_cuffm/tgh_flower/merged.gtf ../../tgh_flower_1.std.bam ../../tgh_flower_2.std.bam
+#1432792946
+upgrade
+#1432793883
+dist-upgrade
+#1432795363
+dl
+#1432795372
+sudo gdebi wps-office_9.1.0.4953~a18_amd64.deb 
+#1432795448
+wps
+#1432795600
+cd
+#1432795601
+cls
+#1432795616
+sudo find / -name Kingsoft
+#1432795665
+sudo find / -name wps
+#1432795683
+ls /opt/kingsoft/wps-office/office6/wps
+#1432795686
+ls /opt/kingsoft/wps-office/office6/
+#1432795709
+/opt/kingsoft/wps-office/office6/et
+#1432795985
+ls /usr/share/applications/wps-office-* ~/
+#1432796012
+cp /usr/share/applications/wps-office-* ~
+#1432796025
+sudo chmod a+x ../wps-office-*
+#1432796393
+mv ../ET ../Applications/
+#1432796399
+mv ../WPS ../Applications/
+#1432796403
+mv ../WPP ../Applications/
+#1432796670
+cp /usr/share/applications/google-chrome.desktop ~/Applications
+#1432796679
+cp /usr/share/applications/firefox.desktop ~/Applications
+#1432796708
+cp /usr/share/applications/kde4/dolphin.desktop ~/Applications
+#1432796718
+cd ../Applications/
+#1432796719
+ls
+#1432796721
+ll
+#1432796731
+sudo chmod a+x *.desktop
+#1432803127
+sudo fdisk -l
+#1432808447
+echo $LANG
+#1432810207
+top
+#1432810388
+exit
+#1432810391
+exit
+#1432810394
+exit
+#1432810949
+top
+#1432810970
+mtop
+#1432810976
+ntop
+#1432811271
+sudo top
+#1432811977
+kill -9 30756
+#1432811992
+kill -9 40856
+#1432812076
+remove teamviewer
+#1432812326
+vncserver -kill :2
+#1432812328
+vncserver -kill :5
+#1432812332
+vncserver
+#1432813861
+autoremove
+#1432813943
+update
+#1432815006
+upgrade
+#1432815133
+autoremove
+#1432815180
+autoclean
+#1432815196
+clean
+#1432815202
+ls
+#1432815216
+autoremove
+#1432815536
+sudo muon-updater 
+#1432815677
+sudo muon-discover 
+#1432813770
+top
+#1432815956
+ll
+#1432815992
+sudo chown raylee:plant ./*
+#1432815998
+ll
+#1432816007
+groups 
+#1432817266
+vncserver -list
+#1432818085
+vncserver -kill :11
+#1432818091
+vncserver -kill :2
+#1432818093
+vncserver -kill :3
+#1432818096
+vncserver -kill :4
+#1432818100
+vncserver
+#1432818160
+ll .kde/
+#1432818196
+sudo chmod -R 755 .kde/share
+#1432818248
+ll .kde/
+#1432818254
+ll .kde/share/
+#1432818259
+ll .kde/share/config/
+#1432818304
+sudo chown -R raylee:plant .kde/share/
+#1432818308
+ll .kde/share/config/
+#1432826814
+op
+#1432826818
+top
+#1432826868
+cd tgh/bowtie2-rst/cufflinks/
+#1432826869
+ls
+#1432826894
+hist cuffdiff | grep flower_diff
+#1432826952
+cuffdiff -o flower_diff -p 32 flower_col_tgh/merged.gtf ../col_flower_1.std.bam,../col_flower_2.std.bam ../tgh_flower_1.std.bam,../tgh_flower_2.std.bam
+#1432827304
+ll
+#1432828396
+vncserver
+#1432828751
+install kdelibs5-dbg
+#1432831395
+ll flower_diff_new/
+#1432826965
+cuffdiff -o flower_diff_new -p 32 flower_col_tgh/merged.gtf ../col_flower_1.std.bam,../col_flower_2.std.bam ../tgh_flower_1.std.bam,../tgh_flower_2.std.bam
+#1432853223
+bg
+#1432855786
+locale
+#1432855794
+locale -a
+#1432855956
+autoremove
+#1432856020
+clean
+#1432856025
+autoclean
+#1432864267
+install sshuttle
+#1432827005
+cuffdiff -o leaf_diff_new -p 32 leaf_col_tgh/merged.gtf ../col_leaf_1.std.bam,../col_leaf_2.std.bam ../tgh_1_leaf_1.std.bam,../tgh_1_leaf_2.std.bam
+#1432853156
+top
+#1432883260
+cd tgh/tophat
+#1432883264
+hist tophat
+#1432883295
+tophat
+#1432883695
+tophat2 -G ../REF/tair10_chr_all -p 32 -M -o col_flower_1 ../samples/col_flower_1/col_flower_1_R1_001.fastq.gz ../samples/col_flower_2/col_flower_2_R2_001.fastq.gz 
+#1432883716
+tophat2 -G ../REF/TAIR10_GFF3_genes.gff -p 32 -M -o col_flower_1 ../samples/col_flower_1/col_flower_1_R1_001.fastq.gz ../samples/col_flower_2/col_flower_2_R2_001.fastq.gz 
+#1432883763
+ll
+#1432883750
+tophat2 -G ../REF/TAIR10_GFF3_genes.gff -p 32 -M -o col_flower_1 ../REF/tair10_chr_all ../samples/col_flower_1/col_flower_1_R1_001.fastq.gz ../samples/col_flower_2/col_flower_2_R2_001.fastq.gz 
+#1432883824
+tophat2 -G ../REF/TAIR10_GFF3_genes.gff -p 32 -M -o col_flower_1 ../REF/tair10_chr_all ../samples/col_flower_2/col_flower_2_R1_001.fastq.gz ../samples/col_flower_2/col_flower_2_R2_001.fastq.gz
+#1432883792
+tophat2 -G ../REF/TAIR10_GFF3_genes.gff -p 32 -M -o col_flower_1 ../REF/tair10_chr_all ../samples/col_flower_1/col_flower_1_R1_001.fastq.gz ../samples/col_flower_1/col_flower_1_R2_001.fastq.gz 
+#1432884140
+ll
+#1432884160
+lz
+#1432884176
+lu
+#1432886094
+lz
+#1432889729
+cd ../
+#1432889731
+cd samples/
+#1432889731
+ll
+#1432889781
+zcat col_flower_1/col_flower_1_R1_001.fastq.gz | head
+#1432889801
+zcat col_flower_1/col_flower_1_R1_001.fastq.gz | grep "+" | wc -l
+#1432889972
+zcat col_flower_1/col_flower_1_R2_001.fastq.gz | grep "+" | wc -l
+#1432890147
+bc
+#1432890189
+zcat col_flower_1/col_flower_1_R2_001.fastq.gz | egrep "^+$" | wc -l
+#1432890271
+zcat col_flower_1/col_flower_1_R2_001.fastq.gz | egrep "^+"
+#1432890284
+zcat col_flower_1/col_flower_1_R2_001.fastq.gz | egrep "^+$"
+#1432890326
+zcat col_flower_1/col_flower_1_R2_001.fastq.gz | head  -n 80 > head.fastq
+#1432890345
+egrep "^+$" head.fastq 
+#1432890349
+egrep "^+" head.fastq 
+#1432890355
+egrep "^\+" head.fastq 
+#1432890363
+egrep "^\+$" head.fastq 
+#1432890376
+zcat col_flower_1/col_flower_1_R2_001.fastq.gz | egrep "^\+$"| wc -l
+#1432890640
+bowtie2
+#1432890657
+tophat2
+#1432890862
+cufflinks
+#1432891256
+javac -V
+#1432891264
+javac -h
+#1432891270
+javac -help
+#1432891285
+javac -version
+#1432891303
+which java
+#1432891351
+pwd -P
+#1432891356
+man pwd
+#1432891366
+man cd
+#1432891494
+which rayfromadmin 
+#1432891499
+rayfromadmin 
+#1432891517
+vi ~/.bash_variables 
+#1432891548
+vi ~/.bash_functions
+#1432891600
+cd /software/
+#1432891603
+ll
+#1432891632
+sudo chmod -R 777 ./*
+#1432891639
+ll
+#1432891648
+ll ..
+#1432891672
+sudo chmod a+w ../software
+#1432891676
+ll ..
+#1432896056
+cd /software/
+#1432896100
+rayFrom admin Bin/astalavista-3.2 ./
+#1432896113
+ls
+#1432896116
+cd astalavista-3.2/
+#1432896117
+ls
+#1432896122
+cd
+#1432896130
+vi .bash_variables 
+#1432896165
+srcp
+#1432896179
+astalavista
+#1432896216
+ls
+#1432883873
+tophat2 -G ../REF/TAIR10_GFF3_genes.gff -p 32 -M -o tgh_flower_1 ../REF/tair10_chr_all ../samples/tgh_flower_1/tgh_flower_1_R1_001.fastq.gz ../samples/tgh_flower_1/tgh_flower_1_R2_001.fastq.gz
+#1432883935
+tophat2 -G ../REF/TAIR10_GFF3_genes.gff -p 32 -M -o tgh_flower_2 ../REF/tair10_chr_all ../samples/tgh_flower_2/tgh_flower_2_R1_001.fastq.gz ../samples/tgh_flower_2/tgh_flower_2_R2_001.fastq.gz
+#1432900731
+Error running /software/tophat2.0.13/tophat_reports --min-anchor 8 --splice-mismatches 0 --min-report-intron 50 --max-report-intron 500000 --min-isoform-fraction 0.15 --output-dir tgh_flower_1/ --max-multihits 20 --max-seg-multihits 40 --segment-length 25 --segment-mismatches 2 --min-closure-exon 100 --min-closure-intron 50 --max-closure-intron 5000 --min-coverage-intron 50 --max-coverage-intron 20000 --min-segment-intron 50 --max-segment-intron 500000 --read-mismatches 2 --read-gap-length 2 --read-edit-dist 2 --read-realign-edit-dist 3 --max-insertion-length 3 --max-deletion-length 3 -z gzip -p32 --inner-dist-mean 50 --inner-dist-std-dev 20 --gtf-annotations ../REF/TAIR10_GFF3_genes.gff --gtf-juncs tgh_flower_1/tmp/TAIR10_GFF3_genes.juncs --no-closure-search --no-coverage-search --no-microexon-search --sam-header tgh_flower_1/tmp/tair10_chr_all_genome.bwt.samheader.sam --report-discordant-pair-alignments --report-mixed-alignments --samtools=/software/tophat2.0.13/samtools_0.1.18 --bowtie2-max-penalty 6 --bowtie2-min-penalty 2 --bowtie2-penalty-for-N 1 --bowtie2-read-gap-open 5 --bowtie2-read-gap-cont 3 --bowtie2-ref-gap-open 5 --bowtie2-ref-gap-cont 3 ../REF/tair10_chr_all.fa tgh_flower_1/junctions.bed tgh_flower_1/insertions.bed tgh_flower_1/deletions.bed tgh_flower_1/fusions.out tgh_flower_1/tmp/accepted_hits tgh_flower_1/tmp/left_kept_reads.m2g.bam,tgh_flower_1/tmp/left_kept_reads.m2g_um.mapped,tgh_flower_1/tmp/left_kept_reads.m2g_um.candidates tgh_flower_1/tmp/left_kept_reads.bam tgh_flower_1/tmp/right_kept_reads.m2g.bam,tgh_flower_1/tmp/right_kept_reads.m2g_um.mapped,tgh_flower_1/tmp/right_kept_reads.m2g_um.candidates tgh_flower_1/tmp/right_kept_reads.bam
+#1432900673
+/software/tophat2.0.13/tophat_reports --min-anchor 8 --splice-mismatches 0 --min-report-intron 50 --max-report-intron 500000 --min-isoform-fraction 0.15 --output-dir col_flower_1/ --max-multihits 20 --max-seg-multihits 40 --segment-length 25 --segment-mismatches 2 --min-closure-exon 100 --min-closure-intron 50 --max-closure-intron 5000 --min-coverage-intron 50 --max-coverage-intron 20000 --min-segment-intron 50 --max-segment-intron 500000 --read-mismatches 2 --read-gap-length 2 --read-edit-dist 2 --read-realign-edit-dist 3 --max-insertion-length 3 --max-deletion-length 3 -z gzip -p32 --inner-dist-mean 50 --inner-dist-std-dev 20 --gtf-annotations ../REF/TAIR10_GFF3_genes.gff --gtf-juncs col_flower_1/tmp/TAIR10_GFF3_genes.juncs --no-closure-search --no-coverage-search --no-microexon-search --sam-header col_flower_1/tmp/tair10_chr_all_genome.bwt.samheader.sam --report-discordant-pair-alignments --report-mixed-alignments --samtools=/software/tophat2.0.13/samtools_0.1.18 --bowtie2-max-penalty 6 --bowtie2-min-penalty 2 --bowtie2-penalty-for-N 1 --bowtie2-read-gap-open 5 --bowtie2-read-gap-cont 3 --bowtie2-ref-gap-open 5 --bowtie2-ref-gap-cont 3 ../REF/tair10_chr_all.fa col_flower_1/junctions.bed col_flower_1/insertions.bed col_flower_1/deletions.bed col_flower_1/fusions.out col_flower_1/tmp/accepted_hits col_flower_1/tmp/left_kept_reads.m2g.bam,col_flower_1/tmp/left_kept_reads.m2g_um.mapped,col_flower_1/tmp/left_kept_reads.m2g_um.candidates col_flower_1/tmp/left_kept_reads.bam col_flower_1/tmp/right_kept_reads.m2g.bam,col_flower_1/tmp/right_kept_reads.m2g_um.mapped,col_flower_1/tmp/right_kept_reads.m2g_um.candidates col_flower_1/tmp/right_kept_reads.bam
+#1432901338
+ll col_flower_1/
+#1432900722
+/software/tophat2.0.13/tophat_reports --min-anchor 8 --splice-mismatches 0 --min-report-intron 50 --max-report-intron 500000 --min-isoform-fraction 0.15 --output-dir tgh_flower_2/ --max-multihits 20 --max-seg-multihits 40 --segment-length 25 --segment-mismatches 2 --min-closure-exon 100 --min-closure-intron 50 --max-closure-intron 5000 --min-coverage-intron 50 --max-coverage-intron 20000 --min-segment-intron 50 --max-segment-intron 500000 --read-mismatches 2 --read-gap-length 2 --read-edit-dist 2 --read-realign-edit-dist 3 --max-insertion-length 3 --max-deletion-length 3 -z gzip -p32 --inner-dist-mean 50 --inner-dist-std-dev 20 --gtf-annotations ../REF/TAIR10_GFF3_genes.gff --gtf-juncs tgh_flower_2/tmp/TAIR10_GFF3_genes.juncs --no-closure-search --no-coverage-search --no-microexon-search --sam-header tgh_flower_2/tmp/tair10_chr_all_genome.bwt.samheader.sam --report-discordant-pair-alignments --report-mixed-alignments --samtools=/software/tophat2.0.13/samtools_0.1.18 --bowtie2-max-penalty 6 --bowtie2-min-penalty 2 --bowtie2-penalty-for-N 1 --bowtie2-read-gap-open 5 --bowtie2-read-gap-cont 3 --bowtie2-ref-gap-open 5 --bowtie2-ref-gap-cont 3 ../REF/tair10_chr_all.fa tgh_flower_2/junctions.bed tgh_flower_2/insertions.bed tgh_flower_2/deletions.bed tgh_flower_2/fusions.out tgh_flower_2/tmp/accepted_hits tgh_flower_2/tmp/left_kept_reads.m2g.bam,tgh_flower_2/tmp/left_kept_reads.m2g_um.mapped,tgh_flower_2/tmp/left_kept_reads.m2g_um.candidates tgh_flower_2/tmp/left_kept_reads.bam tgh_flower_2/tmp/right_kept_reads.m2g.bam,tgh_flower_2/tmp/right_kept_reads.m2g_um.mapped,tgh_flower_2/tmp/right_kept_reads.m2g_um.candidates tgh_flower_2/tmp/right_kept_reads.bam
+#1432901861
+/software/tophat2.0.13/tophat_reports --min-anchor 8 --splice-mismatches 0 --min-report-intron 50 --max-report-intron 500000 --min-isoform-fraction 0.15 --output-dir col_flower_1/ --max-multihits 20 --max-seg-multihits 40 --segment-length 25 --segment-mismatches 2 --min-closure-exon 100 --min-closure-intron 50 --max-closure-intron 5000 --min-coverage-intron 50 --max-coverage-intron 20000 --min-segment-intron 50 --max-segment-intron 500000 --read-mismatches 2 --read-gap-length 2 --read-edit-dist 2 --read-realign-edit-dist 3 --max-insertion-length 3 --max-deletion-length 3 -z gzip -p32 --inner-dist-mean 50 --inner-dist-std-dev 20 --gtf-annotations ../REF/TAIR10_GFF3_genes.gff --gtf-juncs col_flower_1/tmp/TAIR10_GFF3_genes.juncs --no-closure-search --no-coverage-search --no-microexon-search --sam-header col_flower_1/tmp/tair10_chr_all_genome.bwt.samheader.sam --report-discordant-pair-alignments --report-mixed-alignments --samtools=/software/tophat2.0.13/samtools_0.1.18 --bowtie2-max-penalty 6 --bowtie2-min-penalty 2 --bowtie2-penalty-for-N 1 --bowtie2-read-gap-open 5 --bowtie2-read-gap-cont 3 --bowtie2-ref-gap-open 5 --bowtie2-ref-gap-cont 3 ../REF/tair10_chr_all.fa col_flower_1/junctions.bed col_flower_1/insertions.bed col_flower_1/deletions.bed col_flower_1/fusions.out col_flower_1/tmp/accepted_hits col_flower_1/tmp/left_kept_reads.m2g.bam,col_flower_1/tmp/left_kept_reads.m2g_um.mapped,col_flower_1/tmp/left_kept_reads.m2g_um.candidates col_flower_1/tmp/left_kept_reads.bam col_flower_1/tmp/right_kept_reads.m2g.bam,col_flower_1/tmp/right_kept_reads.m2g_um.mapped,col_flower_1/tmp/right_kept_reads.m2g_um.candidates col_flower_1/tmp/right_kept_reads.bam
+#1432883886
+tophat2 -G ../REF/TAIR10_GFF3_genes.gff -p 32 -M -o col_flower_2 ../REF/tair10_chr_all ../samples/col_flower_2/col_flower_2_R1_001.fastq.gz ../samples/col_flower_2/col_flower_2_R2_001.fastq.gz
+#1432901875
+/software/tophat2.0.13/tophat_reports --min-anchor 8 --splice-mismatches 0 --min-report-intron 50 --max-report-intron 500000 --min-isoform-fraction 0.15 --output-dir tgh_flower_1/ --max-multihits 20 --max-seg-multihits 40 --segment-length 25 --segment-mismatches 2 --min-closure-exon 100 --min-closure-intron 50 --max-closure-intron 5000 --min-coverage-intron 50 --max-coverage-intron 20000 --min-segment-intron 50 --max-segment-intron 500000 --read-mismatches 2 --read-gap-length 2 --read-edit-dist 2 --read-realign-edit-dist 3 --max-insertion-length 3 --max-deletion-length 3 -z gzip -p32 --inner-dist-mean 50 --inner-dist-std-dev 20 --gtf-annotations ../REF/TAIR10_GFF3_genes.gff --gtf-juncs tgh_flower_1/tmp/TAIR10_GFF3_genes.juncs --no-closure-search --no-coverage-search --no-microexon-search --sam-header tgh_flower_1/tmp/tair10_chr_all_genome.bwt.samheader.sam --report-discordant-pair-alignments --report-mixed-alignments --samtools=/software/tophat2.0.13/samtools_0.1.18 --bowtie2-max-penalty 6 --bowtie2-min-penalty 2 --bowtie2-penalty-for-N 1 --bowtie2-read-gap-open 5 --bowtie2-read-gap-cont 3 --bowtie2-ref-gap-open 5 --bowtie2-ref-gap-cont 3 ../REF/tair10_chr_all.fa tgh_flower_1/junctions.bed tgh_flower_1/insertions.bed tgh_flower_1/deletions.bed tgh_flower_1/fusions.out tgh_flower_1/tmp/accepted_hits tgh_flower_1/tmp/left_kept_reads.m2g.bam,tgh_flower_1/tmp/left_kept_reads.m2g_um.mapped,tgh_flower_1/tmp/left_kept_reads.m2g_um.candidates tgh_flower_1/tmp/left_kept_reads.bam tgh_flower_1/tmp/right_kept_reads.m2g.bam,tgh_flower_1/tmp/right_kept_reads.m2g_um.mapped,tgh_flower_1/tmp/right_kept_reads.m2g_um.candidates tgh_flower_1/tmp/right_kept_reads.bam
+#1432896218
+top
+#1432909389
+ls
+#1432909399
+mkdir Test
+#1432909401
+cd Test/
+#1432909451
+wget http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.5.0-1/sratoolkit.2.5.0-1-ubuntu64.tar.gz
+#1432909747
+ls
+#1432909755
+tar -zxvf sratoolkit.2.5.0-1-ubuntu64.tar.gz 
+#1432909758
+ls
+#1432909764
+cd sratoolkit.2.5.0-1-ubuntu64/
+#1432909765
+ls
+#1432909769
+ls bin/
+#1432909788
+bin/prefetch
+#1432909977
+ascp
+#1432910098
+synaptic search ascp
+#1432910107
+synaptic-pkexec search ascp
+#1432910122
+install ascp
+#1432910329
+cd Test/
+#1432910330
+ls
+#1432910450
+cd Test/
+#1432910357
+sratoolkit.2.5.0-1-ubuntu64/bin/prefetch SRR1560252
+#1432910462
+sratoolkit.2.5.0-1-ubuntu64/bin/prefetch SRR1560253
+#1432909965
+bin/prefetch SRR1560251
+#1432967908
+ll
+#1432967916
+la
+#1432967927
+cd ..
+#1432967929
+ll
+#1432967938
+cd  Test/
+#1432967939
+ls
+#1432967943
+ls sratoolkit.2.5.0-1-ubuntu64
+#1432967946
+ll
+#1432967962
+ll sratoolkit.2.5.0-1-ubuntu64
+#1432967971
+ll
+#1432967978
+ll schema/
+#1432968198
+cd 
+#1432968200
+cd Downloads/
+#1432968202
+cd FileZilla3/
+#1432968222
+cp -r bin/* /usr/bin/
+#1432968226
+sudo cp -r bin/* /usr/bin/
+#1432968243
+sudo cp -r share/* /usr/share/
+#1432968253
+ls /usr/share/applications/
+#1432968259
+srcp
+#1432968270
+filezilla 
+#1432981423
+ls
+#1432981436
+ls bin/
+#1432981613
+sudo find / -name SRR1560251
+#1432981743
+cd ..
+#1432981744
+ls
+#1432981772
+touch sra_all.list
+#1432981708
+ftp ftp-trace.ncbi.nlm.nih.gov/sra
+#1432982681
+cd
+#1432982683
+cd Test/
+#1432982683
+ls
+#1432982687
+man wget
+#1432982789
+wget -i sra_all.list --progress=dot 
+#1433031599
+ll
+#1433031856
+srcp
+#1433032000
+cd
+#1433032072
+srcp
+#1433032091
+vi .bash_variables 
+#1433032126
+srcp
+#1433032134
+echo $PATH
+#1433032157
+cd -
+#1432900696
+top
+#1433032225
+cd
+#1433032192
+top
+#1433032372
+ls Pan1/
+#1433032377
+ls Pan1/Test/
+#1433032430
+mv ~/Test/SRR1560252.sra ./
+#1433032433
+ll
+#1433032438
+cls
+#1433032444
+mv ~/Test/SRR1560253.sra ./
+#1433032448
+mv ~/Test/SRR1560254.sra ./
+#1433032451
+mv ~/Test/SRR1560255.sra ./
+#1433032456
+mv ~/Test/SRR1560256.sra ./
+#1433032460
+mv ~/Test/SRR1560257.sra ./
+#1433032182
+fastq-dump SRR1560251.sra 
+#1433032464
+mv ~/Test/SRR1560258.sra ./
+#1433032471
+mv ~/Test/SRR1560259.sra ./
+#1433032481
+mv ~/Test/SRR1560260.sra ./
+#1433032486
+mv ~/Test/SRR1560261.sra ./
+#1433032493
+mv ~/Test/SRR1560262.sra ./
+#1433032497
+mv ~/Test/SRR1560263.sra ./
+#1433032500
+ll
+#1433032535
+ll
+#1433032567
+ll ../Pan1/Test/
+#1433032517
+mv *.sra Pan1/Test/
+#1433033906
+ll
+#1433033926
+mv *.sra ../Pan1/Test/
+#1433033944
+cd Pan1/Test/
+#1433033947
+ls
+#1433033950
+ll
+#1433033961
+mv *.fastq ../Pan1/Test/
+#1433034420
+ls
+#1433034456
+for sraFile in ./*.sra; do echo $sraFile; done
+#1433034481
+for sraFile in ./*.sra; do echo $sraFile; fastq-dump $sraFile; done
+#1433034488
+srcp
+#1433034571
+ll
+#1433034597
+tophat2 
+#1433034633
+ls
+#1433034800
+ll
+#1433036655
+ll .directory 
+#1433034795
+tophat2  -o col_D_2 -p 24 -G /home/raylee/tgh/REF/TAIR10_GFF3_genes.gff /home/raylee/tgh/REF/tair10_chr_all col_D_2.fastq
+#1433034494
+for sraFile in ./*.sra; do echo $sraFile; fastq-dump $sraFile; done
+#1433036584
+tophat2  -o col_D_3 -p 24 -G /home/raylee/tgh/REF/TAIR10_GFF3_genes.gff /home/raylee/tgh/REF/tair10_chr_all col_D_3.fastq
+#1433034733
+tophat2  -o col_D_1 -p 24 -G /home/raylee/tgh/REF/TAIR10_GFF3_genes.gff /home/raylee/tgh/REF/tair10_chr_all col_D_1.fastq 
+#1433046056
+ls
+#1433046100
+cd Pan1/Test/
+#1433046101
+ls
+#1433046229
+ll
+#1433046282
+mv col_D_2.fastq col_D_2.fastqx
+#1433046301
+mv col_D_1.fastq col_D_1.fastqx
+#1433046318
+mv col_D_3.fastq col_D_3.fastqx
+#1433046320
+ll
+#1433046703
+for file in ./*.fastq; do echo tophat2 -o ${file//.fastq/} -p 24 -G /home/raylee/tgh/REF/TAIR10_GFF3_genes.gff /home/raylee/tgh/REF/tair10_chr_all $file;done
+#1433046838
+exit
+#1433046783
+for file in ./*.fastq; do tophat2 -o ${file//.fastq/} -p 24 -G /home/raylee/tgh/REF/TAIR10_GFF3_genes.gff /home/raylee/tgh/REF/tair10_chr_all $file;done
+#1433071925
+ll
+#1433071939
+mkdir cufflinks && cd cufflinks
+#1433071949
+hist cufflinks
+#1433072003
+cufflinks
+#1433072066
+cd cufflinks/
+#1433072159
+for file in ../*; do if [ -d $file ];then echo $file;fi;done
+#1433072172
+cd ..
+#1433072178
+ls col_D_1
+#1433072370
+for file in ../*; do if [ -d $file ];then echo $file/accepted_hits.bam; echo cufflinks -p 24 -g /home/raylee/tgh/REF/TAIR10_GFF3_genes.gff -o ${file//..\//} $file/accepted_hits.bam; fi;done
+#1433072447
+for file in ../*; do if [ -d $file ];then echo $file/accepted_hits.bam; cufflinks -p 24 -g /home/raylee/tgh/REF/TAIR10_GFF3_genes.gff -o ${file//..\//} $file/accepted_hits.bam; fi;done
+#1433072715
+ll
+#1433072720
+rm -r col_D_1/
+#1433072754
+ll
+#1433072772
+for file in ../col_DL*; do if [ -d $file ];then echo $file/accepted_hits.bam; cufflinks -p 24 -g /home/raylee/tgh/REF/TAIR10_GFF3_genes.gff -o ${file//..\//} $file/accepted_hits.bam; fi;done
+#1433072811
+for file in ../pifq*; do if [ -d $file ];then echo $file/accepted_hits.bam; cufflinks -p 24 -g /home/raylee/tgh/REF/TAIR10_GFF3_genes.gff -o ${file//..\//} $file/accepted_hits.bam; fi;done
+#1433072735
+for file in ../col_D_*; do if [ -d $file ];then echo $file/accepted_hits.bam; cufflinks -p 24 -g /home/raylee/tgh/REF/TAIR10_GFF3_genes.gff -o ${file//..\//} $file/accepted_hits.bam; fi;done
+#1433072795
+for file in ../det1*; do if [ -d $file ];then echo $file/accepted_hits.bam; cufflinks -p 24 -g /home/raylee/tgh/REF/TAIR10_GFF3_genes.gff -o ${file//..\//} $file/accepted_hits.bam; fi;done
+#1433138124
+ll
+#1433139592
+vi ~/.bash_variables 
+#1433139672
+srcp
+#1433139676
+fastqc
+#1433140917
+tophat
+#1433141072
+kate ~/.bashrc 
+#1433141128
+ls
+#1433145146
+cuffmerge_all.sh
+#1433145152
+touch cuffmerge_all.sh
+#1433145236
+hist cuffmerge
+#1433145534
+ll
+#1433145793
+bash cuffmerge_all.sh 
+#1432910550
+top
+#1433150015
+ll
+#1433150019
+ll cuffmerge
+#1433150031
+mkdir cuffdiff
+#1433150047
+touch cuffdiff/cuffdiff_all.sh
+#1433150121
+hist cuffdiff
+#1433150081
+kate cuffdiff/cuffdiff_all.sh 
+#1433150203
+subl cuffdiff/cuffdiff_all.sh 
+#1433150223
+ll
+#1433150286
+ll col6h-col_D/
+#1433150293
+ll col6h-det1_1/
+#1433150298
+ll col6h-pifq/
+#1433150313
+ll cuffmerge/col6h-det1_1/
+#1433150340
+rm -r col6h-*
+#1433150342
+ll
+#1433150449
+ll ..
+#1433150476
+ll ../col_D_1/accepted_hits.bam 
+#1433150965
+cd cuffdiff/
+#1433150966
+ls
+#1433150969
+bash cuffdiff_all.sh 
+#1433160792
+ls
+#1433160817
+ls col6h-col_D/
+#1433160821
+ll col6h-col_D/
+#1433246011
+update
+#1433246283
+insmod ipv6
+#1433246357
+traceroute -n ipv6.google.com
+#1433246366
+install traceroute
+#1433246376
+traceroute -n ipv6.google.com
+#1433246396
+update
+#1433246546
+sudo vi /etc/sysctl.conf
+#1433246638
+sudo sysctl -p
+#1433246645
+sudo vi /etc/sysctl.conf
+#1433246657
+sudo sysctl -p
+#1433246724
+sudo vi /etc/sysctl.conf
+#1433246738
+sudo sysctl -p
+#1433246747
+update
+#1433246790
+upgrade
+#1433246813
+dist-upgrade
+#1433247048
+upgrade
+#1433247059
+autoclean
+#1433247063
+clean
+#1433247066
+autoremove
+#1433247647
+cuffdiff
+#1433247658
+srcp
+#1433247660
+cuffdiff
+#1433247665
+cd
+#1433247676
+vi .bash_variables 
+#1433247697
+source .bashrc
+#1433247701
+source .bash_variables 
+#1433299674
+cufflinks
+#1433303040
+top
+#1433303062
+who
+#1433303083
+write liuyuhao
+#1433303144
+mesg y
+#1433303147
+write liuyuhao
+#1433303201
+who -u liuyuhap
+#1433303203
+who -u liuyuhao
+#1433303207
+who -u
+#1433303216
+who| grep liuyuhao
+#1433322544
+cd Downloads/cufflinks-master/
+#1433322544
+ks
+#1433322546
+ls
+#1433322551
+less README 
+#1433322586
+./make_bin.sh 
+#1433322614
+./autogen.sh 
+#1433322622
+ks
+#1433322624
+ls
+#1433322834
+./configure prefix=/software/cufflinks2.2.1
+#1433322840
+make
+#1433322869
+install boostlib
+#1433323051
+make
+#1433323053
+./configure prefix=/software/cufflinks2.2.1
+#1433323172
+srcp
+#1433323178
+./configure prefix=/software/cufflinks2.2.1
+#1433323289
+which samtools
+#1433323355
+./configure prefix=/software/cufflinks2.2.1
+#1433323371
+which cufflinks
+#1433323405
+./make_bin.sh 
+#1433323461
+which boost
+#1433323464
+boost
+#1433323589
+./configure prefix=/software/cufflinks2.2.1
+#1433323599
+srcp
+#1433323608
+whereis bam
+#1433323614
+bam
+#1433323625
+lua
+#1433323636
+install lua5.2
+#1433323646
+bam
+#1433323656
+locate bam.lua
+#1433323665
+sudo find / -name  bam.lua
+#1433323770
+./configure prefix=/software/cufflinks2.2.1
+#1433323778
+bam
+#1433328958
+ls /opt/lampp/
+#1433328963
+ls /opt/lampp/htdocs/
+#1433329057
+/opt/lampp/bin/
+#1433329072
+/opt/lampp/bin/httpd
+#1433329092
+service apache start
+#1433329451
+sudo /opt/lampp/lampp start
+#1433330960
+geany
+#1433330968
+install geany
+#1433330994
+sudo geany /etc/rc.d/rc.local
+#1433331527
+sudo geany /etc/rc.local 
+#1433333614
+cd ..
+#1433333615
+cd
+#1433333622
+ls
+#1433333708
+mv Pan1/esl.js /opt/lampp/htdocs/
+#1433333712
+sudp mv Pan1/esl.js /opt/lampp/htdocs/
+#1433333717
+sudo mv Pan1/esl.js /opt/lampp/htdocs/
+#1433333728
+cd /opt/lampp/htdocs/
+#1433333728
+ls
+#1433333750
+sudo mkdir Venn
+#1433333765
+sudo mv esl.js Venn/
+#1433333767
+cd Venn/
+#1433333768
+ls
+#1433334106
+cufflinks cd
+#1433334108
+cd
+#1433334123
+cd /opt/lampp/htdocs/
+#1433334123
+ls
+#1433334126
+ls echarts/
+#1433334130
+ls echarts/src/
+#1433334292
+sudo mv ~/Downloads/zrender-2.0.8 ./
+#1433334297
+ll
+#1433333814
+sudo geany index.html
+#1433336529
+cd
+#1433336534
+cd Pan1/
+#1433336542
+mv cufflinks-2.2.1 /software/
+#1433336549
+srcp
+#1433336559
+cd
+#1433336561
+cd Downloads/
+#1433336563
+ls
+#1433336593
+cd
+#1433336603
+ls Pan2
+#1433336607
+ls Pan0
+#1433336619
+locate sw_bak
+#1433336693
+cd Pan2/
+#1433336694
+ls'
+'
+#1433336698
+ls
+#1433336713
+mkdir .software_backup
+#1433336716
+cd .software_backup/
+#1433336743
+echo `date +%T`
+#1433336748
+echo `date +%D%T`
+#1433336756
+echo `date +%N`
+#1433336769
+man date
+#1433336825
+echo `date +%s%N`
+#1433336875
+echo `date +%D_%T`
+#1433336885
+mkdir `date +%D_%T`
+#1433336931
+mkdir ${`date +%D_%T`##/#_}
+#1433336974
+TEMP=`date +%D_%T` && echo ${TEMP##/#_}
+#1433336980
+TEMP=`date +%D_%T` && echo ${TEMP##\/#_}
+#1433337010
+TEMP=`date +%D_%T` && echo ${TEMP//\//_}
+#1433337023
+TEMP=`date +%D_%T` && echo ${TEMP//\/|:/_}
+#1433337029
+TEMP=`date +%D_%T` && echo ${TEMP//\/:/_}
+#1433337037
+TEMP=`date +%D_%T` && echo ${TEMP//\//_}
+#1433337055
+TEMP=`date +%D_%T` && mkdir ${TEMP//\//_}
+#1433337056
+ll
+#1433337102
+TEMP=`date +%D_%T` && mkdir ${TEMP//\//_} && sudo cp -r /software/* ${TEMP//\//_}
+#1433337108
+ll
+#1433337114
+lz
+#1433337131
+rm -r 06_03_15_21\:10\:55
+#1433337133
+ll
+#1433337250
+cd
+#1433337255
+cd Pan1/Test/
+#1433337256
+ls
+#1433337258
+ll
+#1433337263
+cd cufflinks/
+#1433337263
+ls
+#1433337271
+ll
+#1433337286
+ls -cuffdiff/
+#1433337293
+ls -- -cuffdiff/
+#1433337327
+ls _cuffdiff/
+#1433337338
+ls cuffdiff/
+#1433337353
+cuffquant 
+#1433337420
+ls
+#1433337427
+rm -r _cuffdiff
+#1433337429
+ls
+#1433337439
+ls cuffmerge
+#1433337474
+ls cuffmerge/col6h-col_D/merged.gtf 
+#1433337478
+less cuffmerge/col6h-col_D/merged.gtf 
+#1433337557
+cuffdiff
+#1433338894
+ls
+#1433338899
+./cuffmerge
+#1433338902
+./cuffmerge_new.sh 
+#1433339627
+ls
+#1433339633
+ls cuffmerge
+#1433339658
+cd cuffdiff_new/
+#1433339659
+ls
+#1433340201
+./cuffdiff_all.sh 
+#1433340234
+ls ../cuffmerge
+#1433340265
+ls ../cuffmerge/col6h-det1_1/
+#1433344490
+cd ..
+#1433344491
+ls
+#1433344507
+kate cuffmerge_new.sh 
+#1433344637
+./cuffmerge_new.sh 
+#1433345176
+cd cuffdiff_new/
+#1433345179
+./cuffdiff_all.sh 
+#1433386133
+remove wps-office
+#1433386661
+kill -9 dophin
+#1433386671
+ps aux | grep dophin
+#1433386678
+ps aux | grep files
+#1433386695
+kill -9 19015
+#1433388300
+cd ../
+#1433388304
+ld
+#1433388306
+ls
+#1433388320
+mkdir Norm && cd Norm
+#1433388372
+scp admin@10.157.45.31:/Users/admin/Downloads/*.xls ./
+#1433388399
+scp admin@10.157.44.31:/Users/admin/Downloads/*.xls ./
+#1433417896
+ls
+#1433418690
+cd ../GFold/
+#1433418700
+gfold count
+#1433418776
+gfold count -ann ../../tgh/REF/TAIR10_GFF3_genes.gff -tag ../col_D_1/accepted_hits.bam -o col_D_1.reads_cnt
+#1433418796
+ls
+#1433418805
+lu ../../../
+#1433418820
+cd
+#1433418823
+cd Pan1
+#1433418824
+lu
+#1433418848
+ls tgh-hisat/
+#1433418851
+ls tgh-hisat/tgh-hisat 
+#1433418854
+less tgh-hisat/tgh-hisat 
+#1433418863
+rm -r tgh-hisat
+#1433418865
+ll
+#1433418873
+vf Test/
+#1433418877
+ls Test/
+#1433419180
+sudo muon-discover 
+#1433419208
+sudo muon-updater 
+#1433419282
+sudo muon-discover 
+#1433512460
+cd Pan1/Test/
+#1433512462
+ls
+#1433512466
+cd cufflinks/
+#1433512480
+mkdir cuffcompare
+#1433512662
+cuffcompare
+#1433513808
+cd cuffcompare/
+#1433513809
+ls
+#1433513812
+./cuffcompare_all.sh 
+#1433575712
+mountall 
+#1433575731
+sudo fdisk -l
+#1433575740
+sudo reboot
+#1433581358
+ls
+#1433581365
+mountall 
+#1433581403
+vi .bash_functions
+#1433581420
+mountAll 
+#1433581606
+vncserver
+#1433582603
+du -h --max-depth=1 | sort -hr
+#1433582628
+ll
+#1433582630
+ls
+#1433582633
+cd Pan1/
+#1433582634
+ls
+#1433582708
+for code in {0..255};do echo -e "\e[38;05;${code}m $code: Test";; done
+#1433582722
+for code in {0..255};do echo -e "\e[38;05;${code}m $code: Test"; done
+#1433597567
+cat /proc/loadavg 
+#1433661237
+gimp
+#1433661241
+install gimp
+#1433661338
+hist ipv6
+#1433661346
+hist proc
+#1433661350
+hist etc
+#1433661364
+sudo vi /etc/sysctl.conf
+#1433661382
+hist ''
+#1433661396
+sudo sysctl -p
+#1433661254
+update
+#1433661402
+upgrade
+#1433661431
+clean
+#1433661445
+sudo lsb_release -y
+#1433661450
+sudo lsb_release 
+#1433661459
+man lsb_release
+#1433661482
+sudo lsb_release -r
+#1433661518
+sudo lsb_release -a
+#1433661547
+autoremove
+#1433661578
+upgrade
+#1433762134
+ls
+#1433762139
+cd Pan1/Test/
+#1433762141
+ls
+#1433762190
+cd /home/raylee/Pan1/Test/cufflinks/cuffcompare
+#1433762260
+cuffcompare 
+#1433852563
+ls
+#1433852568
+cd cufflinks/
+#1433852572
+cd cuffcompare/
+#1433852573
+ls
+#1433852577
+./cuffcompare_all.sh 
+#1433852746
+ll
+#1433854422
+sudo sysctl -p
+#1433854440
+update
+#1433861443
+upgrade
+#1433862056
+man lsb_release 
+#1433862643
+hist lsb_release
+#1433862660
+man lsb_release 
+#1433862696
+vncserver -kill :1
+#1433862737
+hist release
+#1433862773
+sudo cat /home/plant/.bash_history | grep release
+#1433862789
+sudo cat /home/raylee/.bash_history | grep release
+#1433862817
+sudo cat /home/pengmaolin/.bash_history
+#1433862843
+sudo cat /home/pengmaolin/.bash_history | grep release
+#1433864308
+hist vnc
+#1433949440
+ll
+#1433949645
+cd /home/raylee/Pan1/Test/cufflinks/cuffdiff
+#1433949650
+ls
+#1433949704
+cls
+#1433949742
+echo -e "\e[038;2;4mHello\e[00m"
+#1433949752
+echo -e "\e[036;2;46mHello\e[00m"
+#1433949759
+echo -e "\e[036;6;46mHello\e[00m"
+#1433949765
+echo -e "\e[036;6;45mHello\e[00m"
+#1433949771
+echo -e "\e[046;6;45mHello\e[00m"
+#1433949785
+echo -e "\e[046;1;45mHello\e[00m"
+#1433949793
+echo -e "\e[046;1;45mHello\e[00m"cls
+#1433949796
+cls
+#1433949840
+rust
+#1433949670
+./cuffdiff_all.sh
+#1433983135
+cd Pan1/Test/cufflinks/
+#1433983140
+cd cuffdiff
+#1433983142
+ls
+#1433983303
+cd /home/raylee/Pan1/Test/cufflinks/cuffdiff/col6h_colD
+#1434005053
+cd
+#1434005055
+cd Downloads/
+#1434005056
+ls
+#1434005388
+cd cluster-1.52a/
+#1434005388
+ls
+#1434005404
+./configure --prefix=/software/Cluster3.0
+#1434121371
+qt-creater
+#1434121375
+qt-creator
+#1434121387
+qtcreator
+#1434121399
+cd
+#1434121401
+ls
+#1434121409
+cd Pan2/
+#1434121410
+ls
+#1434121430
+mkdir qt_raylee
+#1434121457
+sudo ln -s /media/Pan2/qt_raylee ~/Qt
+#1434121464
+cd
+#1434121466
+ll
+#1434121469
+cd Qt
+#1434121472
+ll
+#1434121474
+pwd
+#1434121526
+subl alert.py
+#1434122104
+ls
+#1434122129
+py3 alert.py 23:17
+#1434122307
+py3 alert.py 23:19
+#1434122387
+py3 alert.py 23:20
+#1434122456
+py3 alert.py 23:21
+#1434122545
+py3 alert.py 23:23
+#1434123793
+cd Qt
+#1434123793
+ls
+#1434123811
+chmod u+x alert.py 
+#1434123813
+ll
+#1434123822
+./alert.py 23:44
+#1434127080
+py3 calculator.py 
+#1434169638
+LANG=en_US.UTF-8 sublime_text
+#1434169644
+LANG=en_US.UTF-8 subl 
+#1434169942
+cd Qt
+#1434169944
+ls
+#1434169954
+py3 calculator.py 
+#1434170004
+py calculator.py 
+#1434170010
+python calculator.py 
+#1434264564
+python currency.py 
+#1434265793
+sudo pip install urllib2
+#1434265855
+easy_install-2.7 urllib2
+#1434265875
+sudo pip2 install urllib2
+#1434266386
+cd Qt
+#1434266391
+python currency.py 
+#1434265577
+update
+#1434267710
+python currency.py 
+#1434267715
+cd Qt
+#1434267717
+python currency.py 
+#1434269832
+wget http://www.bankofcanada.ca/en/markets/csv/exchange_eng.csv
+#1434269840
+ll
+#1434269962
+python currency.py 
+#1434273426
+sogou-qimpanel
+#1434273488
+im-config 
+#1434286205
+python signalAndSlots.py 
+#1434289192
+python interest.py 
+#1434352422
+cd
+#1434352427
+cd Pan1/
+#1434352430
+cd Test/
+#1434352431
+ls
+#1434352464
+tophat2
+#1434353089
+ls
+#1434353167
+ll *fastq
+#1434353420
+hist cufflinks
+#1434354011
+cd 
+#1434354014
+cd -
+#1434354020
+cd cuff_rst/cufflinks/
+#1434354021
+ls
+#1434354024
+./cufflinks_all.sh 
+#1434354073
+basename
+#1434354077
+man basename
+#1434354147
+basename /home/raylee/Pan1/Test/tophat_rst/col_D_1
+#1434354169
+./cufflinks_all.sh 
+#1434375489
+ll
+#1434375516
+mkdir ../cuffmerge
+#1434375523
+mkdir ../cuffdifff
+#1434375536
+mv ../cuffdifff ../cuffdifff
+#1434375541
+mv ../cuffdifff ../cuffdiff
+#1434375550
+ll ..
+#1434375858
+ll
+#1434375946
+cd ../cuufm
+#1434375952
+cd ../cuffmerge/
+#1434375952
+ll
+#1434375961
+cat ./cuffmerge_all.sh 
+#1434375969
+cat col6h_colD.txt 
+#1434375980
+./cuffmerge_all.sh 
+#1434380748
+ll
+#1434380750
+cd ../
+#1434380751
+ls
+#1434381169
+cd /home/raylee/Pan1/Test/cuff_rst/cuffdiff
+#1434381174
+ls /home/raylee/Pan1/Test/tophat_rst/col_D_3/
+#1434381274
+cd cuffdiff/
+#1434381275
+ls
+#1434381308
+subl .
+#1434382944
+python chp5_execise.py 
+#1434381278
+./cuffdiff_all.sh 
+#1434290264
+python
+#1434384488
+bg
+#1434384493
+fg
+#1434384527
+cd Pan1/Test/cuff_rst/
+#1434384527
+ls
+#1434384530
+cd cud
+#1434384532
+cd cuff
+#1434384534
+cd cuffdiff/
+#1434384535
+ll
+#1434384565
+rm -r col6h_colD
+#1434384570
+rm -r det1D_colD
+#1434384582
+ps aux | grep cuffdiff
+#1434384587
+ps aux | grep cufflinks
+#1434384590
+ps aux | grep cuff
+#1434384595
+./cuffdiff_all.sh 
+#1434419763
+ls
+#1434384548
+top
+#1434458071
+vncserver
+#1434458154
+cd Pan1/
+#1434458159
+mountAll 
+#1434458164
+ls
+#1434458166
+cd
+#1434458174
+cd Pan1/Test/
+#1434458175
+ls
+#1434458560
+/opt/lampp/bin/
+#1434458708
+hist /opt/lampp
+#1434458719
+sudo /opt/lampp/lampp start
+#1434458788
+cd /opt/lampp/
+#1434458790
+ls
+#1434458797
+cd proftpd/
+#1434458799
+ls
+#1434458804
+less README.txt 
+#1434458815
+ls scripts/
+#1434458825
+subl scripts/ctl.sh 
+#1434459016
+cd /opt/lampp/
+#1434459017
+ls
+#1434459023
+ls mysql/
+#1434459032
+ls etc/
+#1434459038
+cd etc/
+#1434459040
+ll
+#1434459052
+sudo subl proftpd.conf 
+#1434459076
+sudo subl ../etc/proftpd.conf 
+#1434459170
+cd
+#1434459178
+python chp5_execise.py 
+#1434517383
+vncserver
+#1434517408
+mountAll 
+#1434517429
+ls Pan1
+#1434517436
+ll Pan1
+#1434517442
+ll Pan1/
+#1434517506
+groups liuyuhao
+#1434517550
+sudo cat /home/plant/.bash_history | grep adduser
+#1434517559
+sudo cat /home/plant/.bash_history
+#1434517577
+sudo history /home/plant/.bash_history
+#1434517583
+history /home/plant/.bash_history
+#1434517602
+sudo cat /home/plant/.bash_history | history
+#1434518533
+subl .bash*
+#1434526217
+ls
+#1434526231
+cd Pan1/
+#1434526232
+ls
+#1434526235
+cd Test/
+#1434526236
+ls
+#1434526267
+cd cuff-
+#1434526270
+cd cuff_rst/
+#1434526271
+ls
+#1434526275
+cd cuffdiff
+#1434526277
+ls
+#1434526282
+cd col6h_colD/
+#1434526283
+ls
+#1434526286
+ll
+#1434526289
+lz
+#1434526448
+cd
+#1434526449
+cd Downloads/
+#1434526450
+ls
+#1434526457
+wget wps-office_9.1.0.4961~a18p1_amd64.deb
+#1434526475
+wget http://kdl.cc.ksosoft.com/wps-community/download/a18/wps-office_9.1.0.4961~a18p1_amd64.deb
+#1434527491
+ls
+#1434527495
+lz
+#1434527521
+rm wps-office_9.1.0.4961~a18p1_amd64.deb
+#1434527522
+ll
+#1434527983
+cd Pan1/Test/
+#1434527983
+ls
+#1434527986
+cd validation/
+#1434527987
+ls
+#1434865959
+cd
+#1434865973
+cd Pan1/Test/gfold_rst/
+#1434865974
+ls
+#1434866060
+gfold count
+#1434866145
+less ~/Pan1/tgh/REF/tair10_gff3_genes.gtf 
+#1434866894
+kate ~/.bash_functions
+#1434867338
+ls
+#1434867359
+cd ../sam/
+#1434867360
+ll
+#1434867364
+./bam2sam_all.sh 
+#1434867766
+hist samtools
+#1434868023
+./bam2sam_all.sh 
+#1434868111
+cd
+#1434868122
+ll
+#1434868283
+gfold count
+#1434870978
+ll  /home/
+#1434871005
+ll /home/lz/
+#1434871053
+file /home/lz
+#1434871103
+hist useradd
+#1434871242
+less /home/liuyuhao/.bash_history | grep lz
+#1434871246
+sudp less /home/liuyuhao/.bash_history | grep lz
+#1434871253
+sudo less /home/liuyuhao/.bash_history | grep lz
+#1434871274
+sudo less /home/plant/.bash_history | grep lz
+#1434871293
+sudo less /home/pengmaoling/.bash_history | grep lz
+#1434871299
+sudo less /home/pengmaolin/.bash_history | grep lz
+#1434871380
+sudo less /home/pengmaolin/.bash_history | grep useradd
+#1434871393
+sudo less /home/liuyuhao/.bash_history | grep useradd
+#1434871410
+sudo less /home/raylee/.bash_history | grep useradd
+#1434871422
+sudo less /home/plant/.bash_history | grep useradd
+#1434871434
+sudo less /home/plant/.bash_history | grep user
+#1434871538
+su root
+#1434871840
+users
+#1434871865
+less /etc/passwd
+#1434871908
+less /etc/passwd | awk -F":" "{print $1}"
+#1434871932
+cat /etc/passwd | awk -F":" "{print $2}"
+#1434871939
+cat /etc/passwd | awk -F"\:" "{print $2}"
+#1434874656
+cd ../gfold_rst/
+#1434874657
+ll
+#1434874686
+cd ../gfold_rst/
+#1434874687
+ll
+#1434874660
+./gfold_count_all.sh 
+#1434875362
+cd /home/raylee/Pan1/Test/gfold_rst
+#1434875365
+ls
+#1434875369
+./gfold_count_all.sh 
+#1434876276
+cd Pan1/Test/gfold_rst/
+#1434876278
+ll
+#1434876535
+sudo find /home/ -name col_D_1.count
+#1434876566
+sudo find /home/ -iname col_D_1*
+#1434876784
+ll
+#1434876787
+./gfold_count_all.sh 
+#1434876886
+ll
+#1434876966
+cd /home/raylee/Pan1/Test/sam
+#1434876968
+cd /home/raylee/Pan1/Test/gfold_rst
+#1434877067
+./gfold_count_all.sh 
+#1434877291
+rm log.log 
+#1434877293
+ll
+#1434975432
+cd /home/raylee/Pan1/Test/gfold_rst
+#1434975463
+ll
+#1434975515
+cd /home/raylee/Pan1/Test/gfold_rst
+#1434527990
+python
+#1434975554
+cd ../gfold_rst/
+#1434975556
+ll
+#1434975574
+mkdir log && mv *.log log
+#1434975576
+ll
+#1434975595
+mkdir count && mv *.count count
+#1434975596
+ll
+#1434975610
+touch gfold_diff_all.sh
+#1434975626
+cd /media/Pan1/Test/gfold_rst
+#1434975784
+gfold diff
+#1434975960
+./gfold_diff_all.sh 
+#1434980279
+vi ~/.bash_variables 
+#1435386405
+vncserver
+#1435386515
+update
+#1435387239
+upgrade
+#1435387326
+clean
+#1435387335
+autoclean
+#1435387343
+autoremove
+#1435387306
+update
+#1435387757
+cd /etc/
+#1435387764
+cd apt
+#1435387766
+ls
+#1435387774
+cat sources.list.bak 
+#1435387779
+cat sources.list
+#1435387804
+sudo mv sources.list sources.list.utopic
+#1435387814
+sudo cp sources.list.bak sources.list
+#1435387820
+update
+#1435387948
+mountAll 
+#1435387976
+cd Qt
+#1435387979
+subl 
+#1435389504
+upgrade
+#1435396909
+update
+#1435490825
+top
+#1435491022
+hist tophat
+#1435491277
+cd /home/raylee/Pan1/Test/cuff_rst/cufflinks
+#1435491282
+cd /home/raylee
+#1435491294
+cd /home/raylee/Pan1/Test/cuff_rst/cufflinks
+#1435491295
+cd /home/raylee
+#1435491319
+cd /home/raylee/Pan1/Test/cuff_rst/cufflinks
+#1435491319
+cd /home/raylee
+#1435491643
+cd /home/raylee/Pan1/Test/cuff_rst/cufflinks
+#1435491651
+cd /home/raylee/Pan1/Test/cuff_rst/cuffmerge
+#1435491660
+cd /home/raylee/Pan1/Test/cuff_rst/cuffdiff
+#1435491663
+cd /home/raylee/Pan1/Test/cuff_rst/cuffmerge
+#1435491664
+cd /home/raylee/Pan1/Test/cuff_rst/cufflinks
+#1435491668
+cd /home/raylee/Pan1/Test/cuff_rst/cuffmerge
+#1435491668
+cd /home/raylee/Pan1/Test/cuff_rst/cuffdiff
+#1435491676
+cd /home/raylee/Pan1/Test/cufflinks
+#1435491678
+cd /home/raylee/Pan1/Test/cuff_rst/cuffdiff
+#1435491688
+cd /home/raylee/Pan1/Test/cufflinks/cuffdiff
+#1435491689
+cd /home/raylee/Pan1/Test/cuff_rst/cuffdiff
+#1435491704
+cd /home/raylee/Pan1/Test/gfold_rst
+#1435491716
+cd /home/raylee/Pan1/Test/cuff_rst/cufflinks
+#1435491717
+cd /home/raylee
+#1435491833
+print_dot(){   count=$1;   is_oneline=$2;   if [[ $is_oneline -ge 2 ]];then     echo "The 2nd argument is 0,1, indicating oneline and multiline";     exit;   elif [ -z $is_oneline ];then     is_oneline=0;   else     is_oneline=0;   fi;   n=$count;   while [ $n -gt 0 ];do     echo -n ".";     sleep 0.5;     n=$(( $n - 1 ));     if [ $n -eq 0 ];then       seq_b=$( seq -s "\\b" $(( $count + 1 )) | sed -e 's/[0-9]//g' );       seq_s=$( seq -s " " $(( $count + 1 )) | sed -e 's/[0-9]//g' );       if [[ $is_oneline -eq 0 ]];then echo -en "$seq_b${seq_s}$seq_b";       elif [[ $is_oneline -eq 1 ]];then echo;       else echo -en "$seq_b${seq_s}$seq_b";       fi;       n=$count;     fi;     sleep 0.7;   done; }
+#1435491850
+print_dot 2
+#1435492799
+cd /home/raylee/Pan1/Test/gfold_rst
+#1435492842
+cd /home/raylee
+#1435492949
+cd /home/raylee/Pan1/Test/gfold_rst
+#1435493139
+cd /home/raylee
+#1435493318
+cd /home/raylee/Pan1/Test/gfold_rst
+#1435493407
+cd /home/raylee
+#1435493622
+cd /home/raylee/Pan1/Test/gfold_rst
+#1435493644
+cd /home/raylee/Pan1/Test/cuff_rst/cuffdiff
+#1435493645
+cd /home/raylee
+#1435494672
+cd /home/raylee/Pan1/Test/gfold_rst
+#1435494687
+cd /home/raylee
+#1435494781
+cd /home/raylee/Pan1/Test/gfold_rst
+#1435494786
+cd /home/raylee
+#1435494821
+cd /home/raylee/Pan1/Test/gfold_rst
+#1435494823
+cd /home/raylee
+#1435494824
+cd /home/raylee/Pan1/Test/cuff_rst/cuffmerge
+#1435494826
+cd /home/raylee/Pan1/Test/cuff_rst/cufflinks
+#1435494829
+cd /home/raylee/Pan1/Test/cuff_rst/cuffmerge
+#1435494848
+cd /home/raylee/Pan1/Test/cuff_rst/cufflinks
+#1435494849
+cd /home/raylee
+#1435495068
+cd /home/raylee/Pan1/Test/cuff_rst/cuffmerge
+#1435495080
+cd /home/raylee/Pan1/Test/cuff_rst/cufflinks
+#1435495081
+cd /home/raylee
+#1435495387
+cd /home/raylee/Pan1/Test/cuff_rst/cuffdiff
+#1435495388
+cd /home/raylee/Pan1/Test/cuff_rst/cuffmerge
+#1435495397
+cd /home/raylee/Pan1/Test/cuff_rst/cufflinks
+#1435495397
+cd /home/raylee
+#1435495435
+cd /home/raylee/Pan1/Test/cuff_rst/cuffmerge
+#1435495552
+cd /home/raylee
+#1435495569
+cd /home/raylee/Pan1/Test/cuff_rst/cuffdiff
+#1435495570
+cd /home/raylee/Pan1/Test/cuff_rst/cuffmerge
+#1435495612
+cd /home/raylee/Pan1/Test/cuff_rst/cuffdiff
+#1435495613
+cd /home/raylee/Pan1/Test/cuff_rst/cufflinks
+#1435495614
+cd /home/raylee/Pan1/Test/cuff_rst/cuffdiff
+#1435495614
+cd /home/raylee
+#1435495615
+cd /home/raylee/Pan1/Test/cuff_rst/cufflinks
+#1435495615
+cd /home/raylee/Pan1/Test/cuff_rst/cuffmerge
+#1435495616
+cd /home/raylee/Pan1/Test/cuff_rst/cuffdiff
+#1435495627
+cd /home/raylee/Pan1/Test/cuff_rst/cuffmerge
+#1435495721
+cd /home/raylee/Pan1/Test/cuff_rst/cuffdiff
+#1435495723
+cd /home/raylee/Pan1/Test/cuff_rst/cuffmerge
+#1435495723
+cd /home/raylee/Pan1/Test/cuff_rst/cufflinks
+#1435495726
+cd /home/raylee
+#1435498210
+cd /home/raylee/Pan1/Test/cuff_rst/cufflinks
+#1435498211
+cd /home/raylee/Pan1/Test/cuff_rst/cuffdiff
+#1435498225
+cd /home/raylee/Pan1/Test/cuff_rst/cuffmerge
+#1435498226
+cd /home/raylee/Pan1/Test/cuff_rst/cufflinks
+#1435498227
+cd /home/raylee
+#1435509152
+ll
+#1435509178
+vncserver
+#1435509702
+cd Downloads/
+#1435509910
+ll
+#1435509921
+ll web*
+#1435509945
+dpkg --install webmin_1.760_all.deb
+#1435509951
+sudo dpkg --install webmin_1.760_all.deb
+#1435509706
+wget http://prdownloads.sourceforge.net/webadmin/webmin_1.760_all.deb
+#1435510001
+ll web*
+#1435510012
+rm webmin_1.760_all.deb.1 
+#1435510071
+ll web*
+#1435510076
+sudo dpkg --install webmin_1.760_all.deb
+#1435510217
+rm webmin_1.760_all.deb 
+#1435510330
+sudo apt-get install
+#1435510334
+sudo apt-get install -f
+#1435511078
+vncserver -kill :1
+#1435491861
+print_dot 9
+#1435511080
+vncserver -kill :2
+#1435511083
+vncserver -kill :3
+#1435511092
+vncserver
+#1435511289
+sudo apt-get libnet-ssleay-perl openssl libauthen-pam-perl libpam-runtime libio-pty-perl apt-show-versions 
+#1435511373
+sudo apt-get install libnet-ssleay-perl openssl libauthen-pam-perl libpam-runtime libio-pty-perl apt-show-versions
+#1435511387
+sudo apt-get update
+#1435511528
+sudo apt-get upgrade
+#1435511537
+sudo apt-get dist-upgrade
+#1435511610
+sudo dpkg --get-selections | grep linux-
+#1435511617
+sudo dpkg --get-selections | grep ^linux-
+#1435511628
+sudo dpkg --get-selections | grep ^linux-[hi]
+#1435511675
+sudo apt-get purge linux-headers-3.16.0-38
+#1435511693
+sudo dpkg --get-selections | grep ^linux-[hi]
+#1435511699
+sudo apt-get purge linux-headers-3.16.0-39
+#1435511709
+sudo dpkg --get-selections | grep ^linux-[hi]
+#1435511735
+sudo apt-get purge linux-image-3.16.0-30-generic
+#1435511767
+sudo dpkg --get-selections | grep ^linux-[hi]
+#1435511792
+sudo apt-get purge linux-image-3.16.0-38-generic
+#1435511813
+sudo apt-get purge linux-image-3.16.0-39-generic
+#1435511840
+sudo dpkg --get-selections | grep ^linux-[hi]
+#1435511868
+sudo dpkg --get-selections | grep ^linux-[hi] | grep " install"
+#1435511875
+sudo dpkg --get-selections | grep ^linux-[hi] | grep "\tinstall"
+#1435511883
+sudo dpkg --get-selections | grep ^linux-[hi] | grep "install"
+#1435511946
+sudo dpkg --get-selections | grep ^linux-[hi]
+#1435512475
+cd Downloads/
+#1435512492
+gdebi webmin_1.760_all.deb 
+#1435512498
+sudp gdebi webmin_1.760_all.deb 
+#1435512502
+sudo gdebi webmin_1.760_all.deb 
+#1435513312
+sudo apt-get vgdisplay
+#1435513326
+vgdisplay
+#1435513347
+sudo apt-get install lvm2
+#1435519791
+ls
+#1435572302
+vncserver
+#1435572395
+cd .ssh/
+#1435572396
+ll
+#1435572405
+cat known_hosts 
+#1435572409
+sudo cat known_hosts 
+#1435572456
+base64 -d dfRo/3UDGkFu4G2MERwU4qnIMCI=|Bbzv/pQzIGkzt0R/I+F7lTemAgc=
+#1435572476
+echo e dfRo/3UDGkFu4G2MERwU4qnIMCI=|Bbzv/pQzIGkzt0R/I+F7lTemAgc= | base64 -d
+#1435572489
+echo e dfRo/3UDGkFu4G2MERwU4qnIMCI=|Bbzv/pQzIGkzt0R/I+F7lTemAgc= | base64
+#1435572506
+echo "dfRo/3UDGkFu4G2MERwU4qnIMCI=|Bbzv/pQzIGkzt0R/I+F7lTemAgc=" | base64 -d
+#1435572510
+echo "dfRo/3UDGkFu4G2MERwU4qnIMCI=|Bbzv/pQzIGkzt0R/I+F7lTemAgc=" | base64
+#1435572742
+sudo vi /etc/ssh/welcome.msg 
+#1435572801
+sudo vi /etc/ssh/sshd_config 
+#1435572996
+sudo vi /etc/motd 
+#1435573022
+sudo vi /etc/ssh/sshd_config 
+#1435573366
+ls
+#1435573587
+mountAll 
+#1435573651
+sudo ln -s /media/Pan1/Remote /home/raylee/Remote
+#1435575681
+cd /home/raylee/Pan1/tgh/Done
+#1435576637
+bc
+#1435577078
+cd Pan1/tgh/
+#1435577080
+ls
+#1435577090
+rm -r hisat
+#1435577100
+rm -r home
+#1435577122
+rm -r htseq/
+#1435577482
+cd Pan1/
+#1435577484
+cd tgh/
+#1435577485
+ls
+#1435577492
+rm -r REFHISAT
+#1435577541
+rm -r tophat2_rst
+#1435577561
+rm -r SAM
+#1435577771
+rm -r tophat
+#1435577780
+rm -r New/
+#1435577832
+rm -r bowtie2-rst
+#1435586364
+cd
+#1435586374
+ls
+#1435586381
+bash runTophat.sh 
+#1435587723
+bash runTophat.sh tgh tgh/REF/tair10_gff3_genes.gtf paired
+#1435588146
+ls
+#1435588170
+rm -r tophat_rst
+#1435588173
+bash runTophat.sh tgh tgh/REF/tair10_gff3_genes.gtf paired
+#1435588178
+ll
+#1435588180
+ls
+#1435588183
+ls tgh/
+#1435588189
+bash runTophat.sh tgh tgh/REF/tair10_gff3_genes.gtf paired
+#1435670198
+cd
+#1435670286
+bash runTophat.sh Pan1/tgh Pan1/tgh/REF/tair10_gff3_genes.gtf paired
+#1435670894
+tophat
+#1435672177
+cd Pan1/tgh/
+#1435672178
+ls
+#1435672186
+cd tophat_rst/
+#1435672188
+ll
+#1435672193
+lz col_flower_1/
+#1435738725
+ps aux | grep runTophat.sh
+#1435739710
+ls
+#1435739730
+chmod a+x runTophat.sh 
+#1435739731
+ll
+#1435739733
+ls
+#1435739809
+./runTophat.sh 
+#1435740406
+subl *.sh
+#1435741662
+mkdir -p tgh/REF/test
+#1435741681
+rm -r tgh/REF/test
+#1435741685
+rm -r tgh/REF/
+#1435741698
+ls tgh/
+#1435741741
+rayFrom 
+#1435741832
+sudo scp -r -p renlab@10.157.31.22:/home/renlab/tgh/REF tgh/REF
+#1435741903
+cd tgh/REF/
+#1435741904
+ls
+#1435741959
+mv TAIR10_GFF3_genes.gff tair10_gff3_genes.gff
+#1435741961
+ll
+#1435738755
+bash runTophat.sh Pan1/tgh Pan1/tgh/REF/tair10_gff3_genes.gtf paired
+#1435747448
+ls
+#1435747455
+ls tgh
+#1435747456
+ll
+#1435747459
+ll tgh
+#1435747464
+mountAll 
+#1435747472
+ll tgh
+#1435747478
+ll tgh/
+#1435747491
+cat .bash_functions
+#1435754192
+hist test
+#1435754199
+hist Test
+#1435754208
+hist for
+#1435754228
+hist '\033['
+#1435754232
+hist '\033\['
+#1435754237
+hist '\\033\['
+#1435754246
+hist '033'
+#1435817999
+ls
+#1435818007
+cat runTophat.sh 
+#1435818453
+./runTophat.sh 
+#1435819219
+vncserver -kill :1
+#1435819221
+vncserver -kill :2
+#1435819227
+vncserver
+#1435819254
+ls
+#1435819263
+ll tgh/
+#1435819265
+ll tgh/tophat_rst/
+#1435819269
+ll tgh/tophat_rst/col_flower_1/
+#1435819289
+rm -r tgh/tophat_rst/col_flower_1
+#1435819294
+rm -r tgh/tophat_rst
+#1435819297
+ll tgh
+#1435819301
+ll tgh/
+#1435819322
+lz tgh/source/
+#1435819337
+lz tgh/source/*
+#1435820666
+hist vnc
+#1435820714
+vnc-server
+#1435820717
+vnc
+#1435820726
+vnc4server
+#1435820773
+sudo cat /home/plant/.bash_history | grep vnc
+#1435821358
+lz Downloads/
+#1435822459
+cat .vnc/xstartup 
+#1435822581
+cls
+#1435822591
+hist "Exec="
+#1435822600
+grep Exec= /usr/share/xsessions/*.desktop
+#1435823656
+hist vnc-li
+#1435823658
+hist vnc-
+#1435823661
+hist vnc
+#1435819534
+./runTophat.sh tgh tgh/REF/tair10_gff3_genes.gtf paired
+#1435824117
+cat /etc/vnc/licensekey
+#1435836351
+pbzip2
+#1435836356
+pigz
+#1435854068
+vncserver
+#1435854101
+ll tgh/
+#1435854104
+ll tgh
+#1435854107
+ll tgh/
+#1435854112
+mountAll 
+#1435854126
+ll tgh/
+#1435854133
+ll tgh/tophat_rst/
+#1435854142
+ll tgh/tophat_rst/col_flower_1/
+#1435854199
+man usermod 
+#1435854210
+hist usermod
+#1435857530
+./runTophat.sh tgh tgh/REF/tair10_gff3_genes.gtf paired
+#1436759535
+ls
+#1436759582
+ll Pan1/
+#1436759587
+mountAll
+#1436759605
+top
+#1436759611
+ls

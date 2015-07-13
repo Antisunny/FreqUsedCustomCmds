@@ -1,0 +1,54 @@
+################################################
+# the original PATH variable contains:
+# /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+################################################
+
+if   [ `date +%H` -le  7 ] && [ `date +%H` -ge 23 ];then
+        PS1='\[\033[01;34m\]\w\[\033[00m\] \[\033[05;33m\]=>\[\033[00m\] '
+elif [ `date +%H` -ge  7 ] && [ `date +%H` -lt 13 ];then
+	PS1='\[\033[01;32m\]\w\[\033[00m\] \[\033[05;33m\]=>\[\033[00m\] ' 
+elif [ `date +%H` -ge 13 ] && [ `date +%H` -lt 19 ];then
+        PS1='\[\033[01;32m\]\w\[\033[00m\] \[\033[05;33m\]=>\[\033[00m\] '
+else
+	PS1='\[\033[01;32m\]\w\[\033[00m\] \[\033[05;33m\]=>\[\033[00m\] '
+fi
+
+HISTIGNORE=""
+HISTTIMEFORMAT="%F/%H:%M:%S "
+HISTSIZE=1000000
+ISTFILESIZE=1000000
+PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
+
+PATH="/home/raylee/Bin/sratoolkit.2.5.0-1-ubuntu64/bin:$PATH"
+PATH="/software/astalavista-3.2/bin:$PATH"
+PATH="/software/tophat2.0.13:$PATH"
+PATH="/software/bowtie2-2.2.5:$PATH"
+PATH="/software/cufflinks-2.2.1:$PATH"
+PATH="/software/Rcount-master:$PATH"
+PATH="/software/gfold.V1.1.2:$PATH"
+PATH="/software/fastx-tools/bin:$PATH"
+PATH="/software/hisat-0.1.6-beta:$PATH"
+PATH="/software/FastQC:$PATH"
+# to conpile gcc4.9.2
+LD_LIBRARY_PATH="/usr/local/gmp-6.0.0/lib:$LD_LIBRARY_PATH"
+LD_LIBRARY_PATH="/usr/local/mpfr-3.1.2/lib:$LD_LIBRARY_PATH"
+LD_LIBRARY_PATH="/usr/local/mpc-1.0.3/lib:$LD_LIBRARY_PATH"
+
+# proxy
+#http_proxy="http://14210700110:ghjfdkls@proxy.fudan.edu.cn:8080"
+
+LANG="en_US.UTF8"
+LC_CTYPE="en_US.UTF8"
+LC_NUMERIC="en_US.UTF8"
+LC_TIME="en_US.UTF8"
+LC_COLLATE="en_US.UTF8"
+LC_MONETARY="en_US.UTF8"
+LC_MESSAGES="en_US.UTF8"
+LC_PAPER="en_US.UTF8"
+LC_NAME="en_US.UTF8"
+LC_ADDRESS="en_US.UTF8"
+LC_TELEPHONE="en_US.UTF8"
+LC_MEASUREMENT="en_US.UTF8"
+LC_IDENTIFICATION="en_US.UTF8"
+LC_ALL="en_US.UTF8"
+
