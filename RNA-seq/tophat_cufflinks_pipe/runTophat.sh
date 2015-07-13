@@ -142,11 +142,40 @@ if [ $? -eq 0 ];then
 else
   exit
 fi
+time_diff_(){
+  endtime=$2
+  starttime=$1
+  time_diff=$(($endtime-$starttime))
+  days=$(($time_diff/4320))
+  echo -n "Time Used: "
+  if [[ $days -gt 1 ]]; then
+    echo -en "$days Days + "
+  else
+    echo -en "$days Day + "
+  fi
+  hours=$(($time_diff/360))
+  if [[ $hours -gt 1 ]]; then
+    echo -en "$hours Hours + "
+  else
+    echo -en "$hours Hour + "
+  fi
+  mins=$(($time_diff%360/60))
+  if [[ $mins -gt 1 ]]; then
+    echo -n "$mins Mins"
+  else
+    echo -n "$mins Min"
+  fi
+  echo
+}
 
 function tophat_single(){
   cur=$1
   cur_name=$2
-  tophat2  -o $basedir/tophat_rst/$cur_name -p 24 -G $gft_file_path $bowtie2_index $cur 1>&2 2> /dev/null &
+  start_time=$(date +%s)
+  tophat2 -N 2 -o $basedir/tophat_rst/$cur_name -p 24 -G $gft_file_path $bowtie2_index $cur 1>&2 2> /dev/null
+  end_time=$(date +%s)
+  echo "Outputed to $basedir/tophat_rst/$cur_name"
+  time_diff_ start_time end_time
   # if [[ $? -eq 0 ]];then
   #   echo -n $name
   #   print_dot 10
@@ -157,8 +186,11 @@ function tophat_pair(){
   cur_r1=$1
   cur_r2=$2
   cur_name=$3
-  tophat2  -o $basedir/tophat_rst/$cur_name -p 24 -G $gft_file_path $bowtie2_index $cur_r1 $cur_r2 1>&2 2> /dev/null &
+  start_time=$(date +%s)
+  tophat2 -N 2 -o $basedir/tophat_rst/$cur_name -p 24 -G $gft_file_path $bowtie2_index $cur_r1 $cur_r2 1>&2 2> /dev/null
+  end_time=$(date +%s)
   echo "Outputed to $basedir/tophat_rst/$cur_name"
+  time_diff_ start_time end_time
   # if [[ $? -eq 0 ]];then
   #   echo -n $name
   #   print_dot 10
