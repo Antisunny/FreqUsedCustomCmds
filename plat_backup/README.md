@@ -5,7 +5,7 @@
 - a new remote desktop will be created every time you input `vncserver` in the CommandLine
   - `vncserver -kill :n` n is the RemoteDesktopIndex, should be used when RemoteDesktop:n is no longer used (Recommended)
     - Resources locked for RemoteDesktop:n will not be free if not killed, a waste of computing resources
-  - The RemoteDesktop Index is given in the last line every time you input `vncserver` in the CommandLine
+  - The RemoteDesktop Index is given in the last line every time you input `vncserver` in the CommandLine 
   ```text
   VNC(R) Server 5.2.3 (r8648) 64-bit (Jan 28 2015 15:47:49)
   Copyright (C) 2002-2015 RealVNC Ltd.

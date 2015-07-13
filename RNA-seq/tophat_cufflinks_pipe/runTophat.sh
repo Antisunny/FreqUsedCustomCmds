@@ -22,7 +22,7 @@ else
 fi
 
 usage(){
-  echo -e "${bold}usage:${endc} $0 basedir gft_file_path paired/single\n---------"
+  echo -e "${bold}usage:${endc} $0 basedir gft_file_path bowtie2_index paired/single\n---------"
   echo " basedir is the parent dir where all the fastq file are stored"
   echo -e " All the fastq files should be put into a dir named source\n---------"
   echo -e "basedir|\n       |-source\n       |-${green}tophat_rst${endc}\n       |-cuff_rst|\n                 |-cufflinks\n                 |-cuffmerge\n                 |-cuffdiff"
@@ -63,15 +63,15 @@ print_dot(){
 }
 
 # validation for parameters
-if [ $# -lt 3 ];then
+if [ $# -lt 4 ];then
   if [ $# -eq 0 ];then
     usage
   fi
-  echo -e "${red}Error:${endc} exact 3 parameters should be given\n***************"
+  echo -e "${red}Error:${endc} exact 4 parameters should be given\n***************"
   usage
 fi
-if [ $# -gt 3 ];then
-  echo -e "${red}Error:${endc} exact 3 parameters should be given\n****************"
+if [ $# -gt 4 ];then
+  echo -e "${red}Error:${endc} exact 4 parameters should be given\n****************"
   usage
 fi
 
@@ -90,23 +90,30 @@ if [ ! -z $basedir/source ];then
 fi
 
 if [ -f $2 ];then
-  gft_file_path=get$2
+  gft_file_path=$2
 else
   echo -e "${red}Error:${endc} The 2st parameter should be gtf format text file"
   exit
 fi
 
-if [ ! -z $3 ];then
-  if [[ $3 == "single" ]];then
+if [ -n $3 ];then
+  gft_file_path=$3
+else
+  echo -e "${red}Error:${endc} The 3st parameter should be bowtie2 index"
+  exit
+fi
+
+if [ ! -z $4 ];then
+  if [[ $4 == "single" ]];then
     pairorsingle=1
-  elif [[ $3 == "paired" ]];then
+  elif [[ $4 == "paired" ]];then
     pairorsingle=2
   else
-    echo -e "${red}Error:${endc} The 3st parameter should be single or paired"
+    echo -e "${red}Error:${endc} The 4st parameter should be single or paired"
     exit
   fi
 else
-  echo -e "${red}Error:${endc} The 3st parameter should be given"
+  echo -e "${red}Error:${endc} The 4st parameter should be given"
   exit
 fi
 ######################## tophat part #####################
@@ -139,23 +146,23 @@ fi
 function tophat_single(){
   cur=$1
   cur_name=$2
-  tophat2  -o $basedir/tophat_rst/$cur_name -p 24 -G $gft_file_path $cur 1>&2 2> /dev/null &
-  if [[ $? -eq 0 ]];then
-    echo -n $name
-    print_dot 10
-  fi
+  tophat2  -o $basedir/tophat_rst/$cur_name -p 24 -G $gft_file_path $bowtie2_index $cur 1>&2 2> /dev/null &
+  # if [[ $? -eq 0 ]];then
+  #   echo -n $name
+  #   print_dot 10
+  # fi
 }
 
 function tophat_pair(){
   cur_r1=$1
   cur_r2=$2
   cur_name=$3
-  tophat2  -o $basedir/tophat_rst/$cur_name -p 24 -G $gft_file_path $cur_r1 $cur_r2 1>&2 2> /dev/null &
-  echo "Output to $basedir/tophat_rst/$cur_name"
-  if [[ $? -eq 0 ]];then
-    echo -n $name
-    print_dot 10
-  fi
+  tophat2  -o $basedir/tophat_rst/$cur_name -p 24 -G $gft_file_path $bowtie2_index $cur_r1 $cur_r2 1>&2 2> /dev/null &
+  echo "Outputed to $basedir/tophat_rst/$cur_name"
+  # if [[ $? -eq 0 ]];then
+  #   echo -n $name
+  #   print_dot 10
+  # fi
 }
 echo "-------------------"
 
