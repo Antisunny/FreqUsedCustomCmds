@@ -64,4 +64,8 @@ The code below available [here](./volcano_plot.R)
 ![scatter plot](./scatter_plot_1.png)
 ![volcano plot](./volcano_plot_1.png)
 
+>Note
+> - The size of the dots can be specified at `geom_point(alpha=0.9,size=1,na.rm=TRUE)`
+> - Smaller size means more dense dot distribution
+ 
 ## using basic R packages
