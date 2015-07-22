@@ -1,6 +1,7 @@
 #Plot Volcano Plot using R packages
 
 ## Using `ggplot`
+The code below available [here](./volcano_plot.R)
 ```R
 > setwd("Edge/")
 > h010 <- read.table("h010-dge/output_score.txt",header=FALSE,sep="\t",skip=1)[,c(1,4,5,7,8,9,10)]
@@ -63,3 +64,4 @@
 ![scatter plot](./scatter_plot_1.png)
 ![volcano plot](./volcano_plot_1.png)
 
+## using basic R packages
