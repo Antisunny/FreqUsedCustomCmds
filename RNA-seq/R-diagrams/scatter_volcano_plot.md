@@ -1,4 +1,4 @@
-#Plot Volcano Plot using R packages
+#Plot Scatter and Volcano Plot using R packages
 
 ## Using `ggplot`
 The code below available [here](./scatter_volcano_plot.R)
@@ -67,5 +67,6 @@ The code below available [here](./scatter_volcano_plot.R)
 >Note
 > - The size of the dots can be specified at `geom_point(alpha=0.9,size=1,na.rm=TRUE)`
 > - Smaller size means more dense dot distribution
+> - The data is obtained using `DEGseq2`, a R package
 
 ## using basic R packages
