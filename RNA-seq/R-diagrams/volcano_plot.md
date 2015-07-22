@@ -60,6 +60,6 @@
 > summary(h010_r)$r.squared
 [1] 0.9561629
 ```
-![scatter plot](./scatter_plot_1.tiff)
-![volcano plot](volcano_plot_1.tiff)
+![scatter plot](./scatter_plot_1.png)
+![volcano plot](./volcano_plot_1.png)
 
