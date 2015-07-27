@@ -16,4 +16,4 @@
 	- 为每一盘都做一组统计图表，包括barplot, pie plot, statter plot
 	- barlpot 横坐标为天数，纵坐标为
 结果图为
-![plot all](./10x16-4.pdf)
+![plot all](./10x16-4.png)
