@@ -11,7 +11,7 @@
 	- `rosette` 莲座叶
 	- `cauline`	分支叶
 	- `days` 主颈2cm距播种日期的时间(天数)
-	- | pan | name | date | rosette | cauline | days |
+| pan | name | date | rosette | cauline | days |
 | :-------- | --------:| :--: |
 | 1 | A1-1-1 | 7 | 11 | 6 | 46 |
 | 1 | A1-1-3 | 28 | 7 | 4 | 37 |
