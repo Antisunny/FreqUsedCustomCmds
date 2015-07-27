@@ -10,7 +10,7 @@
 	- `date` 主颈2cm时的日期，没有标明月份
 	- `rosette` 莲座叶
 	- `cauline`	分支叶
-	- `days` 主颈2cm距播种日期的时间(天数)
+	- `days` 主颈2cm距播种日期的时间(天数) 
 | pan | name | date | rosette | cauline | days |
 | :-------- | --------:| :--: |
 | 1 | A1-1-1 | 7 | 11 | 6 | 46 |
