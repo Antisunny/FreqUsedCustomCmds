@@ -9,7 +9,7 @@
 	- `name` 每株植物的编号，唯一性
 	- `date` 主颈2cm时的日期，没有标明月份
 	- `rosette` 莲座叶
-	- `cauline`	分支叶
+	- `cauline` 分支叶
 	- `days` 主颈2cm距播种日期的时间(天数)
 	- ![data.txt showage](./partial_data.png)
 - plot_out.R
