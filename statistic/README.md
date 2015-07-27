@@ -10,19 +10,10 @@
 	- `date` 主颈2cm时的日期，没有标明月份
 	- `rosette` 莲座叶
 	- `cauline`	分支叶
-<<<<<<< Updated upstream
-	- `days` 主颈2cm距播种日期的时间(天数) 
-| pan | name | date | rosette | cauline | days |
-| :-------- | --------:| :--: |
-| 1 | A1-1-1 | 7 | 11 | 6 | 46 |
-| 1 | A1-1-3 | 28 | 7 | 4 | 37 |
-| 1 | A1-1-4 | 28 | 7 | 4 | 37 |
-| 1 | A1-1-5 | 24 | 10 | 4 | 33 |
-| 1 | A1-1-6 | 23 | 6 | 3 | 32 |
-| 1 | A1-1-7 | 27 | 9 | 4 | 36 |
-=======
 	- `days` 主颈2cm距播种日期的时间(天数)
 	- ![data.txt showage](./partial_data.png)
->>>>>>> Stashed changes
 - plot_out.R
-	- 
+	- 为每一盘都做一组统计图表，包括barplot, pie plot, statter plot
+	- barlpot 横坐标为天数，纵坐标为
+结果图为
+![plot all](./10x16-4.pdf)
