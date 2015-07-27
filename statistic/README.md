@@ -12,6 +12,5 @@
 	- `cauline` 分支叶
 	- `days` 主颈2cm距播种日期的时间(天数)
 	- ![data.txt showage](./partial_data.png)
->>>>>>> Stashed changes
 - plot_out.R
 	- 
